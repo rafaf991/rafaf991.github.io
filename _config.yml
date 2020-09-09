@@ -28,7 +28,7 @@ google_analytics: ""
 
 # Site navigation - each item must have a title and a url.
 navigation:
-  - text: Home
+  - text: Notes
     url: /
   - text: About
     url: /about/
@@ -36,7 +36,7 @@ navigation:
     url: /style-guide/
   - text: Tags
     url: /tags/
-  - text: Home
+  - text: Home 
     url: https://rafaphysics.herokuapp.com/
   
 
