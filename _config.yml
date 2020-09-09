@@ -15,7 +15,8 @@ title: "Rafa Physics/Maths"
 description: "Notes in selected subjects of physics and mathematics."
 
 # The subpath of your site, e.g. /blog, for generating urls.
-baseurl: ""
+baseurl: "/"
+relativeurl: "/"
 
 # The base hostname & protocol of your site for where absolute urls are needed.
 url: "https://scriptor-jekyll.netlify.com"
