@@ -37,7 +37,8 @@ navigation:
   - text: Tags
     url: /tags/
   - text: Download
-    url: http://www.rafaphysics.herokuapp.com
+    url: https://rafaphysics.herokuapp.com/
+  
 
 # The shortname for your Disqus site to enable comments.
 disqus: Rafa physics
