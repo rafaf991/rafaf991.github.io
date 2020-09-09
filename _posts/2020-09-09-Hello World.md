@@ -7,7 +7,7 @@ tags: [Math, Analysis]
 
 ---
 
-# Hola
+Hola
 Esta es la segunda prueba de escritira
 
-## Hello World 2.0
+Hello World 2.0
