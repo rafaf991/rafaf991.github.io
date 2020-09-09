@@ -522,14 +522,28 @@
               <!-- Illustrations -->
               <div class="card shadow mb-4">
                 <div class="card-header py-3">
-                  <h6 class="m-0 font-weight-bold text-primary">Illustrations</h6>
+                  <h6 class="m-0 font-weight-bold text-primary">Integral of the week</h6>
                 </div>
                 <div class="card-body">
                   <div class="text-center">
-                    <img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width: 25rem;" src="img/undraw_posting_photo.svg" alt="">
+                    
+                    <!-- <img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width: 25rem;" src="{{ url_for('static',  filename='img/undraw_posting_photo.svg')}}" alt=""> -->
+                    <p>
+                      Let  $$I_n:=\int \frac{dx}{x^{n}\sqrt{ax+b}}\, dx$$ with $n>1$
+                      \begin{align*}
+                         I_n&= \int \frac{dx}{x^{n}\sqrt{ax+b}}=\int \frac{x}{x^{n+1}\sqrt{ax+b}}\,dx=\frac{1}{a}\int \frac{ax+b-b}{x^{n+1}\sqrt{ax+b}}\,dx \\
+                         &=\int \left(\frac{1}{a}\frac{\sqrt{ax+b}}{x^{n+1}}-\frac{b}{a}\frac{1}{x^{n+1}\sqrt{ax+b}}\right) \,dx=\underbrace{\int \frac{1}{a}\frac{\sqrt{ax+b}}{x^{n+1}}\,dx}_{\text{Integration by parts}}-\frac{b}{a} I_{n+1}\\
+                         &=\frac{-1}{a}\frac{\sqrt{ax+b}}{x^n n}+\frac{1}{2n}\int \frac{dx}{x^n \sqrt{ax+b}}-\frac{b}{a}I_{n+1} =\frac{-1}{a}\frac{\sqrt{ax+b}}{x^n n}+\frac{1}{2n}I_n-\frac{b}{a}I_{n+1} \\
+                         &\implies I_{n+1}=\frac{-1}{b}\frac{\sqrt{ax+b}}{x^n n}+\frac{a}{b}I_n \left(\frac{1}{2n}-1\right)=\frac{-1}{b}\frac{\sqrt{ax+b}}{x^n n}-\frac{a}{b}I_n \left(\frac{2n-1}{2n}\right)
+                      \end{align*}
+                      Now, let us see the case $n$:
+                      $$I_n =\frac{-1}{b}\frac{\sqrt{ax+b}}{x^{n-1} (n-1)}-\frac{a}{b}I_{n-1} \left(\frac{2(n-1)-1}{2(n-1)}\right)=\frac{-\sqrt{ax+b}}{(n-1)bx^{n-1}}-\frac{a}{b}\frac{2n-3}{2n-2}\int \frac{dx}{x^{n-1}\sqrt{ax+b}}$$
+                   
+                    </p>
+      
                   </div>
-                  <p>Add some quality, svg illustrations to your project courtesy of <a target="_blank" rel="nofollow" href="https://undraw.co/">unDraw</a>, a constantly updated collection of beautiful svg images that you can use completely free and without attribution!</p>
-                  <a target="_blank" rel="nofollow" href="https://undraw.co/">Browse Illustrations on unDraw &rarr;</a>
+                  <p>One of my students came up with this problem.</p>
+                  <a target="_blank" rel="follow" href="{{url_for('integrals')}}">Browse more integrals &rarr;</a>
                 </div>
               </div>
 
