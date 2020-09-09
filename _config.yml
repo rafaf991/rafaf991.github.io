@@ -9,10 +9,10 @@
 lang: en-US
 
 # Site title
-title: "Scriptor"
+title: "Rafa Physics/Maths"
 
 # A description of your site for meta tag, search engine results.
-description: "Scriptor is a minimal, clean, modern & responsive Jekyll theme for writers"
+description: "Notes in selected subjects of physics and mathematics."
 
 # The subpath of your site, e.g. /blog, for generating urls.
 baseurl: ""
@@ -37,10 +37,10 @@ navigation:
   - text: Tags
     url: /tags/
   - text: Download
-    url: https://github.com/JustGoodThemes/Scriptor-Jekyll-Theme
+    url: rafaphysics.herokuapp.com
 
 # The shortname for your Disqus site to enable comments.
-disqus: justgoodthemes
+disqus: Rafa physics
 
 # Colors
 accent_color: '#2d72d9'
