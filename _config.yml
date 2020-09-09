@@ -1,19 +1,16 @@
-title:            Balzac
-tagline:          A beautiful theme.
-description:      Describe your website.
+title:            Rafa Physics 
+tagline:          Physics and Mathematics notes.
+description:      Notes on selected curses or projects in mathematics or physics.
 
 # Owner/author information
 owner:
-  name:           Cole Townsend
+  name:           Rafael Córdoba L.
   avatar:         avatar.png
-  bio:            "Aesthete & Athlete"
-  email:          cole@coletownsend.com
-  twitter:        twnsndco
-  github:         coletownsend
-  instagram:      ctrunsthis
-  dribbble:       coletownsend
-  disqus:         balzac
-  location:       "Buffalo, NY"
+  bio:            ""
+  email:          rf.cordoba@uniandes.edu.co
+  github:         rafaf991
+  instagram:      rafaf991
+  location:       "Bogotá, Col"
   # Plug in your disqus shortname!
 
 tools:
