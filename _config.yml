@@ -27,10 +27,10 @@ links:
   - title: About
     url: /about
   - title: Github
-    url: https://github.com/ColeTownsend/Balzac-for-Jekyll
+    url: https://github.com/rafaf991
     external: true
-  - title: Cole Who?
-    url: http://coletownsend.com
+  - title: "Phys"
+    url: ""
     external: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
