@@ -31,7 +31,7 @@ google_analytics: ""
 navigation:
   - text: Notes
     url: /
-  - text: About
+  - text: Simulations
     url: /about/
   - text: Style Guide
     url: /style-guide/
