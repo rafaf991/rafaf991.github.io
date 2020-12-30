@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Style Guide
-permalink: /style.html
+permalink: /style-guide.html
 description: This is a style guide of the Scriptor Jekyll theme
 ---
 
