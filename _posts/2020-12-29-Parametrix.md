@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Riemannian Geometry"
-description: "A work at home of Riemannian geometry."
-date: 2020-09-09
-tags: [Math, Geometry]
+title: "The parametrix method"
+description: "A tiny glance of parametrix methods."
+date: 2020-12-29
+tags: [Math, Geometry,Riemannian Geometry]
 disqus: true
 comments: true
 ---
