@@ -9,34 +9,16 @@ comments: true
 ---
 Rafael Felipe Córdoba, Luis Carlos Mantilla, Juan Pablo Acuña, Ana María Torres, Daniel Sabogal.
 
-<object data="pdfs/Schrodinger'sfrog.pdf" type="application/pdf" width="1400px" height="1200px">
-    <embed src="pdfs/Schrodinger'sfrog.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="pdfs/Schrodinger'sfrog.pdf">Download PDF</a>.</p>
+<object data="pdfs/frog.pdf" type="application/pdf" width="1400px" height="1000px">
+    <embed src="pdfs/frog.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="pdfs/frog.pdf">Download PDF</a>.</p>
     </embed>
 </object>
 
 Link to the project: https://github.com/iQuHACK/2021_QuAndes.git
-<!---
-Having a README in your team's repository facilitates judging. A good README contains:
-* a clear title for your project,
-* a short abstract,
-* the motivation/goals for your project,
-* a description of the work you did, and
-* proposals for future work.
 
-<!---
-You can find a potential README template in [one of last year's projects](https://github.com/iQuHACK/QuhacMan).
-Feel free to contact the staff with questions over our [event's slack](https://iquhack.slack.com), or via iquhack@mit.edu.
-Good luck!
-# Table of Contents
-1. [Abstract](#abstract)
-2. [Motivation](#motivation)
-3. [Introduction](#introduction)
-4. [References](#references)
 
-<!---
-4. [References](#fourth-examplehttpwwwfourthexamplecom)
--->
+
 
 ## Introduction
 Crossy Road, Jumper Frog, and Crossy (Q)Duck are all different names for the marvellous game consisting of crossing a road without bumping into obstacles. We have implemented an improved version of the game on which frogs can explore the quantum realm and experience quantum effects such as superposition and tunnelling. Additionally, we have included a primitive AI bot that can play against the user. It decides its moves by minimizing a cost function that depends on its environment using the QAOA algorithm.
