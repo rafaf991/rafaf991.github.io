@@ -14,6 +14,8 @@ Rafael Felipe Córdoba, Luis Carlos Mantilla, Juan Pablo Acuña, Ana María Torr
         <p>This browser does not support PDFs. Please download the PDF to view it: <a href="pdfs/Schrodinger'sfrog.pdf">Download PDF</a>.</p>
     </embed>
 </object>
+
+Link to the project: https://github.com/iQuHACK/2021_QuAndes.git
 <!---
 Having a README in your team's repository facilitates judging. A good README contains:
 * a clear title for your project,
@@ -83,6 +85,3 @@ The quantum enhancement of the jumper frog stands on the fascinating |+> state. 
 * Farhi, E., Goldstone, J., & Gutmann, S. (2014). A quantum approximate optimization algorithm. arXiv preprint arXiv:1411.4028.
 * Lima, R. (2017). Frogger. GitHub repository. https://github.com/rhrlima/frogger
 
-
-
-Link to the project: https://github.com/iQuHACK/2021_QuAndes.git
