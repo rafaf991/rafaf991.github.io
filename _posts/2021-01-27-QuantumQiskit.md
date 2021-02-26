@@ -7,8 +7,6 @@ tags: [Phys, Qiskit,QuantumComputing]
 disqus: true
 comments: true
 ---
-
-# Schrodinger's frog
 Rafael Felipe Córdoba, Luis Carlos Mantilla, Juan Pablo Acuña, Ana María Torres, Daniel Sabogal.
 
 <!---
@@ -83,8 +81,8 @@ The quantum enhancement of the jumper frog stands on the fascinating |+> state. 
 
 
 Link to the project: https://github.com/iQuHACK/2021_QuAndes.git
-<object data="pdfs/Weak.pdf" type="application/pdf" width="1400px" height="1200px">
-    <embed src="pdfs/Weak.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="pdfs/Weak.pdf">Download PDF</a>.</p>
+<object data="pdfs/Schrodinger'sfrog.pdf" type="application/pdf" width="1400px" height="1200px">
+    <embed src="pdfs/Schrodinger'sfrog.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="pdfs/Schrodinger'sfrog.pdf">Download PDF</a>.</p>
     </embed>
 </object>
