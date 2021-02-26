@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Separation axioms (T1-T3) on a Hilbert space with the weak topology"
-description: "Proof of Hausdorff and regularness on the  weak topology"
+title: "Schrodinger's frog"
+description: "A little (quantum)game with a quantum artificial inteligence (QAI) via quantum variational methods using qiskit"
 date: 2020-12-29
-tags: [Math, Topology]
+tags: [Phys, Qiskit,QuantumComputing]
 disqus: true
 comments: true
 ---
