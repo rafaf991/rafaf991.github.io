@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Personal Stuff
-permalink: /personal.html
+permalink: /style-guide.html
 description: Things about me (Rafael Córdoba)
 ---
 ## Full Width Image
