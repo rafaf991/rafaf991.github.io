@@ -37,8 +37,8 @@ navigation:
     url: /tags.html
   - text: Home 
     url: https://rafaphysics.herokuapp.com/
-  - text: Style
-    url: /style-guide.html
+  - text: Personal
+    url: /personal.html
 
 # The shortname for your Disqus site to enable comments.
 disqus: rafa-physis
