@@ -1,35 +1,15 @@
 ---
 layout: page
-title: Style Guide
+title: Personal Stuff
 permalink: /style-guide.html
-description: This is a style guide of the Scriptor Jekyll theme
+description: Things about me (Rafael Córdoba)
 ---
+
+>“Creativity is allowing yourself to make mistakes. Design is knowing which ones to keep.”
+
 
 This is a pragraph. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis.
 
-# Heading 1
-
-**Quisque facilisis erat a dui**. Nam malesuada ornare dolor. Cras gravida, diam sit amet rhoncus ornare, erat elit consectetuer erat, id egestas pede nibh eget odio. Proin tincidunt, velit vel porta elementum, magna diam molestie sapien, non aliquet massa pede eu diam. Aliquam iaculis. Fusce et ipsum et nulla tristique facilisis.
-
-## Heading 2
-
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi commodo, ipsum sed pharetra gravida, orci magna rhoncus neque, id pulvinar odio lorem non turpis. Nullam sit amet enim. Suspendisse id velit vitae ligula volutpat condimentum. Aliquam erat volutpat. Sed quis velit. Nulla facilisi. Nulla libero.
-
-### Heading 3
-
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi commodo, ipsum sed pharetra gravida, orci magna rhoncus neque, id pulvinar odio lorem non turpis. Nullam sit amet enim. Suspendisse id velit vitae ligula volutpat condimentum. Aliquam erat volutpat. Sed quis velit. Nulla facilisi. Nulla libero.
-
-#### Heading 4
-
-Quisque facilisis erat a dui. Nam malesuada ornare dolor. Cras gravida, diam sit amet rhoncus ornare, erat elit consectetuer erat, id egestas pede nibh eget odio. Proin tincidunt, velit vel porta elementum, magna diam molestie sapien, non aliquet massa pede eu diam. Aliquam iaculis.
-
-##### Heading 5
-
-Curabitur pellentesque facilisis orci, ut rhoncus nulla scelerisque ac. Integer in magna vel justo venenatis ornare vitae vel sem.
-
-###### Heading 6
-
-Nulla tempus tortor nec nunc volutpat commodo. Vivamus efficitur imperdiet velit sagittis pellentesque. In fringilla dui nec dolor sollicitudin, et scelerisque elit pellentesque. Integer vestibulum viverra sem, vel ornare nibh. Proin lobortis elit nunc, ut consequat elit vulputate sit amet.
 
 ## Emphasis
 
@@ -47,12 +27,10 @@ Nulla tempus tortor nec nunc volutpat commodo. Vivamus efficitur imperdiet velit
 
 ## Quoting
 
->“Creativity is allowing yourself to make mistakes. Design is knowing which ones to keep.”
-
 Lorem ipsum dolor sit amet, `consectetuer adipiscing` elit. Morbi commodo, ipsum sed pharetra gravida, orci magna rhoncus neque, id pulvinar odio lorem non turpis. Nullam sit amet enim. Suspendisse id velit vitae ligula volutpat condimentum. Aliquam erat volutpat. Sed quis velit. Nulla facilisi. Nulla libero.
 
 ***
-
+<!-- 
 ## Code Blocks
 
 ```css
@@ -110,11 +88,16 @@ No language indicated, so no syntax highlighting.
 
 Inline `code` has `back-ticks around` it.
 
+a normal html comment -->
 ## Videos
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Hi7ibjkAkxI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<!--
 <iframe src="https://player.vimeo.com/video/153339497?byline=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+-->
 
-[Terraforming](https://vimeo.com/153339497) from [Studio Swine](https://vimeo.com/studioswine) on [Vimeo](https://vimeo.com)
+
+[Colombian national record on 3x3](https://youtu.be/Hi7ibjkAkxI) 
 
 ## Full Width Image
 
