@@ -2,18 +2,86 @@
 layout: page
 title: Simulations
 permalink: /simulations.html
-feature_image: images/fluids.png
+#feature_image: images/fluids.png 
 ---
 
-Hi there! This page is a compilation of some simulations/programs that I developed for physics or statistics. There are mistakes or errors, if you spot one let me know where and I will fix it.<br />
-<a class="error-link" href="{{ site.baseurl }}/">Go to the front page &rarr;</a>
+Hi there! If you want to know more about me here is my CV as well as other interesting facts about me, enjoy it! If you spot one let me know and I will fix it.
 
-# Carolyn Stransky
+# Rafael Córdoba López
 
-_Software engineer (and sometimes still a journalist) based in Berlin, Germany_ <br>
+_Physicist and mathematician (amateur baker)  <br>
+Basic info:
+--[Email](rf.cordoba@uniandes.edu.co) 
+--[Website](https://rafaf991.github.io/)  
+--[GitHub](https://github.com/rafaf991/) 
 
-[Email](mailto:hello@workwithcarolyn.com) / [Website](https://workwithcarolyn.com/) / [LinkedIn](https://www.linkedin.com/in/carolstran/) / [GitHub](https://github.com/carolstran/) / [Twitter](https://twitter.com/carolstran/) / [DEV](https://dev.to/carolstran/)
 
+# Personal information
+Highly curious, skillful, and outstanding physics and mathematics student. Passionate for knowledge
+and for explaining nature. Interested in Mathematical Physics, Quantum Field Theory, General Relativity, Unification theories (String theories and M-theory) and Astrophysics. Good at explaining physics intuitively. Individual and team working skills to solve. Amateur observer of galaxies and planets.
+challenging problems. Seeking to develop better research skills. 
+# Education
+
+{\bf Universidad de los Andes, Bogotá \hfill {\em August 2016 - July 2021} 
+\\ Bachelor of Science, BS, Physics\hfill 
+\\ Department of Physics\\
+
+{\bf Universidad de los Andes, Bogotá} \hfill {\em August 2016 - July 2021} 
+\\ Bachelor of Science, BS, Mathematics\hfill 
+\\ Department of Mathematics\\
+
+{\bf San Francisco Javier, Pasto} \hfill {\em August 2003 -June 2016} 
+\\ High School Diploma
+
+
+-Member of the QFT and mathematical physics group in Los Andes University
+
+
+# Work Experience
+
+- {Universidad de los Andes, Bogota}{August 2018- December 2019}{Physics Tutor}{}\item Tutor at "Clinica de Problemas" workshop helping people from first and second year with physics and
+engineering problems.
+
+- {Universidad de los Andes, Bogota}{January 2020- June 2020}{Teaching assistant of Classical Mechanics}{}
+
+- {Universidad de los Andes, Bogota}{August 2020- December 2020}{Teaching assistant of Statistical mechanics}{}
+
+
+- {Universidad de los Andes, Bogota}{January 2020 - December 2020}{Mathematics Tutor}{}\item Tutor at "Pentagono" workshop helping people from first and second year with mathematics and
+engineering problems.
+    - Precalculus (Problem section).
+
+# Languages
+- ### Spanish: Native speaker
+- ### English: C1 level (IELTS 7.5 overall)
+- ### German: A1 level
+
+# Skills
+- Programming languages: Python, C++ and Java.
+- 
+# Extra-Cirrucular and Awards
+- Quiero Estudiar Scolarship of Los Andes University due to high grades in High School and outstanding personal qualitiess and leader personalty.
+- Team member of Los Andes university team for IPT 2020-2021 (International Physics Tournament).
+- Third place at Integrolimpiadas 2017 (Contest of fast solving integrals) undergraduate.
+- Fourth place at Integrolimpiadas 2019 (Contest of fast solving integrals) undergraduate. 
+- Fourth place at VI Encuentro Universitario de Integrales (National tournament of fast solving integrals)
+- National champion on Rubik's Cube Speed Solving (2016-2019).
+- Top 20 on the World Rubik championship on 2015.
+- Experimented bread baker. 
+- Piano intermediate level.
+
+# Personal Traits
+- Strongly motivated and well-disciplined.
+- Autodidact.
+# Mini-courses
+- 2020-08 NITheP Mini School: S. Yacoob. Particle Physics: Introduction to Elementary Particle Physics
+-  Mini-Course on Mathematical Physics: Introduction to Mathematical Statistical Mechanics
+-  VI UNIANDES PARTICLE PHYSICS SCHOOL:
+    Theoretical and experimental overview of the Standard Model (SM) and topics of Dark Matter, including cosmological evidence, indirect and direct searches and theoretical models. 
+-  MOCa 2020: Dark matter workshop on theory and phenomenology
+- Analysis, Probability, Mathematical Physics advanced school for young researchers (2020) on The Euler international mathematical institute.
+
+<!-- 
 ## 👩🏼‍💻 Technical Experience
 
 **Frontend Engineer** @ [BRYTER](https://bryter.io/) _(Dec 2020 - Present)_ <br>
@@ -164,3 +232,5 @@ Created [Qarma](https://github.com/lcorr8/qarma), an online platform to report a
 
 **International Exchange** studying Political Science<br>
 [Yeditepe Üniversitesi](https://yeditepe.edu.tr/en) - Istanbul, Turkey _(Spring 2013)_
+
+-->
