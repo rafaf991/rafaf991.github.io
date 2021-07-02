@@ -109,16 +109,16 @@ challenging problems. Seeking to develop better research skills.
 
 # Education
 
-+ {\bf Universidad de los Andes, Bogotá \hfill {\em August 2016 - July 2021} 
-\\ Bachelor of Science, BS, Physics\hfill 
-\\ Department of Physics\\
++  Universidad de los Andes, Bogotá  August 2016 - July 2021
+ Bachelor of Science, BS, Physics
+ Department of Physics
 
-+ {\bf Universidad de los Andes, Bogotá} \hfill {\em August 2016 - July 2021} 
-\\ Bachelor of Science, BS, Mathematics\hfill 
-\\ Department of Mathematics\\
++ Universidad de los Andes, Bogotá  August 2016 - July 2021
+ Bachelor of Science, BS, Mathematics
+ Department of Mathematics
 
-+ {\bf San Francisco Javier, Pasto} \hfill {\em August 2003 -June 2016} 
-\\ High School Diploma
++ San Francisco Javier, Pasto  August 2003 -June 2016
+ High School Diploma
 
 
 
@@ -138,7 +138,7 @@ engineering problems.
     - Precalculus (Problem section).
 
 # Languages
-| -------- | ------------------------------- |
+| -------- | -----------------------------|
 | Spanish  | Native speaker               |
 | English  | C1 level (IELTS 7.5 overall) |
 | German   | A1 level                     |
