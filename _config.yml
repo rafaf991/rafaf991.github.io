@@ -31,8 +31,8 @@ google_analytics: ""
 navigation:
   - text: Notes
     url: /
-  - text: Simulations
-    url: /simulations.html
+  - text: Personal info
+    url: /cv.html
   - text: Tags
     url: /tags.html
   - text: Home 
