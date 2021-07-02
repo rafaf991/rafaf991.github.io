@@ -93,20 +93,20 @@ a normal html comment -->
 
 [Favorite rock band](https://youtu.be/3_gVB_4Gs3M )
 
-## CV Rafael Córdoba L.
+# CV Rafael Córdoba L.
 
 <br> _Physicist and mathematician (amateur baker)  <br>
 Basic info:
 [Email](rf.cordoba@uniandes.edu.co) // [Website](https://rafaf991.github.io/)  // [GitHub](https://github.com/rafaf991/) 
 
 
-# Personal information
+## Personal information
 Highly curious, skillful, and outstanding physics and mathematics student. Passionate for knowledge
 and for explaining nature. Interested in Mathematical Physics, Quantum Field Theory, General Relativity, Unification theories (String theories and M-theory) and Astrophysics. Good at explaining physics intuitively. Individual and team working skills to solve. Amateur observer of galaxies and planets.
 challenging problems. Seeking to develop better research skills. 
 - Member of the QFT and mathematical physics group in Los Andes University
 
-# Education
+## Education
 
 +  Universidad de los Andes, Bogotá  August 2016 - July 2021
     - Bachelor of Science, BS, Physics
@@ -122,7 +122,7 @@ challenging problems. Seeking to develop better research skills.
 
 
 
-# Work Experience
+## Work Experience
 
 | Universidad de los Andes, Bogota                                                               	|                              	|
 |------------------------------------------------------------------------------------------------	|------------------------------	|
@@ -132,18 +132,20 @@ challenging problems. Seeking to develop better research skills.
 | - Mathematics Tutor at "Pentagono" workshop helping people with mathematics related problems.  	| January 2020 - December 2020 	|
 | - Precalculus professor (Problem section)                                                      	| January 2020 - December 2020 	|
 
-# Languages
-| Spanish |  Native speaker               |
-|---------|-------------------------------|
-| English |  C1 level (IELTS 7.5 overall) |
-|  German |  A1 level                     |
+## Languages
+
+| Language 	|             Level             	|
+|----------	|:-----------------------------:	|
+| Spanish  	|         Native speaker        	|
+| English  	| C1 level (IELTS 7.5 overall)  	|
+| German   	|               A1              	|
 
 - Starting to learn latin.
 
-# Skills
+## Skills
 - Programming languages: Python, C++ and Java.
 
-# Extra-Cirrucular and Awards
+## Extra-Cirrucular and Awards
 + Quiero Estudiar Scolarship of Los Andes University due to high grades in High School and outstanding personal qualitiess and leader personalty.
 + Team member of Los Andes university team for IPT 2020-2021 (International Physics Tournament).
 + Third place at Integrolimpiadas 2017 (Contest of fast solving integrals) undergraduate.
@@ -154,10 +156,10 @@ challenging problems. Seeking to develop better research skills.
 + Experimented bread baker. 
 + Piano intermediate level.
 
-# Personal Traits
+## Personal Traits
 - Strongly motivated and well-disciplined.
 - Autodidact.
-# Mini-courses
+## Mini-courses
 - 2020-08 NITheP Mini School: S. Yacoob. Particle Physics: Introduction to Elementary Particle Physics
 -  Mini-Course on Mathematical Physics: Introduction to Mathematical Statistical Mechanics
 -  VI UNIANDES PARTICLE PHYSICS SCHOOL:
