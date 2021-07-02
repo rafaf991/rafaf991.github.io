@@ -6,7 +6,7 @@ description: Things about me (Rafael Córdoba)
 ---
 
 Hi there! If you want to know more about me here is my CV as well as other interesting facts about me, enjoy it! If you spot one let me know and I will fix it.
-{% include image_full.html imageurl="/images/teachingdog.jpeg" title="Dog" caption="Teaching my dog some physics! (during the lockdown)" %}
+{% include image_caption.html imageurl="/images/teachingdog.jpeg" title="Dog" caption="Teaching my dog some physics! (during the lockdown)" %}
 
 Lorem ipsum dolor sit amet, `consectetuer adipiscing` elit. Morbi commodo, ipsum sed pharetra gravida, orci magna rhoncus neque, id pulvinar odio lorem non turpis. Nullam sit amet enim. Suspendisse id velit vitae ligula volutpat condimentum. Aliquam erat volutpat. Sed quis velit. Nulla facilisi. Nulla libero.
 
@@ -87,65 +87,89 @@ a normal html comment -->
 
 
 [My Colombian national record on 3x3](https://youtu.be/Hi7ibjkAkxI) 
-<!--
-
-
-## Regular Image
-
-{% include image_caption.html imageurl="/images/teachingdog.jpeg" title="Dog" caption="Teaching my dog some physics! (during the lockdown)" %}
-
-Lorem ipsum dolor sit amet, `consectetuer adipiscing` elit. Morbi commodo, ipsum sed pharetra gravida, orci magna rhoncus neque, id pulvinar odio lorem non turpis. Nullam sit amet enim. Suspendisse id velit vitae ligula volutpat condimentum. Aliquam erat volutpat. Sed quis velit. Nulla facilisi. Nulla libero. Lorem ipsum dolor sit amet, `consectetuer adipiscing` elit. Morbi commodo, ipsum sed pharetra gravida, orci magna rhoncus neque, id pulvinar odio lorem non turpis. Nullam sit amet enim. Suspendisse id velit vitae ligula volutpat condimentum. Aliquam erat volutpat. Sed quis velit. Nulla facilisi. Nulla libero.
-
-## Lists
-
-Here is an unordered list of items, typically rendered as a bulleted list:
-
-+ Donec non tortor in arcu mollis feugiat
-+ Lorem ipsum dolor sit amet, consectetuer adipiscing elit
-+ Donec id eros eget quam aliquam gravida
-+ Vivamus convallis urna id felis
-+ Nulla porta tempus sapien
-
-Here is an ordered list of items, typically rendered as a numbered list:
-
-1. Donec non tortor in arcu mollis feugiat
-2. Lorem ipsum dolor sit amet, consectetuer adipiscing elit
-3. Donec id eros eget quam aliquam gravida
-4. Vivamus convallis urna id felis
-5. Nulla porta tempus sapien
-
-
-### Tables
-
-| Title | Title |
-| ------| ----- |
-| Text  | Text  |
-| Text  | Text  |
-| Text  | Text  |
-
-
-
-## Emphasis
-
-**This is bold text**
-
-*This is italic text*
-
-~~Strikethrough~~
-
 ## Links
 
-[I'm an inline-style link](https://www.google.com)
+[Favorite pianist](https://youtu.be/yMqM-jcAaJg)
+[Favorite rock band](https://youtu.be/3_gVB_4Gs3M )
 
-[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
+## CV Rafael Córdoba L.
 
-## Quoting
+_Physicist and mathematician (amateur baker)  <br>
+Basic info:
+--[Email](rf.cordoba@uniandes.edu.co) 
+--[Website](https://rafaf991.github.io/)  
+--[GitHub](https://github.com/rafaf991/) 
 
-Lorem ipsum dolor sit amet, `consectetuer adipiscing` elit. Morbi commodo, ipsum sed pharetra gravida, orci magna rhoncus neque, id pulvinar odio lorem non turpis. Nullam sit amet enim. Suspendisse id velit vitae ligula volutpat condimentum. Aliquam erat volutpat. Sed quis velit. Nulla facilisi. Nulla libero.
 
- -->
-### Latex
+# Personal information
+Highly curious, skillful, and outstanding physics and mathematics student. Passionate for knowledge
+and for explaining nature. Interested in Mathematical Physics, Quantum Field Theory, General Relativity, Unification theories (String theories and M-theory) and Astrophysics. Good at explaining physics intuitively. Individual and team working skills to solve. Amateur observer of galaxies and planets.
+challenging problems. Seeking to develop better research skills. 
+- Member of the QFT and mathematical physics group in Los Andes University
+
+# Education
+
++ {\bf Universidad de los Andes, Bogotá \hfill {\em August 2016 - July 2021} 
+\\ Bachelor of Science, BS, Physics\hfill 
+\\ Department of Physics\\
+
++ {\bf Universidad de los Andes, Bogotá} \hfill {\em August 2016 - July 2021} 
+\\ Bachelor of Science, BS, Mathematics\hfill 
+\\ Department of Mathematics\\
+
++ {\bf San Francisco Javier, Pasto} \hfill {\em August 2003 -June 2016} 
+\\ High School Diploma
 
 
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />
-![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a})
+
+
+# Work Experience
+
+- {Universidad de los Andes, Bogota}{August 2018- December 2019}{Physics Tutor}{}\item Tutor at "Clinica de Problemas" workshop helping people from first and second year with physics and
+engineering problems.
+
+- {Universidad de los Andes, Bogota}{January 2020- June 2020}{Teaching assistant of Classical Mechanics}{}
+
+- {Universidad de los Andes, Bogota}{August 2020- December 2020}{Teaching assistant of Statistical mechanics}{}
+
+
+- {Universidad de los Andes, Bogota}{January 2020 - December 2020}{Mathematics Tutor}{}\item Tutor at "Pentagono" workshop helping people from first and second year with mathematics and
+engineering problems.
+    - Precalculus (Problem section).
+
+# Languages
+| -------- | ------------------------------- |
+| Spanish  | Native speaker               |
+| English  | C1 level (IELTS 7.5 overall) |
+| German   | A1 level                     |
+
+- Starting to learn latin.
+
+# Skills
+- Programming languages: Python, C++ and Java.
+
+# Extra-Cirrucular and Awards
++ Quiero Estudiar Scolarship of Los Andes University due to high grades in High School and outstanding personal qualitiess and leader personalty.
++ Team member of Los Andes university team for IPT 2020-2021 (International Physics Tournament).
++ Third place at Integrolimpiadas 2017 (Contest of fast solving integrals) undergraduate.
++ Fourth place at Integrolimpiadas 2019 (Contest of fast solving integrals) undergraduate. 
++ Fourth place at VI Encuentro Universitario de Integrales (National tournament of fast solving integrals)
++ National champion on Rubik's Cube Speed Solving (2016-2019).
++ Top 20 on the World Rubik championship on 2015.
++ Experimented bread baker. 
++ Piano intermediate level.
+
+# Personal Traits
+- Strongly motivated and well-disciplined.
+- Autodidact.
+# Mini-courses
+- 2020-08 NITheP Mini School: S. Yacoob. Particle Physics: Introduction to Elementary Particle Physics
+-  Mini-Course on Mathematical Physics: Introduction to Mathematical Statistical Mechanics
+-  VI UNIANDES PARTICLE PHYSICS SCHOOL:
+    Theoretical and experimental overview of the Standard Model (SM) and topics of Dark Matter, including cosmological evidence, indirect and direct searches and theoretical models. 
+-  MOCa 2020: Dark matter workshop on theory and phenomenology
+- Analysis, Probability, Mathematical Physics advanced school for young researchers (2020) on The Euler international mathematical institute.
+
+
+
+
