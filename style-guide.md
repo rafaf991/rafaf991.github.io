@@ -4,8 +4,9 @@ title: Personal Stuff
 permalink: /personal.html
 description: Things about me (Rafael Córdoba)
 ---
-Hi! This page is under construction! ...
-{% include image_full.html imageurl="/images/apple-watch-in-car.jpg" title="Apple" caption="This is the caption" %}
+
+Hi there! If you want to know more about me here is my CV as well as other interesting facts about me, enjoy it! If you spot one let me know and I will fix it.
+{% include image_full.html imageurl="/images/teachingdog.jpeg" title="Dog" caption="Teaching my dog some physics! (during the lockdown)" %}
 
 Lorem ipsum dolor sit amet, `consectetuer adipiscing` elit. Morbi commodo, ipsum sed pharetra gravida, orci magna rhoncus neque, id pulvinar odio lorem non turpis. Nullam sit amet enim. Suspendisse id velit vitae ligula volutpat condimentum. Aliquam erat volutpat. Sed quis velit. Nulla facilisi. Nulla libero.
 
@@ -91,7 +92,7 @@ a normal html comment -->
 
 ## Regular Image
 
-{% include image_caption.html imageurl="/images/apple-watch-in-car.jpg" title="Apple Super" caption="This is the caption" %}
+{% include image_caption.html imageurl="/images/teachingdog.jpeg" title="Dog" caption="Teaching my dog some physics! (during the lockdown)" %}
 
 Lorem ipsum dolor sit amet, `consectetuer adipiscing` elit. Morbi commodo, ipsum sed pharetra gravida, orci magna rhoncus neque, id pulvinar odio lorem non turpis. Nullam sit amet enim. Suspendisse id velit vitae ligula volutpat condimentum. Aliquam erat volutpat. Sed quis velit. Nulla facilisi. Nulla libero. Lorem ipsum dolor sit amet, `consectetuer adipiscing` elit. Morbi commodo, ipsum sed pharetra gravida, orci magna rhoncus neque, id pulvinar odio lorem non turpis. Nullam sit amet enim. Suspendisse id velit vitae ligula volutpat condimentum. Aliquam erat volutpat. Sed quis velit. Nulla facilisi. Nulla libero.
 
