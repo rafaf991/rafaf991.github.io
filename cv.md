@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Simulations
+title: CV Rafael Córdoba López
 permalink: /simulations.html
 #feature_image: images/fluids.png 
 ---
