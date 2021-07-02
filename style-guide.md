@@ -159,6 +159,7 @@ challenging problems. Seeking to develop better research skills.
 ## Personal Traits
 - Strongly motivated and well-disciplined.
 - Autodidact.
+
 ## Mini-courses
 - 2020-08 NITheP Mini School: S. Yacoob. Particle Physics: Introduction to Elementary Particle Physics
 -  Mini-Course on Mathematical Physics: Introduction to Mathematical Statistical Mechanics
