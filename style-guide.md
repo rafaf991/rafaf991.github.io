@@ -109,38 +109,34 @@ challenging problems. Seeking to develop better research skills.
 # Education
 
 +  Universidad de los Andes, Bogotá  August 2016 - July 2021
- Bachelor of Science, BS, Physics
+    - Bachelor of Science, BS, Physics
  Department of Physics
 
 + Universidad de los Andes, Bogotá  August 2016 - July 2021
- Bachelor of Science, BS, Mathematics
+    - Bachelor of Science, BS, Mathematics
  Department of Mathematics
 
 + San Francisco Javier, Pasto  August 2003 -June 2016
- High School Diploma
+    - High School Diploma
 
 
 
 
 # Work Experience
 
-- {Universidad de los Andes, Bogota}{August 2018- December 2019}{Physics Tutor}{}\item Tutor at "Clinica de Problemas" workshop helping people from first and second year with physics and
-engineering problems.
-
-- {Universidad de los Andes, Bogota}{January 2020- June 2020}{Teaching assistant of Classical Mechanics}{}
-
-- {Universidad de los Andes, Bogota}{August 2020- December 2020}{Teaching assistant of Statistical mechanics}{}
-
-
-- {Universidad de los Andes, Bogota}{January 2020 - December 2020}{Mathematics Tutor}{}\item Tutor at "Pentagono" workshop helping people from first and second year with mathematics and
-engineering problems.
-    - Precalculus (Problem section).
+| Universidad de los Andes, Bogota                                                               	|                              	|
+|------------------------------------------------------------------------------------------------	|------------------------------	|
+| - Physics Tutor at "Clinica de Problemas" workshop helping people with physics problems        	|  August 2018 - December 2019 	|
+| - Teaching assistant of Classical Mechanics                                                    	|   January 2020 - June 2020   	|
+| - Teaching assistant of Statistical Physics                                                    	|  August 2020 - December 2020 	|
+| - Mathematics Tutor at "Pentagono" workshop helping people with mathematics related problems.  	| January 2020 - December 2020 	|
+| - Precalculus professor (Problem section)                                                      	| January 2020 - December 2020 	|
 
 # Languages
-| -------- | -----------------------------|
-| Spanish  | Native speaker               |
-| English  | C1 level (IELTS 7.5 overall) |
-| German   | A1 level                     |
+| Spanish |  Native speaker               |
+|---------|-------------------------------|
+| English |  C1 level (IELTS 7.5 overall) |
+|  German |  A1 level                     |
 
 - Starting to learn latin.
 
