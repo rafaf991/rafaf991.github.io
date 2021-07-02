@@ -90,15 +90,14 @@ a normal html comment -->
 ## Links
 
 [Favorite pianist](https://youtu.be/yMqM-jcAaJg)
+
 [Favorite rock band](https://youtu.be/3_gVB_4Gs3M )
 
 ## CV Rafael Córdoba L.
 
-_Physicist and mathematician (amateur baker)  <br>
+<br> _Physicist and mathematician (amateur baker)  <br>
 Basic info:
---[Email](rf.cordoba@uniandes.edu.co) 
---[Website](https://rafaf991.github.io/)  
---[GitHub](https://github.com/rafaf991/) 
+[Email](rf.cordoba@uniandes.edu.co) // [Website](https://rafaf991.github.io/)  // [GitHub](https://github.com/rafaf991/) 
 
 
 # Personal information
