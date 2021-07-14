@@ -110,10 +110,13 @@ Basic info:
 
 +  Universidad de los Andes, Bogotá  August 2016 - July 2021
     - Bachelor of Science, BS, Physics
+    - [The Unruh Effect and a Measuring Scheme in Relativistic Quantum Field Theory](https://rafaf991.github.io/PhysicsThesis)
  Department of Physics
 
 + Universidad de los Andes, Bogotá  August 2016 - July 2021
     - Bachelor of Science, BS, Mathematics
+    - [The Harmonic Map Flow and The Eells-Sampson Theorem](https://rafaf991.github.io/MathematicsThesis)
+   
  Department of Mathematics
 
 + San Francisco Javier, Pasto  August 2003 -June 2016
