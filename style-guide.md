@@ -5,16 +5,23 @@ permalink: /personal.html
 description: Things about me (Rafael Córdoba)
 ---
 
-Hi there! If you want to know more about me here is my CV as well as other interesting facts about me, enjoy it! If you spot one let me know and I will fix it.
+Hi there! If you want to know more about me here is my CV as well as other interesting facts about me, enjoy it! If you spot any error let me know and I will fix it.
 {% include image_caption.html imageurl="/images/teachingdog.jpeg" title="Dog" caption="Teaching my dog some physics! (during the lockdown)" %}
 
-Lorem ipsum dolor sit amet, `consectetuer adipiscing` elit. Morbi commodo, ipsum sed pharetra gravida, orci magna rhoncus neque, id pulvinar odio lorem non turpis. Nullam sit amet enim. Suspendisse id velit vitae ligula volutpat condimentum. Aliquam erat volutpat. Sed quis velit. Nulla facilisi. Nulla libero.
 
 
->“Creativity is allowing yourself to make mistakes. Design is knowing which ones to keep.”
+>“Accordingly, we find Euler and D'Alembert devoting their talent and their patience to the establishment of the laws of rotation of the solid bodies. Lagrange has incorporated his own analysis of the problem with his general treatment of mechanics, and since his time M. Poinsot has brought the subject under the power of a more searching analysis than that of the calculus, in which ideas take the place of symbols, and intelligent propositions supersede equations.”
+>― James Clerk Maxwell
 
-
-This is a pragraph. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis.
+Hi! I am Rafael Córdoba. I am scientist in physics, mathematics and a professional bread baker! I am highly curious, passionate learner and carefully observer. I am highly interested in academic reseacrh in mathematical Physics, quantum field theory, general relativity, unification theories (String theories) but I have a special spot in my heart for observational astrophysics.
+- Good at explaining physics intuitively. 
+- Amateur observer of galaxies and planets.
+- Amateur chess player
+- I like almost any kind of puzzle, if you know a challenging one let me know!
+- I love solving challenging problems and to find patterns.
+- All kinds of geometry enthusiast.
+- Member of the QFT and mathematical physics group in Los Andes University
+- Professional bread baker.
 
 
 
@@ -95,16 +102,9 @@ a normal html comment -->
 
 # CV Rafael Córdoba L.
 
-<br> _Physicist and mathematician (amateur baker)  <br>
+<br> Physicist and mathematician (professional bread baker)  <br>
 Basic info:
 [Email](rf.cordoba@uniandes.edu.co) // [Website](https://rafaf991.github.io/)  // [GitHub](https://github.com/rafaf991/) 
-
-
-## Personal information
-Highly curious, skillful, and outstanding physics and mathematics student. Passionate for knowledge
-and for explaining nature. Interested in Mathematical Physics, Quantum Field Theory, General Relativity, Unification theories (String theories and M-theory) and Astrophysics. Good at explaining physics intuitively. Individual and team working skills to solve. Amateur observer of galaxies and planets.
-challenging problems. Seeking to develop better research skills. 
-- Member of the QFT and mathematical physics group in Los Andes University
 
 ## Education
 
@@ -140,34 +140,20 @@ challenging problems. Seeking to develop better research skills.
 | English  	| C1 level (IELTS 7.5 overall)  	|
 | German   	|               A1              	|
 
-- Starting to learn latin.
+- Starting to learn Latin.
 
 ## Skills
 - Programming languages: Python, C++ and Java.
-
-## Extra-Cirrucular and Awards
+- Experimented bread baker. 
+- Piano intermediate level.
+## Awards
 + Quiero Estudiar Scolarship of Los Andes University due to high grades in High School and outstanding personal qualitiess and leader personalty.
-+ Team member of Los Andes university team for IPT 2020-2021 (International Physics Tournament).
 + Third place at Integrolimpiadas 2017 (Contest of fast solving integrals) undergraduate.
 + Fourth place at Integrolimpiadas 2019 (Contest of fast solving integrals) undergraduate. 
 + Fourth place at VI Encuentro Universitario de Integrales (National tournament of fast solving integrals)
 + National champion on Rubik's Cube Speed Solving (2016-2019).
-+ Top 20 on the World Rubik championship on 2015.
-+ Experimented bread baker. 
-+ Piano intermediate level.
 
 ## Personal Traits
-- Strongly motivated and well-disciplined.
+- Strongly determined and well-disciplined.
 - Autodidact.
-
-## Mini-courses
-- 2020-08 NITheP Mini School: S. Yacoob. Particle Physics: Introduction to Elementary Particle Physics
--  Mini-Course on Mathematical Physics: Introduction to Mathematical Statistical Mechanics
--  VI UNIANDES PARTICLE PHYSICS SCHOOL:
-    Theoretical and experimental overview of the Standard Model (SM) and topics of Dark Matter, including cosmological evidence, indirect and direct searches and theoretical models. 
--  MOCa 2020: Dark matter workshop on theory and phenomenology
-- Analysis, Probability, Mathematical Physics advanced school for young researchers (2020) on The Euler international mathematical institute.
-
-
-
-
+- Hiking enthusiast and amateur runner.

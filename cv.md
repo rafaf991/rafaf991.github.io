@@ -5,7 +5,7 @@ permalink: /simulations.html
 #feature_image: images/fluids.png 
 ---
 
-Hi there! If you want to know more about me here is my CV as well as other interesting facts about me, enjoy it! If you spot one let me know and I will fix it.
+Hi there! If you want to know more about me here is my CV as well as other interesting facts about me, enjoy it! If you spot errors let me know and I will fix it.
 
 # Rafael Córdoba López
 
@@ -234,3 +234,29 @@ Created [Qarma](https://github.com/lcorr8/qarma), an online platform to report a
 [Yeditepe Üniversitesi](https://yeditepe.edu.tr/en) - Istanbul, Turkey _(Spring 2013)_
 
 -->
+
+\section*{Important courses}
+\begin{itemize}
+    \item General relativity
+    \item Lie Groups
+    \item Equations of the mathematical physics
+    
+    Introduction to partial differential equations
+    \item Group theory in quantum mechanics
+    \item Quantum information theory
+\end{itemize}
+
+
+
+  FIDE Chess Master on the process.
+
+ Professional bread baker. 
+
+ Piano intermediate level.
+\begin{itemize}
+\item Highly motivated and eager to learn new things.
+\item Strong motivational and well-disciplined.
+\item Autodidact.
+\end{itemize}
+
+Amateur observer of galaxies and planets. I would describe my self as a very persistent and determined person, I enjoy to explain things intuitively and its derivations. I like calculation, patterns and colors. Autodidact 
