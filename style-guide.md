@@ -147,10 +147,10 @@ Basic info:
 - Experimented bread baker. 
 - Piano intermediate level.
 ## Awards
-+ Quiero Estudiar Scolarship of Los Andes University due to high grades in High School and outstanding personal qualitiess and leader personalty.
-+ Third place at Integrolimpiadas 2017 (Contest of fast solving integrals) undergraduate.
-+ Fourth place at Integrolimpiadas 2019 (Contest of fast solving integrals) undergraduate. 
-+ Fourth place at VI Encuentro Universitario de Integrales (National tournament of fast solving integrals)
++ Quiero Estudiar Scolarship: Five-year long 95% tuition scholarship awarded for academice xcellence in high school and outstanding personal and leadership qualities.
++ Third place at Integrolimpiadas 2017: Annual integral calculus competition at Los Andesuniversity.
++ Fourth place at Integrolimpiadas 2019: Annual integral calculus competition at Los Andesuniversity.
++ Fourth place at VI Encuentro Universitario de Integrales: National integral calculus competition.
 + National champion on Rubik's Cube Speed Solving (2016-2019).
 
 ## Personal Traits
