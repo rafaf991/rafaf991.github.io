@@ -169,68 +169,39 @@ Basic info:
 
 
 
-// $ cat docs/js/image-carousel.js 
-var keepTime = 2000;
-console.log("Carousel MKDocs");
-function updateCarousel(img) {
-  if (img.carouselRunning) {
-    let outstyle = img.carousel[img.carouselIndex % img.carousel.length].style;
-    outstyle.visibility = 'hidden';
-    outstyle.opacity = 0;
-    img.carouselIndex = (img.carouselIndex + 1) % img.carousel.length;
-    let instyle = img.carousel[img.carouselIndex % img.carousel.length].style;
-    instyle.visibility = 'visible';
-    instyle.opacity = 1;
-    instyle.position = 'absolute';
-  }
-  setTimeout(updateCarousel, keepTime, img);
-}
+<div class="container">
+  <h2>Carousel Example</h2>  
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
 
-function setCarouselEvents(img) {
-  img.style.visibility = 'hidden';
-  img.style.transition = 'opacity 1.3s, visibility 1.3s';
-  img.style.position = 'absolute';
-  img.addEventListener(
-      'mouseover', function(e) { this.carousel[0].carouselRunning = false; });
-  img.addEventListener(
-      'mouseout', function(e) { this.carousel[0].carouselRunning = true; });
-}
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="la.jpg" alt="Los Angeles" style="width:100%;">
+      </div>
 
-function setCarousel(img) {
-  img.carouselRunning = true;
-  setCarouselEvents(img);
-  img.carouselIndex = 0;
-  setTimeout(updateCarousel, 1, img);
-}
+      <div class="item">
+        <img src="chicago.jpg" alt="Chicago" style="width:100%;">
+      </div>
+    
+      <div class="item">
+        <img src="ny.jpg" alt="New york" style="width:100%;">
+      </div>
+    </div>
 
-// fist we need to ask DOM for all p > img tags
-let imgs = document.querySelectorAll('P > IMG');
-for (let i = 1; i < imgs.length; i++) {
-  let h = imgs[i].naturalHeight;
-  let w = imgs[i].naturalWidth;
-  let pe = imgs[i].previousElementSibling;
-  if (!pe) {
-    continue;
-  }
-  if (pe.nodeName != "IMG") {
-    continue;
-  }
-  let sh = pe.naturalHeight;
-  let sw = pe.naturalWidth;
-  if (sw != w || sh != h) {
-    continue;
-  }
-  if (imgs[i].carousel) {
-    continue;
-  }
-  if (!pe.carousel) {
-    pe.carousel = [ pe ];
-    setCarousel(pe);
-  }
-  pe.carousel.push(imgs[i]);
-  imgs[i].carousel = pe.carousel;
-  setCarouselEvents(imgs[i]);
-  // set parent size
-  pe.parentElement.style.minWidth = "calc(" + sw + "px + 2em)";
-  pe.parentElement.style.minHeight = "calc(" + sh + "px + 2em)";
-}
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
