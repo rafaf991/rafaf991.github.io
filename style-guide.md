@@ -90,9 +90,9 @@ a normal html comment -->
 
 <kbd>
 <p float="left">
-  <img src="/images/imag1.png" width="100" />
-  <img src="/images/imag2.png" width="100" /> 
-  <img src="/images/imag3.png" width="100" />
+  <img src="/images/imag1.jpeg" width="100" />
+  <img src="/images/imag2.jpeg" width="100" /> 
+  <img src="/images/imag3.jpeg" width="100" />
 </p>
 </kbd>
 
