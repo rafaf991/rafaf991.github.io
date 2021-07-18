@@ -169,6 +169,17 @@ Basic info:
 
 
 
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
 <div class="container">
   <h2>Carousel Example</h2>  
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -182,15 +193,15 @@ Basic info:
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
       <div class="item active">
-        <img src="/images/imag1.jpeg" alt="Los Angeles" style="width:100%;">
+        <img src="la.jpg" alt="Los Angeles" style="width:100%;">
       </div>
 
       <div class="item">
-        <img src="/images/imag1.jpeg" alt="Chicago" style="width:100%;">
+        <img src="chicago.jpg" alt="Chicago" style="width:100%;">
       </div>
     
       <div class="item">
-        <img src="/images/imag1.jpeg" alt="New york" style="width:100%;">
+        <img src="ny.jpg" alt="New york" style="width:100%;">
       </div>
     </div>
 
@@ -205,3 +216,6 @@ Basic info:
     </a>
   </div>
 </div>
+
+</body>
+</html>
