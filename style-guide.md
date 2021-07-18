@@ -111,24 +111,24 @@ a normal html comment -->
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
       <div class="item active">
-        <img src="/images/imag1.jpeg" alt="Los Angeles" style="width:100%;">
+        <img src="/images/imag1.jpeg" alt="Los Angeles" style="width:1040;">
       </div>
 
       <div class="item">
-        <img src="/images/imag2.jpeg" alt="Chicago" style="width:100%;">
+        <img src="/images/imag2.jpeg" alt="Chicago" style="width:1040;">
       </div>
     
       <div class="item">
-        <img src="/images/imag3.jpeg" alt="New york" style="width:100%;">
+        <img src="/images/imag3.jpeg" alt="New york" style="width:1040;">
       </div>
       <div class="item">
-        <img src="/images/imag4.jpeg" alt="New york" style="width:100%;">
+        <img src="/images/imag4.jpeg" alt="New york" style="width:1040;">
       </div>
       <div class="item">
-        <img src="/images/imag5.jpeg" alt="New york" style="width:100%;">
+        <img src="/images/imag5.jpeg" alt="New york" style="width:1040;">
       </div>
       <div class="item">
-        <img src="/images/imag6.jpeg" alt="New york" style="width:100%;">
+        <img src="/images/imag6.jpeg" alt="New york" style="width:1040;">
       </div>
     </div>
 
