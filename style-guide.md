@@ -90,8 +90,8 @@ a normal html comment -->
 
 | | | |
 |:-------------------------:|:-------------------------:|
-|<img width="984" alt="screen shot 2017-08-07 at 12 18 15 pm" src="/images/imag1.jpeg"> <img width="984" alt="screen shot 2017-08-07 at 12 18 15 pm" src="/images/imag2.jpeg">|<img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="/images/imag3.jpeg">|
-|<img width="984" alt="screen shot 2017-08-07 at 12 18 15 pm" src="/images/imag4.jpeg"> <img width="984" alt="screen shot 2017-08-07 at 12 18 15 pm" src="/images/imag5.jpeg">|<img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="/images/imag6.jpeg">|
+|<img width="1000" alt="screen shot 2017-08-07 at 12 18 15 pm" src="/images/imag1.jpeg"> <img width="1000" alt="screen shot 2017-08-07 at 12 18 15 pm" src="/images/imag2.jpeg">|<img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="/images/imag3.jpeg">|
+|<img width="1000" alt="screen shot 2017-08-07 at 12 18 15 pm" src="/images/imag4.jpeg"> <img width="1000" alt="screen shot 2017-08-07 at 12 18 15 pm" src="/images/imag5.jpeg">|<img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="/images/imag6.jpeg">|
 
 
 
