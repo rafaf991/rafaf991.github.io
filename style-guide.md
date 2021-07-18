@@ -182,15 +182,15 @@ Basic info:
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
       <div class="item active">
-        <img src="/figures/imag1.jpeg" alt="Los Angeles" style="width:100%;">
+        <img src="/images/imag1.jpeg" alt="Los Angeles" style="width:100%;">
       </div>
 
       <div class="item">
-        <img src="/figures/imag1.jpeg" alt="Chicago" style="width:100%;">
+        <img src="/images/imag1.jpeg" alt="Chicago" style="width:100%;">
       </div>
     
       <div class="item">
-        <img src="/figures/imag1.jpeg" alt="New york" style="width:100%;">
+        <img src="/images/imag1.jpeg" alt="New york" style="width:100%;">
       </div>
     </div>
 
