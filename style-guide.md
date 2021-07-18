@@ -89,9 +89,11 @@ a normal html comment -->
 ## Photos
 
 <kbd>
-| | | | | | |
-|-------------------------|-------------------------|-------------------------|-------------------------|-------------------------|-------------------------|
-|<img width="1200" alt="screen shot 2017-08-07 at 12 18 15 pm" src="/images/imag2.jpeg"><img width="1200" alt="screen shot 2017-08-07 at 12 18 15 pm" src="/images/imag1.jpeg"> <img width="1200" alt="screen shot 2017-08-07 at 12 18 15 pm" src="/images/imag3.jpeg">|<img width="1000" alt="screen shot 2017-08-07 at 12 18 15 pm" src="/images/imag4.jpeg"> <img width="1000" alt="screen shot 2017-08-07 at 12 18 15 pm" src="/images/imag5.jpeg">|<img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="/images/imag6.jpeg">|
+<p float="left">
+  <img src="/images/imag1.png" width="100" />
+  <img src="/images/imag2.png" width="100" /> 
+  <img src="/images/imag3.png" width="100" />
+</p>
 </kbd>
 
 
