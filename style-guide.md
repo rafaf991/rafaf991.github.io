@@ -88,24 +88,16 @@ a normal html comment -->
 
 ## Photos
 
-<kbd>
-<p float="left">
-  <img src="/images/imag1.jpeg" width="100" />
-  <img src="/images/imag2.jpeg" width="100" /> 
-  <img src="/images/imag3.jpeg" width="100" />
-</p>
-</kbd>
-
-{% include image_full.html imageurl="/images/apple-watch-in-car.jpg" title="Apple" caption="This is the caption" %}
 
 <style>
 table {
     width:100%;
 }
-</style>
 | | | |
 |-------------------------|-------------------------|-------------------------|
 |<img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="/images/imag1.jpeg">  |  <img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="/images/imag1.jpeg">|<img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="/images/imag1.jpeg">|
+
+</style>
 
 
 ## Videos
