@@ -149,11 +149,9 @@ body {
 
 <!-- Header -->
 <div class="header" id="myHeader">
-  <h1>Image Grid</h1>
-  <p>Click on the buttons to change the grid view.</p>
   <button class="btn" onclick="one()">1</button>
-  <button class="btn active" onclick="two()">2</button>
-  <button class="btn" onclick="four()">4</button>
+  <button class="btn active" onclick="four()">2</button>
+  <button class="btn" onclick="four()">3</button>
 </div>
 
 <!-- Photo Grid -->
