@@ -169,7 +169,7 @@ Basic info:
 ***
 
 
-## Photos
+## Personal Photos
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -237,12 +237,12 @@ body {
   </div>
   <div class="column">
    <img src="/images/imag3.jpeg" style="width:100%">
-    <img src="/images/imag4.jpeg" style="width:100%">
     <img src="/images/imag2.jpeg" style="width:100%">
     <img src="/images/imag8.jpeg" style="width:100%">
     <img src="/images/imag5.jpeg" style="width:100%">
   </div>  
   <div class="column">
+    <img src="/images/imag4.jpeg" style="width:100%">
     <img src="/images/imag6.jpeg" style="width:100%">
   </div>
 </div>
