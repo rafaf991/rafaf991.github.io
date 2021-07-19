@@ -102,73 +102,6 @@ a normal html comment -->
 
 [Favorite rock band](https://youtu.be/3_gVB_4Gs3M )
 
-# CV Rafael Córdoba L.
-
-<br> Physicist and mathematician (professional bread baker)  <br>
-Basic info:
-[Email](rf.cordoba@uniandes.edu.co) // [Website](https://rafaf991.github.io/)  // [GitHub](https://github.com/rafaf991/) 
-
-## Education
-
-+  Universidad de los Andes, Bogotá  August 2016 - July 2021
-    - Bachelor of Science, BS, Physics
-    - [The Unruh Effect and a Measuring Scheme in Relativistic Quantum Field Theory](https://rafaf991.github.io/PhysicsThesis)
- Department of Physics
-
-+ Universidad de los Andes, Bogotá  August 2016 - July 2021
-    - Bachelor of Science, BS, Mathematics
-    - [The Harmonic Map Flow and The Eells-Sampson Theorem](https://rafaf991.github.io/MathematicsThesis)
-   
- Department of Mathematics
-
-+ San Francisco Javier, Pasto  August 2003 -June 2016
-    - High School Diploma
-
-
-
-
-## Work Experience
-
-| Universidad de los Andes, Bogota                                                               	|                              	|
-|------------------------------------------------------------------------------------------------	|------------------------------	|
-| - Physics Tutor at "Clinica de Problemas" workshop helping people with physics problems        	|  August 2018 - December 2019 	|
-| - Teaching assistant of Classical Mechanics                                                    	|   January 2020 - June 2020   	|
-| - Teaching assistant of Statistical Physics                                                    	|  August 2020 - December 2020 	|
-| - Mathematics Tutor at "Pentagono" workshop helping people with mathematics related problems.  	| January 2020 - December 2020 	|
-| - Precalculus professor (Problem section)                                                      	| January 2020 - December 2020 	|
-
-## Languages
-
-| Language 	|             Level             	|
-|----------	|:-----------------------------:	|
-| Spanish  	|         Native speaker        	|
-| English  	| C1 level (IELTS 7.5 overall)  	|
-| German   	|               A1              	|
-
-- Starting to learn Latin.
-
-## Skills
-- Programming languages: Python, C++ and Java.
-- Experimented bread baker. 
-- Piano intermediate level.
-## Awards
-+ Quiero Estudiar Scolarship: Five-year long 95% tuition scholarship awarded for academice xcellence in high school and outstanding personal and leadership qualities.
-+ Third place at Integrolimpiadas 2017: Annual integral calculus competition at Los Andesuniversity.
-+ Fourth place at Integrolimpiadas 2019: Annual integral calculus competition at Los Andesuniversity.
-+ Fourth place at VI Encuentro Universitario de Integrales: National integral calculus competition.
-+ National champion on Rubik's Cube Speed Solving (2016-2019).
-
-
-
-
-## Personal Traits
-- Strongly determined and well-disciplined.
-- Autodidact.
-- Hiking enthusiast and amateur runner.
-
-***
-
-
 ## Personal Photos
 <html>
 <head>
@@ -303,3 +236,72 @@ for (var i = 0; i < btns.length; i++) {
 
 </body>
 </html>
+
+
+# CV Rafael Córdoba L.
+
+<br> Physicist and mathematician (professional bread baker)  <br>
+Basic info:
+[Email](rf.cordoba@uniandes.edu.co) // [Website](https://rafaf991.github.io/)  // [GitHub](https://github.com/rafaf991/) 
+
+## Education
+
++  Universidad de los Andes, Bogotá  August 2016 - July 2021
+    - Bachelor of Science, BS, Physics
+    - [The Unruh Effect and a Measuring Scheme in Relativistic Quantum Field Theory](https://rafaf991.github.io/PhysicsThesis)
+ Department of Physics
+
++ Universidad de los Andes, Bogotá  August 2016 - July 2021
+    - Bachelor of Science, BS, Mathematics
+    - [The Harmonic Map Flow and The Eells-Sampson Theorem](https://rafaf991.github.io/MathematicsThesis)
+   
+ Department of Mathematics
+
++ San Francisco Javier, Pasto  August 2003 -June 2016
+    - High School Diploma
+
+
+
+
+## Work Experience
+
+| Universidad de los Andes, Bogota                                                               	|                              	|
+|------------------------------------------------------------------------------------------------	|------------------------------	|
+| - Physics Tutor at "Clinica de Problemas" workshop helping people with physics problems        	|  August 2018 - December 2019 	|
+| - Teaching assistant of Classical Mechanics                                                    	|   January 2020 - June 2020   	|
+| - Teaching assistant of Statistical Physics                                                    	|  August 2020 - December 2020 	|
+| - Mathematics Tutor at "Pentagono" workshop helping people with mathematics related problems.  	| January 2020 - December 2020 	|
+| - Precalculus professor (Problem section)                                                      	| January 2020 - December 2020 	|
+
+## Languages
+
+| Language 	|             Level             	|
+|----------	|:-----------------------------:	|
+| Spanish  	|         Native speaker        	|
+| English  	| C1 level (IELTS 7.5 overall)  	|
+| German   	|               A1              	|
+
+- Starting to learn Latin.
+
+## Skills
+- Programming languages: Python, C++ and Java.
+- Experimented bread baker. 
+- Piano intermediate level.
+## Awards
++ Quiero Estudiar Scolarship: Five-year long 95% tuition scholarship awarded for academice xcellence in high school and outstanding personal and leadership qualities.
++ Third place at Integrolimpiadas 2017: Annual integral calculus competition at Los Andesuniversity.
++ Fourth place at Integrolimpiadas 2019: Annual integral calculus competition at Los Andesuniversity.
++ Fourth place at VI Encuentro Universitario de Integrales: National integral calculus competition.
++ National champion on Rubik's Cube Speed Solving (2016-2019).
+
+
+
+
+## Personal Traits
+- Strongly determined and well-disciplined.
+- Autodidact.
+- Hiking enthusiast and amateur runner.
+
+***
+
+
