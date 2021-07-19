@@ -146,14 +146,6 @@ body {
 </style>
 </head>
 <body>
-
-<!-- Header -->
-<div class="header" id="myHeader">
-  <button class="btn" onclick="one()">1</button>
-  <button class="btn active" onclick="four()">2</button>
-  <button class="btn" onclick="four()">3</button>
-</div>
-
 <!-- Photo Grid -->
 <div class="row"> 
   <div class="column">
@@ -168,6 +160,11 @@ body {
     <img src="/images/imag5.jpeg" style="width:100%">
     <img src="/images/imag6.jpeg" style="width:100%">
   </div>
+</div>
+<div class="header" id="myHeader">
+  <button class="btn" onclick="one()">1</button>
+  <button class="btn active" onclick="two()">2</button>
+  <button class="btn" onclick="four()">3</button>
 </div>
 
 <script>
