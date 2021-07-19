@@ -243,7 +243,7 @@ body {
     <img src="/images/imag5.jpeg" style="width:100%">
   </div>  
   <div class="column">
-    <img src="/images/imag6.jpeg" style="height:85%">
+    <img src="/images/imag6.jpeg" style="height:75%">
   </div>
 </div>
 <div class="header" id="myHeader">
