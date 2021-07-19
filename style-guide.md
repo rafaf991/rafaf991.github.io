@@ -235,16 +235,17 @@ body {
     <img src="/images/imag1.jpeg" style="width:100%">
     <img src="/images/imag7.jpeg" style="width:100%">
   </div>
+
   <div class="column">
+    <img src="/images/imag4.jpeg" style="width:100%">
+    <img src="/images/imag6.jpeg" style="width:100%">
+  </div>
+    <div class="column">
    <img src="/images/imag3.jpeg" style="width:100%">
     <img src="/images/imag2.jpeg" style="width:100%">
     <img src="/images/imag8.jpeg" style="width:100%">
     <img src="/images/imag5.jpeg" style="width:100%">
   </div>  
-  <div class="column">
-    <img src="/images/imag4.jpeg" style="width:100%">
-    <img src="/images/imag6.jpeg" style="width:100%">
-  </div>
 </div>
 <div class="header" id="myHeader">
   <button class="btn" onclick="one()">1</button>
