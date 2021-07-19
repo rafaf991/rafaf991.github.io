@@ -287,7 +287,7 @@ function two() {
 var header = document.getElementById("myHeader");
 var btns = header.getElementsByClassName("btn");
 print(btns.length)
-btns[i].addEventListener("load", function() {
+btns[i].addEventListener("scroll", function() {
     var current = document.getElementsByClassName("active");
     current[0].className = current[0].className.replace(" active", "");
     this.className += " active";
