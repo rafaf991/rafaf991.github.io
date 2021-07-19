@@ -35,6 +35,8 @@ navigation:
     url: /simulations.html
   - text: Tags
     url: /tags.html
+  #- text: Home 
+  #  url: https://rafaphysics.herokuapp.com/
   - text: Personal
     url: /personal.html
 
