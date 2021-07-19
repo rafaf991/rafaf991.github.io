@@ -286,7 +286,7 @@ function two() {
 // Add active class to the current button (highlight it)
 var header = document.getElementById("myHeader");
 var btns = header.getElementsByClassName("btn");
-four()
+two()
     var current = document.getElementsByClassName("active");
     current[0].className = current[0].className.replace(" active", "");
     this.className += " active";
