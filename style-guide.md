@@ -186,7 +186,7 @@ function one() {
 }
 
 // Two images side by side
-function two() {
+function four() {
   for (i = 0; i < elements.length; i++) {
     elements[i].style.msFlex = "50%";  // IE10
     elements[i].style.flex = "50%";
@@ -194,7 +194,7 @@ function two() {
 }
 
 // Four images side by side
-function four() {
+function two() {
   for (i = 0; i < elements.length; i++) {
     elements[i].style.msFlex = "25%";  // IE10
     elements[i].style.flex = "25%";
