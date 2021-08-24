@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Physics dissertation thesis (not final version)"
+title: "Physics dissertation thesis"
 description: " "
 date: 2021-07-13
 tags: [QMT, Phys,AQFT,QFT,QFT in CST]

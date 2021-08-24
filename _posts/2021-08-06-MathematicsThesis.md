@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Mathematics dissertation thesis (not final version)"
+title: "Mathematics dissertation thesis"
 description: ""
 date: 2021-06-08
 tags: [Math, Geometry,Riemannian Geometry, PDE,Geometric Analysis]
