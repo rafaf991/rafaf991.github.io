@@ -6,7 +6,6 @@ date: 2020-05-01
 tags: [Phys, QFT]
 disqus: true
 comments: true
-
 ---
 
 <object data="pdfs/QFT_compressed.pdf" type="application/pdf" width="1400px" height="1200px">
