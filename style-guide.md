@@ -237,6 +237,12 @@ for (var i = 0; i < btns.length; i++) {
 </body>
 </html>
 
+# Books
+
+Hi! As you probably noticed, I really like to write. Here are some books () that i been working on:
++ [A brief course on integrals](https://rafaf991.github.io/Integralsbook) (work on process)
+
+You can see the list [here](https://rafaf991.github.io/tags.html#Book).
 
 # CV Rafael Córdoba L.
 
