@@ -4,7 +4,7 @@
 
 .post {
   border-bottom: 1px solid _palette(border);
-  padding: 3.33333em 0 1.66667em;
+  padding: 0 0 0 0;
 }
 
 .post-header {
@@ -38,7 +38,7 @@
   font-size: 2rem;
   margin: 0 0 1rem;
 
-  @media only screen and (max-width: 50%) {
+  @media only screen and (max-width: 600px) {
     font-size: 1.875rem;
     letter-spacing: normal;
     line-height: 1.2;
