@@ -10,7 +10,7 @@ comments: true
 ---
 Rafael Felipe Córdoba, Luis Carlos Mantilla, Juan Pablo Acuña, Ana María Torres, Daniel Sabogal.
 
-<object data="pdfs/frog.pdf" type="application/pdf" width="1400px" height="200px">
+<object data="pdfs/frog.pdf" type="application/pdf" width="1400px" height="400px">
     <embed src="pdfs/frog.pdf">
         <p>This browser does not support PDFs. Please download the PDF to view it: <a href="pdfs/frog.pdf">Download PDF</a>.</p>
     </embed>

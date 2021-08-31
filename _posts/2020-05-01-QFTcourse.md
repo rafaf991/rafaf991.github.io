@@ -8,7 +8,7 @@ disqus: true
 comments: true
 ---
 
-<object data="pdfs/QFT_compressed.pdf" type="application/pdf" width="1400px" height="1200px">
+<object data="pdfs/QFT_compressed.pdf" type="application/pdf" width="1400px" height="400px">
     <embed src="pdfs/QFT_compressed.pdf">
         <p>This browser does not support PDFs. Please download the PDF to view it: <a href="pdfs/QFT_compressed.pdf">Download PDF</a>.</p>
     </embed>
