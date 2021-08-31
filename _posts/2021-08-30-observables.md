@@ -15,7 +15,7 @@ La charla se basa en gran parte en el artículo de N. Drago y V. Moretti,
 
 - The notion of observable and the moment problem for *-algebras and their GNS representations(arxiv.org:1903.07496) 
 
-<object data="pdfs/notionofobservable.pdf" type="application/pdf" width="400px" height="1200px">
+<object data="pdfs/notionofobservable.pdf" type="application/pdf" width="1400px" height="200px">
     <embed src="pdfs/notionofobservable.pdf">
         <p>This browser does not support PDFs. Please download the PDF to view it: <a href="pdfs/notionofobservable.pdf">Download PDF</a>.</p>
     </embed>
