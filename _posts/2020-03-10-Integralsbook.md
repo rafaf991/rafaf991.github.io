@@ -13,3 +13,4 @@ Definite and indefinite integrals and how to solve them.
         <p>This browser does not support PDFs. Please download the PDF to view it: <a href="pdfs/Libro_de_integrales.pdf">Download PDF</a>.</p>
     </embed>
 </object>
+<!--more-->
