@@ -1,12 +1,14 @@
 ---
 layout: post
 title: "Schrodinger's frog"
-description: "A little (quantum)game with a quantum artificial inteligence (QAI) via quantum variational methods using qiskit"
-date: 2020-12-29
+description: ""
+date: 2021-01-27
 tags: [Phys, Qiskit,QuantumComputing]
 disqus: true
 comments: true
 ---
+A little (quantum)game with a quantum artificial inteligence (QAI) via quantum variational methods using qiskit
+
 ---
 Rafael Felipe Córdoba, Luis Carlos Mantilla, Juan Pablo Acuña, Ana María Torres, Daniel Sabogal.
 

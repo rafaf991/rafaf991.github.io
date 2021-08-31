@@ -16,7 +16,7 @@ of the Unruh effect is given. The topics treated in this thesis may attract peop
 fields such as QMT, QFT and AQFT. We hope the reader find this work as an useful introduction
 for those topics and foremost, an interesting review of the Unruh effect and the Fewster and Verch
 measurement scheme in relativistic quantum mechanics.
-<object data="pdfs/Tesis_Fisica(1).pdf" type="application/pdf" width="1400px" height="1200px">
+<object data="pdfs/Tesis_Fisica(1).pdf" type="application/pdf" width="1400px" height="400px">
     <embed src="pdfs/Tesis_Fisica(1).pdf">
         <p>This browser does not support PDFs. Please download the PDF to view it: <a href="pdfs/Tesis_Fisica(1).pdf">Download PDF</a>.</p>
     </embed>

@@ -15,7 +15,7 @@ generalization of the physical energy), to deduce information on the target mani
 we find that minimal curves with respect to the energy functional are, in fact, geodesics. We also
 introduce geometrical analysis results that allows us to probe the Eells and Sampson theorem which,
 in turn, can be applied for maps between pseudo-Riemannian manifolds.
-<object data="pdfs/Tesis_Matematicas.pdf" type="application/pdf" width="1400px" height="1200px">
+<object data="pdfs/Tesis_Matematicas.pdf" type="application/pdf" width="1400px" height="400px">
     <embed src="pdfs/Tesis_Matematicas.pdf">
         <p>This browser does not support PDFs. Please download the PDF to view it: <a href="pdfs/Weak.pdf">Download PDF</a>.</p>
     </embed>

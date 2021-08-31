@@ -1,12 +1,13 @@
 ---
 layout: post
 title: "The parametrix method"
-description: "A tiny glance of parametrix methods."
+description: ""
 date: 2020-12-29
 tags: [Math, Geometry,Riemannian Geometry]
 disqus: true
 comments: true
 ---
+A tiny glance of parametrix methods.
 
 <object data="pdfs/parametrix.pdf" type="application/pdf" width="1400px" height="400px">
     <embed src="pdfs/parametrix.pdf">
