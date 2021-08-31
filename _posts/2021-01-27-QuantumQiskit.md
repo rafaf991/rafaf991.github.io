@@ -10,7 +10,7 @@ comments: true
 ---
 Rafael Felipe Córdoba, Luis Carlos Mantilla, Juan Pablo Acuña, Ana María Torres, Daniel Sabogal.
 
-<object data="pdfs/frog.pdf" type="application/pdf" width="1400px" height="1000px">
+<object data="pdfs/frog.pdf" type="application/pdf" width="1400px" height="200px">
     <embed src="pdfs/frog.pdf">
         <p>This browser does not support PDFs. Please download the PDF to view it: <a href="pdfs/frog.pdf">Download PDF</a>.</p>
     </embed>
@@ -20,20 +20,8 @@ Link to the project: https://github.com/iQuHACK/2021_QuAndes.git
 
 ---
 
-<style type="text/css">
-#maincontainer 
-{   
-top:0px;
-padding-top:0;
-margin:auto; position:relative;
-width:100%;
-height:200px;
-}
-  </style>
-  </head>
-<body>
- <div id="maincontainer ">
- ## Introduction
+
+## Introduction
 Crossy Road, Jumper Frog, and Crossy (Q)Duck are all different names for the marvellous game consisting of crossing a road without bumping into obstacles. We have implemented an improved version of the game on which frogs can explore the quantum realm and experience quantum effects such as superposition and tunnelling. Additionally, we have included a primitive AI bot that can play against the user. It decides its moves by minimizing a cost function that depends on its environment using the QAOA algorithm.
 
 ## Goals
@@ -79,8 +67,4 @@ The quantum enhancement of the jumper frog stands on the fascinating |+> state. 
 ## References
 * Farhi, E., Goldstone, J., & Gutmann, S. (2014). A quantum approximate optimization algorithm. arXiv preprint arXiv:1411.4028.
 * Lima, R. (2017). Frogger. GitHub repository. https://github.com/rhrlima/frogger
- </div>
-</body>
-    
-
 
