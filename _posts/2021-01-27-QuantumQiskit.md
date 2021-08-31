@@ -17,8 +17,6 @@ Rafael Felipe Córdoba, Luis Carlos Mantilla, Juan Pablo Acuña, Ana María Torr
     </embed>
 </object>
 
-
-
 <!--more-->
 
 Link to the project: https://github.com/iQuHACK/2021_QuAndes.git

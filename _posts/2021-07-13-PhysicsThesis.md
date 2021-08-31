@@ -16,7 +16,6 @@ comments: true
 Lately intense discussion regarding measurements in relativistic quantum mechanics has been developed. We present the Fewster-Verch measuring scheme that allows to address problems of locality
 and causality; an explicit example is given and is used to model an Unruh-deWitt type of detector.
 The results are compared with the traditional approach of the UdW detector,
-
 <!--more-->
  which is also given
 in the work, and found to be the same under certain considerations. For the sake of completeness
