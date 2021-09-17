@@ -7,8 +7,6 @@
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description"
     content="{{ page.description | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
-  <meta name="recomended"
-    content="{{ page.recomended | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html', '' | absolute_url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }} Feed"
     href="{{ '/feed.xml' | absolute_url }}">
