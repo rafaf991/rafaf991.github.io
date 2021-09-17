@@ -1,0 +1,24 @@
+.outside {
+    width: 400px;
+    height: 400px;
+    background-color: #EEE;
+    border: 1px solid black;
+}
+.outside p {
+    overflow-y: scroll;
+    margin: 0;
+    height: 300px;
+}
+.inside {
+    border: 1px solid #000;
+    background-color: #000;
+    color: #FFF;
+    height: 50px;
+}
+.inside2 {
+    bottom: 2px;
+    border: 1px solid #000;
+    background-color: #000;
+    color: #FFF;
+    height: 50px;
+}

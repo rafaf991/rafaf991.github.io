@@ -21,19 +21,11 @@
 </head>
 
 <body>
-  <div class="outside" style=" width: 400px;   height: 400px;    background-color: #EEE;     border: 1px solid black;">
 
-    <div class="inside" style="border: 1px solid #000; background-color: #000; color: #FFF; height: 50px; ">
-      inside 1 Top should not scroll</div>
-    <p style="overflow-y: scroll;
-    margin: 0;
-    height: 300px;"><a
-        href="http://www.interactions.org/sites/default/files/2017-03/Quantum_Universe_GR_SP.pdf">Quantum Universe</a>
-    </p>
-    <div class="inside2"
-      style=" bottom: 2px; border: 1px solid #000; background-color: #000; color: #FFF; height: 50px;">
-      inside 2 Bottom should not scroll</div>
-
+  <div class="outside">
+    <div class="inside">inside1 Top should not scroll</div>
+    <p>Your Text Here</p>
+    <div class="inside2">inside 2 Bottom should not scroll</div>
   </div>
 
   <div id="page" class="site">
@@ -50,7 +42,7 @@
   {% endif %}
   <script src="{{ '/assets/js/plugins.js' | relative_url }}"></script>
   <script src="{{ '/assets/js/custom.js' | relative_url }}"></script>
-
+  <script src="{{ '/assets/css/style.css' | relative_url }}"></script>
 </body>
 
 </html>
