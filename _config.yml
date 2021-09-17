@@ -14,7 +14,7 @@ title: "Rafa Physics/Maths"
 # A description of your site for meta tag, search engine results.
 description: "Notes in selected subjects of physics and mathematics."
 
-"# Recomended readings: http://www.interactions.org/sites/default/files/2017-03/Quantum_Universe_GR_SP.pdf"
+recomended: "http://www.interactions.org/sites/default/files/2017-03/Quantum_Universe_GR_SP.pdf"
 
 # The subpath of your site, e.g. /blog, for generating urls.
 baseurl: ""
