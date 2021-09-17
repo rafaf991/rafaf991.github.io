@@ -53,3 +53,9 @@ $palette: (
 @import "site-footer";
 @import "animations";
 @import "prism";
+
+@media screen and (max-width : 906px){
+ .card1{
+  visibility:hidden;
+  }
+ 
