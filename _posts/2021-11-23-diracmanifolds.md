@@ -11,9 +11,9 @@ comments: true
 
 
 
-<object data="pdfs/diracmanifolds.pdf" type="application/pdf" width="1400px" height="400px">
-    <embed src="pdfs/diracmanifolds.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="pdfs/diracmanifolds.pdf">Download PDF</a>.</p>
+<object data="pdfs/notesclassicalmechanics.pdf" type="application/pdf" width="1400px" height="400px">
+    <embed src="pdfs/notesclassicalmechanics.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="pdfs/notesclassicalmechanics.pdf">Download PDF</a>.</p>
     </embed>
 </object>
 
