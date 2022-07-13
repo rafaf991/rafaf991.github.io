@@ -10,7 +10,7 @@ comments: true
 
 <object data="pdfs/Tesis_Matematicas.pdf" type="application/pdf" width="1400px" height="400px">
     <embed src="pdfs/Tesis_Matematicas.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="pdfs/Weak.pdf">Download PDF</a>.</p>
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="pdfs/Tesis_Matematicas.pdf">Download PDF</a>.</p>
     </embed>
 </object>
 Given a trajectory of a physical system, the energy of the system, more precisely the energy of the
