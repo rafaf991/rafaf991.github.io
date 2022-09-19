@@ -17,7 +17,7 @@ comments: true
     </embed>
 </object>
 
-En esta charla se introduce la mecanica clasíca desde el punto de vista symplectico, de Poisson y mediante el haz generalizado (dirac structures)...  new things are coming
+En esta charla se introduce la mecanica clasíca desde el punto de vista symplectico, de Poisson y mediante el haz generalizado (dirac structures)...  new things are coming 2
 <!--more-->
 Presentation sketch:
 <object data="pdfs/Dirac_Structures__Classical_Mechanics_and__possibly__Quantum_Gravity (2).pdf" type="application/pdf" width="1400px" height="400px">
