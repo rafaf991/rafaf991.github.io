@@ -3,13 +3,7 @@ layout: page
 title: CV Rafael Córdoba López
 permalink: /simulations.html
 #feature_image: images/fluids.png 
----
-<div class=inner_>
-
-
-
-
-
+--
 Hi there! If you want to know more about me here is my CV as well as other interesting facts about me, enjoy it! If you spot errors let me know and I will fix it.
 
 # Rafael Córdoba López
@@ -265,9 +259,6 @@ Created [Qarma](https://github.com/lcorr8/qarma), an online platform to report a
 \end{itemize}
 
 Amateur observer of galaxies and planets. I would describe my self as a very persistent and determined person, I enjoy to explain things intuitively and its derivations. I like calculation, patterns and colors. Autodidact 
-</div>
-
-
 
 
 
