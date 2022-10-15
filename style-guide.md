@@ -309,5 +309,3 @@ Basic info:
 - Hiking enthusiast and amateur runner.
 
 ***
-<
-
