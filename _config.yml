@@ -29,7 +29,7 @@ google_analytics: ""
 
 # Site navigation - each item must have a title and a url.
 navigation:
-  - text: Notes
+  - text: Index
     url: /
   - text: Simulations
     url: /simulations.html
