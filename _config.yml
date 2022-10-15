@@ -12,7 +12,7 @@ lang: en-US
 title: "Rafa Physics/Maths"
 
 # A description of your site for meta tag, search engine results.
-description: "Notes in selected subjects of physics and mathematics."
+#description: "Notes in selected subjects of physics and mathematics."
 
 # The subpath of your site, e.g. /blog, for generating urls.
 baseurl: ""
