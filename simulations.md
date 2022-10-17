@@ -1,11 +1,8 @@
 ---
-layout: page
-title: Simulations
-permalink: /simulations.html
-feature_image: images/fluids.png 
+layout: default
 ---
 
-Hi there! This page is a compilation of some simulations/programs that I developed for physics or statistics. There are mistakes or errors, if you spot one let me know where and I will fix it.
+<main class="main-content fadeInDown delay_075s">
 
   {% for post in paginator.posts %}
   <article class="post">
@@ -51,8 +48,4 @@ Hi there! This page is a compilation of some simulations/programs that I develop
   </nav><!-- .pagination -->
   {% endif %}
 
-<br />
-
-
-# Under Construction1!!!! 
-<a class="error-link" href="{{ site.baseurl }}/">Go to the front page &rarr;</a>
+</main><!-- .site-main -->
