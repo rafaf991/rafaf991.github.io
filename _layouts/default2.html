@@ -98,14 +98,21 @@
     <!-- Custom styles for this template -->
     <link href="https://fonts.googleapis.com/css?family=Playfair&#43;Display:700,900&amp;display=swap" rel="stylesheet">
     <!-- Custom styles for this template -->
-    <link href="blog.css" rel="stylesheet">
+    <link href="{{ '/assets/css/blog.css' | relative_url }}"rel="stylesheet">
+    <link
+    href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i%7CNoto+Serif:400,400i,700,700i&display=swap"
+    rel="stylesheet">
+  <link href="{{ '/assets/css/style.css' | relative_url }}" rel="stylesheet">
+
   </head>
 
 <body>
   <div id="page" class="site">
+    <div class=inner>
       {% include header.html %}
       {{content}}
       {% include footer.html %}
+    </div>
   </div><!-- .site -->
 
   <!-- Scripts -->
