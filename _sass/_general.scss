@@ -14,7 +14,7 @@ html {
   border: 15px solid _palette(accent);
   box-sizing: border-box;
 
-  @media only screen and (max-width: 100%) {
+  @media only screen and (max-width: 600px) {
     border-width: 5px;
     font-size: 100%;
   }
@@ -62,7 +62,7 @@ h1 {
   line-height: 1.11111;
   letter-spacing: -1px;
 
-  @media only screen and (max-width: 100%) {
+  @media only screen and (max-width: 600px) {
     font-size: 1.875rem;
     letter-spacing: normal;
     line-height: 1.2;
@@ -73,7 +73,7 @@ h2 {
   font-size: 1.66667rem;
   letter-spacing: -1px;
 
-  @media only screen and (max-width: 100%) {
+  @media only screen and (max-width: 600px) {
     font-size: 1.5rem;
     letter-spacing: normal;
   }
@@ -82,7 +82,7 @@ h2 {
 h3 {
   font-size: 1.33333rem;
 
-  @media only screen and (max-width: 100%) {
+  @media only screen and (max-width: 600px) {
     font-size: 1.25em;
   }
 }
@@ -149,7 +149,7 @@ blockquote {
   margin: 0 0 1.66667em -30px;
   padding: 0 0 0 30px;
 
-  @media only screen and (max-width: 100%) {
+  @media only screen and (max-width: 910px) {
     margin-left: 0;
     padding-left: 24px;
   }
