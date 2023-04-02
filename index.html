@@ -107,7 +107,7 @@ layout: default2
 
       {% for post in paginator.posts %}
 
-      <article class="blog-post">
+      <article class="blog-post" style="max-width:82%">
         {% if post.feature_image and post.feature_image != "" %}
         <figure class="post-thumbnail image-card width-wide">
           <a href="{{site.baseurl}}{{post.url}}"><img src="{{ post.feature_image | relative_url }}"
@@ -223,7 +223,7 @@ layout: default2
       <div class="position-sticky" style="top: 2rem;">
         <div class="p-4 mb-3 bg-body-tertiary rounded">
           <h4 class="fst-italic">About</h4>
-          <p class="mb-0">Customize this section to tell your visitors a little bit about your publication, writers, content, or something else entirely. Totally up to you.</p>
+          <p class="mb-0">Hey there! In this page you will find some of my electronic notes in topics related to physics or maths. </p>
         </div>
 
         <div class="p-4">
@@ -247,9 +247,7 @@ layout: default2
         <div class="p-4">
           <h4 class="fst-italic">Elsewhere</h4>
           <ol class="list-unstyled">
-            <li><a href="#">GitHub</a></li>
-            <li><a href="#">Twitter</a></li>
-            <li><a href="#">Facebook</a></li>
+            <li><a href="https://scholar.google.com/citations?user=k8blx4cAAAAJ&hl=it&oi=ao">Scholar</a></li>
           </ol>
         </div>
       </div>
