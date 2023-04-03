@@ -231,8 +231,6 @@
   <link href="{{ '/assets/css/style.css' | relative_url }}" rel="stylesheet">
   </head>
 
-<body>
-
 
   <div id="loader">
     <div id="load">
@@ -240,50 +238,32 @@
     <!--div id="cl"> <img alt="lettreC" src="images/clog.png"/></div> -->
     </div>
     </div>
+<body>  
     
-    <!-- facebook like button -->
-    <div id="fb-root"></div>
-    <script>(function(d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = "../connect.facebook.net/fr_FR/all.js#xfbml=1";
-      fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));</script>
-    
-    
-    {% include header.html %}
-
-        
-        <div id="share">
-        <a href="#"><img alt="share button" src="images/share.png"/></a>
-        <div id="content">
-        <li>
-        <iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.cyclemon.com&amp;layout=button_count&amp;show_faces=true&amp;width=450&amp;action=like&amp;colorscheme=light&amp;height=80" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:95px; height:20px;" allowTransparency="true"></iframe><style>.fbook{position: absolute; color:#ddd; top:10px; font-size:10px;}</style></style></li>
-        <li><a href="https://twitter.com/share" class="twitter-share-button" data-hashtags="cyclemon" style="width:88px">Tweet</a>
-    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></li>
-        </div>
-        </div>
-        
-        
+    {% include header.html %}        
       <ul id="nav">
           <div id="nom">
             <li><a id="b1" href="#intro" title="Next Section"><img src="images/title1.png" alt="Link" /></a></li>
-          <li><a id="b2" href="#traveler" title="Next Section"><img src="images/title2.png" alt="Link" /></a></li>
+          <li><a id="b2" href="#page" title="Next Section"><img src="images/title2.png" alt="Link" /></a></li>
             </div>
           <li><a id="n1" href="#intro" title="Next Section"><img src="images/button.png" alt="Link" /></a></li>
-          <li><a id="n2" href="#traveler" title="Next Section"><img src="images/button.png" alt="Link" /></a></li>
+          <li><a id="n2" href="#page" title="Next Section"><img src="images/button.png" alt="Link" /></a></li>
       </ul>
       
       <div id="intro">
-        <a href="#traveler"><img alt="fleche" src="images/fleche2.png"></a>
+        <a href="#page"><img alt="fleche" src="images/fleche2.png"></a>
+        <h1>Cover your page.</h1>
+        <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
+        <p class="lead">
+          <a href="#" class="btn btn-lg btn-light fw-bold border-white bg-white">Learn more</a>
+        </p>
       </div>
          
         <div id="page" class="site">
-          <div class=inner id="traveler">
+          
             {{content}}
             {% include footer.html %}
-          </div><!-- .site -->
+        
         </div>      
         
         
