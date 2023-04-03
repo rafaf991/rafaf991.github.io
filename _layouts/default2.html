@@ -27,10 +27,6 @@
   <script type="text/javascript" src="{{ 'scripts/jquery.localscroll-1.2.7-min.js' | relative_url }}"></script>
   <script type="text/javascript" src="{{ 'scripts/jquery.scrollTo-1.4.2-min.js' | relative_url }}"></script>
   <script type="text/javascript">
-          if (window.innerWidth <= 1024){
-  $(location).attr('href', 'mobile/index.html');
-  
-          }
   $(window).load(function(){	
     $('body, html').scrollTop(0);
     $("#loader").fadeToggle({display:"none"}, "slow");
