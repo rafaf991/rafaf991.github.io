@@ -274,110 +274,100 @@
 <body>
 
 
-  <div id="loader">
+  <!-- <div id="loader">
     <div id="load">
     <img alt="roue" src="images/load.gif"/>
-    <!--div id="cl"> <img alt="lettreC" src="images/clog.png"/></div> -->
+   div id="cl"> <img alt="lettreC" src="images/clog.png"/></div> 
     </div>
-    </div>
-    
-    <!-- facebook like button -->
-    <div id="fb-root"></div>
-    <script>(function(d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = "../connect.facebook.net/fr_FR/all.js#xfbml=1";
-      fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));</script>
-    
-    
-    <div id="menu">
-        <a id="exp" href="#intro"><img alt="experiment" src="images/experiment.png"/></a>
-        <a id="know" href="knowm/knowm.html"><img alt="know more" src="images/know.png"/></a>
-        <a id="shop" href="shop/index.html"><img alt="shop section" src="shop/images/shop.png"/></a>
-    
-        </div>
-        
-        <div id="share">
-        <a href="#"><img alt="share button" src="images/share.png"/></a>
-        <div id="content">
-        <li>
-        <iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.cyclemon.com&amp;layout=button_count&amp;show_faces=true&amp;width=450&amp;action=like&amp;colorscheme=light&amp;height=80" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:95px; height:20px;" allowTransparency="true"></iframe><style>.fbook{position: absolute; color:#ddd; top:10px; font-size:10px;}</style></style></li>
-        <li><a href="https://twitter.com/share" class="twitter-share-button" data-hashtags="cyclemon" style="width:88px">Tweet</a>
-    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></li>
-        </div>
-        </div>
-        
-        
-      <ul id="nav">
-          <div id="nom">
-            <li><a id="b1" href="#intro" title="Next Section"><img src="images/title1.png" alt="Link" /></a></li>
-          <li><a id="b19"	href="#fond19" title="Next Section"><img src="images/title20.png" alt="Link" /></a></li>
-          <li><a id="b2" href="#traveler" title="Next Section"><img src="images/title2.png" alt="Link" /></a></li>
-            </div>
-          <li><a id="n1" href="#intro" title="Next Section"><img src="images/button.png" alt="Link" /></a></li>
-          <li><a id="n19" href="#fond19" title="Next Section"><img src="images/button.png" alt="Link" /></a></li>
-          <li><a id="n2" href="#traveler" title="Next Section"><img src="images/button.png" alt="Link" /></a></li>
-      </ul>
-      
-      <div id="intro">
-        <a href="#fond19"><img alt="fleche" src="images/fleche2.png"></a>
-        
-      </div>
-        
-         <div alt="you're a night rider" id="fond19">
-             <a href="https://vimeo.com/71045197" target="_blank"><p>Watch the <br/>Trailer</p></a>
-            <br/><hr/><br/>
-             <a href="http://revolights.com/" target="_blank"><img alt="logo revolights" src="images/revo.png"/></a>
-        <div class="story"><div class="bg"></div>
-          </div> 
-          
-      </div>
-         
-      <div alt="you're a traveler" id="traveler">
-    
-      </div>       
-           <script>
-         $("#share").hover(function() {
-      $("#content").toggle('slide');
-      $("#share a").animate({opacity:'1'}, 1);
-    });
-      $("#share").mouseleave(function() {
-      $("#share a").animate({opacity:'0.4'}, 1);
-      
-      });
-      $("#fond19 p").hover(function() {
-      $("#fond19 p").animate({opacity:'0.6'}, "fast");
-    });
-      $("#fond19 p").mouseout(function() {
-      $("#fond19 p").animate({opacity:'1'}, 100);
-      
-      });
-    $(function () {
-      var element = $("#cl");
-        (function(){
-            element
-                
-                .animate({ opacity:'0.4'},"slow")
-                .animate({ opacity:'0.8'},"slow",arguments.callee)
-                
-        }());
-    });
-    
-         </script>
-
-
-
-
-
-
+    </div>-->
   <div id="page" class="site">
-    <div class=inner>
-      {% include header.html %}
-      {{content}}
-      {% include footer.html %}
+
+
+    <div id="menu">
+      <a id="exp" href="#intro"><img alt="experiment" src="images/experiment.png"/></a>
+      <a id="know" href="knowm/knowm.html"><img alt="know more" src="images/know.png"/></a>
+      <a id="shop" href="shop/index.html"><img alt="shop section" src="shop/images/shop.png"/></a>
+  
+      </div>
+      
+      <div id="share">
+      <a href="#"><img alt="share button" src="images/share.png"/></a>
+      <div id="content">
+      <li>
+      <iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.cyclemon.com&amp;layout=button_count&amp;show_faces=true&amp;width=450&amp;action=like&amp;colorscheme=light&amp;height=80" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:95px; height:20px;" allowTransparency="true"></iframe><style>.fbook{position: absolute; color:#ddd; top:10px; font-size:10px;}</style></style></li>
+      <li><a href="https://twitter.com/share" class="twitter-share-button" data-hashtags="cyclemon" style="width:88px">Tweet</a>
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></li>
+      </div>
+      </div>
+      
+      
+    <ul id="nav">
+        <div id="nom">
+          <li><a id="b1" href="#intro" title="Next Section"><img src="images/title1.png" alt="Link" /></a></li>
+        <li><a id="b19"	href="#fond19" title="Next Section"><img src="images/title20.png" alt="Link" /></a></li>
+        <li><a id="b2" href="#traveler" title="Next Section"><img src="images/title2.png" alt="Link" /></a></li>
+          </div>
+        <li><a id="n1" href="#intro" title="Next Section"><img src="images/button.png" alt="Link" /></a></li>
+        <li><a id="n19" href="#fond19" title="Next Section"><img src="images/button.png" alt="Link" /></a></li>
+        <li><a id="n2" href="#traveler" title="Next Section"><img src="images/button.png" alt="Link" /></a></li>
+    </ul>
+    
+    <div id="intro">
+      <a href="#fond19"><img alt="fleche" src="images/fleche2.png"></a>
+      
     </div>
+      
+       <div alt="you're a night rider" id="fond19">
+           <a href="https://vimeo.com/71045197" target="_blank"><p>Watch the <br/>Trailer</p></a>
+          <br/><hr/><br/>
+           <a href="http://revolights.com/" target="_blank"><img alt="logo revolights" src="images/revo.png"/></a>
+      <div class="story"><div class="bg"></div>
+        </div> 
+        
+    </div>
+       
+    <div alt="you're a traveler" id="traveler">
+      <div class=inner>
+        {% include header.html %}
+        {{content}}
+        {% include footer.html %}
+      </div>
+    </div>       
+         <script>
+       $("#share").hover(function() {
+    $("#content").toggle('slide');
+    $("#share a").animate({opacity:'1'}, 1);
+  });
+    $("#share").mouseleave(function() {
+    $("#share a").animate({opacity:'0.4'}, 1);
+    
+    });
+    $("#fond19 p").hover(function() {
+    $("#fond19 p").animate({opacity:'0.6'}, "fast");
+  });
+    $("#fond19 p").mouseout(function() {
+    $("#fond19 p").animate({opacity:'1'}, 100);
+    
+    });
+  $(function () {
+    var element = $("#cl");
+      (function(){
+          element
+              
+              .animate({ opacity:'0.4'},"slow")
+              .animate({ opacity:'0.8'},"slow",arguments.callee)
+              
+      }());
+  });
+  
+       </script>
+
+
+
+
+
+
+   
   </div><!-- .site -->
 
   <!-- Scripts -->
