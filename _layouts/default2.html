@@ -292,12 +292,8 @@
     }(document, 'script', 'facebook-jssdk'));</script>
     
     
-    <div id="menu">
-        <a id="exp" href="#intro"><img alt="experiment" src="images/experiment.png"/></a>
-        <a id="know" href="knowm/knowm.html"><img alt="know more" src="images/know.png"/></a>
-        <a id="shop" href="shop/index.html"><img alt="shop section" src="shop/images/shop.png"/></a>
-    
-        </div>
+    {% include header.html %}
+
         
         <div id="share">
         <a href="#"><img alt="share button" src="images/share.png"/></a>
@@ -313,30 +309,26 @@
       <ul id="nav">
           <div id="nom">
             <li><a id="b1" href="#intro" title="Next Section"><img src="images/title1.png" alt="Link" /></a></li>
-          <li><a id="b19"	href="#fond19" title="Next Section"><img src="images/title20.png" alt="Link" /></a></li>
           <li><a id="b2" href="#traveler" title="Next Section"><img src="images/title2.png" alt="Link" /></a></li>
             </div>
           <li><a id="n1" href="#intro" title="Next Section"><img src="images/button.png" alt="Link" /></a></li>
-          <li><a id="n19" href="#fond19" title="Next Section"><img src="images/button.png" alt="Link" /></a></li>
           <li><a id="n2" href="#traveler" title="Next Section"><img src="images/button.png" alt="Link" /></a></li>
       </ul>
       
       <div id="intro">
-        <a href="#fond19"><img alt="fleche" src="images/fleche2.png"></a>
+        <a href="#traveler"><img alt="fleche" src="images/fleche2.png"></a>
         
-      </div>
-        
-         <div alt="you're a night rider" id="fond19">
-             <a href="https://vimeo.com/71045197" target="_blank"><p>Watch the <br/>Trailer</p></a>
-            <br/><hr/><br/>
-             <a href="http://revolights.com/" target="_blank"><img alt="logo revolights" src="images/revo.png"/></a>
-        <div class="story"><div class="bg"></div>
-          </div> 
-          
       </div>
          
       <div alt="you're a traveler" id="traveler">
-    
+        <div id="page" class="site">
+          <div class=inner>
+            {{content}}
+            {% include footer.html %}
+          </div>
+        </div><!-- .site -->
+
+
       </div>       
            <script>
          $("#share").hover(function() {
@@ -372,13 +364,7 @@
 
 
 
-  <div id="page" class="site">
-    <div class=inner>
-      {% include header.html %}
-      {{content}}
-      {% include footer.html %}
-    </div>
-  </div><!-- .site -->
+
 
   <!-- Scripts -->
   {% if site.google_analytics %}
