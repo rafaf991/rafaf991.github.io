@@ -229,47 +229,7 @@
     href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i%7CNoto+Serif:400,400i,700,700i&display=swap"
     rel="stylesheet">
   <link href="{{ '/assets/css/style.css' | relative_url }}" rel="stylesheet">
-
-
-
-
- 
-
-
-
-
-
-
-
   </head>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 <body>
 
@@ -320,16 +280,14 @@
         
       </div>
          
-      <div alt="you're a traveler" id="traveler">
         <div id="page" class="site">
-          <div class=inner>
+          <div class=inner id="traveler">
             {{content}}
             {% include footer.html %}
-          </div>
-        </div><!-- .site -->
-
-
-      </div>       
+          </div><!-- .site -->
+        </div>      
+        
+        
            <script>
          $("#share").hover(function() {
       $("#content").toggle('slide');
