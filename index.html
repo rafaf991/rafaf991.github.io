@@ -228,31 +228,7 @@ layout: default2
         <p>This is some additional paragraph placeholder content. It's a slightly shorter version of the other highly repetitive body text used throughout.</p>
       </article>
 -->
-      <nav class="blog-pagination" aria-label="Pagination">
-        <a class="btn btn-outline-primary rounded-pill" href="#">Older</a>
-        <a class="btn btn-outline-secondary rounded-pill disabled">Newer</a>
-
-
-          {% if paginator.total_pages > 1 %}
-        <nav class="pagination">
-          <h2 class="screen-reader-text">Posts navigation</h2>
-          <div class="nav-links">
-            {% if paginator.previous_page %}
-            <a href="{{ paginator.previous_page_path | relative_url }}" class="newer-posts">&larr; Newer Posts</a>
-            {% endif %}
-            <span class="page-number">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
-            {% if paginator.next_page %}
-            <a href="{{ paginator.next_page_path | relative_url }}" class="older-posts">Older Posts &rarr;</a>
-            {% endif %}
-          </div>
-        </nav><!-- .pagination -->
-        {% endif %}
-        <p>
-          <a href="#">Back to top</a>
-        </p>
-
-      </nav>
-
+      
     </div>
 
     <div class="col-md-4">
@@ -293,21 +269,26 @@ layout: default2
 </main>
 
 <footer class="blog-footer">
-  
-  {% if paginator.total_pages > 1 %}
-<nav class="pagination">
-  <h2 class="screen-reader-text">Posts navigation</h2>
-  <div class="nav-links">
-    {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | relative_url }}" class="newer-posts">&larr; Newer Posts</a>
-    {% endif %}
-    <span class="page-number">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
-    {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | relative_url }}" class="older-posts">Older Posts &rarr;</a>
-    {% endif %}
-  </div>
-</nav><!-- .pagination -->
-{% endif %}
+  <nav class="blog-pagination" aria-label="Pagination">
+    {% if paginator.total_pages > 1 %}
+  <nav class="pagination">
+    <h2 class="screen-reader-text">Posts navigation</h2>
+    <div class="nav-links">
+      {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path | relative_url }}" class="btn btn-outline-secondary rounded-pill">&larr; Newer Posts</a>
+      {% endif %}
+      <span class="page-number">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
+      {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path | relative_url }}" class="btn btn-outline-primary rounded-pill">Older Posts &rarr;</a>
+      {% endif %}
+    </div>
+  </nav><!-- .pagination -->
+  {% endif %}
+  <p>
+    <a href="#">Back to top</a>
+  </p>
+
+</nav>
 <p>
   <a href="#">Back to top</a>
 </p>
