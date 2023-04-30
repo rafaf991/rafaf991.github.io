@@ -4,7 +4,7 @@
 body, html{
 	margin: 0;
 	padding: 0;
-	height:100%;
+	height: auto;
 	background-size:50%;
 }
 
@@ -16,6 +16,24 @@ img{
 	border: 0;
 }
 
+.parent {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	width: 100%;
+  }
+  .child {
+	flex-grow: 1;
+  }
+  .child1 {
+	min-height: 200px;
+	background-color: #fee;
+  }
+  .child2 {
+	background-color:#eef;
+  }
 
 
 #header h1, #pixels{
@@ -616,7 +634,7 @@ footer {
 	margin:0;
 	padding:0;
 	height:100%;
-	background-color:#f68076;	
+	background-color:#ffffff;	
 	text-align:center;
 }
 
