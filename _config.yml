@@ -30,7 +30,11 @@ google_analytics: ""
 # Site navigation - each item must have a title and a url.
 navigation:
   - text: Index
-    url: /oldindex.html
+    url: /index.html
+  - text: News
+    url: /news.html
+  - text: Projects
+    url: /projects.html
   - text: Simulations
     url: /simulations.html
   - text: Tags

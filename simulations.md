@@ -1,51 +1,16 @@
 ---
-layout: default
+layout: page
+title: Simulations
+permalink: /simulations.html
+description: Simulations
 ---
 
-<main class="main-content fadeInDown delay_075s">
+Hi there! If you ant to know more about me here is my CV as well as other interesting facts about me, enjoy it! If you spot any error let me know and I will fix it.
 
-  {% for post in paginator.posts %}
-  <article class="post">
-    <header class="post-header">
-      <time class="post-date" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{post.date | date: "%B %-d, %Y" }}</time>
-      <h2 class="post-title"><a href="{{ site.baseurl }}{{ post.url }}" rel="bookmark">{{post.title}}</a></h2>
-      <div class="post-meta">
-        By <span class="post-author">{{ site.data.author.name }}</span>{% if post.tags.size > 0 %}<span
-          class="post-tags"> in
-          {% for tag in post.tags %}<a href="{{ site.baseurl }}/tags/#{{ tag | cgi_escape }}" rel="tag">{{ tag }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}</span>{% endif %}
-      </div><!-- .post-meta -->
-      {% if post.feature_image and post.feature_image != "" %}
-      <figure class="post-thumbnail image-card width-wide">
-        <a href="{{site.baseurl}}{{post.url}}"><img src="{{ post.feature_image | relative_url }}"
-            alt="{{ post.title }}"></a>
-      </figure><!-- .post-thumbnail -->
-      {% endif %}
-    </header><!-- .post-header -->
-    <div class="post-content">
-      {% if post.content contains '<!--more-->' %}
-      {{ post.content | split:'<!--more-->' | first }}
-      <p class="read-more"><a href="{{ site.baseurl }}{{ post.url }}" class="read-more-link">Continue reading &rarr;</a>
-      </p>
-      {% else %}
-      {{ post.content }}
-      {% endif %}
-    </div><!-- .post-content -->
-  </article><!-- .post -->
-  {% endfor %}
+>“Accordingly, we find Euler and D'Alembert devoting their talent and their patience to the establishment of the laws of rotation of the solid bodies. Lagrange has incorporated his own analysis of the problem with his general treatment of mechanics, and since his time M. Poinsot has brought the subject under the power of a more searching analysis than that of the calculus, in which ideas take the place of symbols, and intelligent propositions supersede equations.”
+>― James Clerk Maxwell
+- aasddsa
+- asdas
 
-  {% if paginator.total_pages > 1 %}
-  <nav class="pagination">
-    <h2 class="screen-reader-text">Posts navigation</h2>
-    <div class="nav-links">
-      {% if paginator.previous_page %}
-      <a href="{{ paginator.previous_page_path | relative_url }}" class="newer-posts">&larr; Newer Posts</a>
-      {% endif %}
-      <span class="page-number">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
-      {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path | relative_url }}" class="older-posts">Older Posts &rarr;</a>
-      {% endif %}
-    </div>
-  </nav><!-- .pagination -->
-  {% endif %}
-
-</main><!-- .site-main -->
+***
+***
