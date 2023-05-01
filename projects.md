@@ -8,7 +8,7 @@ description: Research projects
 # Ideas
 - Integrability and Galois theory...
 - (look at notes windows)
--Galois theory and integrability
+- Galois theory and integrability
 
 ***
 ***
