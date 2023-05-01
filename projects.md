@@ -8,7 +8,7 @@ description: Research projects
 # Ideas
 - Integrability and Galois theory...
 - (look at notes windows)
-- Galois theory and integrability
+- KMS state and [periodic functions with sum as identity function](https://susam.github.io/blob/lab/math/puzzles/periodic-functions-sum-identity.pdf)
 
 ***
 ***
