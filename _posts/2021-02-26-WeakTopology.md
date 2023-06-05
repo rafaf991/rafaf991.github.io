@@ -9,11 +9,6 @@ comments: true
 ---
 
 
-Proof of Hausdorff and regularness on the  weak topology
-<object data="pdfs/Weak.pdf" type="application/pdf" width="1400px" height="400px">
-    <embed src="pdfs/Weak.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="pdfs/Weak.pdf">Download PDF</a>.</p>
-    </embed>
-</object>
+Proof of Hausdorff and regularness on the  weak topology  <a href="pdfs/Weak.pdf">Download PDF</a>.
 
 <!--more-->
