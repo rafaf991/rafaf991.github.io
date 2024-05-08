@@ -1,10 +1,10 @@
 ---
-layout: default2
+layout: default3
 title: Notes
 permalink: /notes.html
 description: News, physics and math
 ---
-### NEWS!
+### This are lectures notes!
 
 - Nothing yet...
 
