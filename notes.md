@@ -168,6 +168,34 @@ description: Selected notes in physics and math
 
  </main>
 
+    <footer class="blog-footer">
+      <nav class="blog-pagination" aria-label="Pagination">
+        {% if paginator.total_pages > 1 %}
+        <nav class="pagination">
+          <h2 class="screen-reader-text">Posts navigation</h2>
+          <div class="nav-links">
+            {% if paginator.previous_page %}
+            <a href="{{ paginator.previous_page_path | relative_url }}"
+              class="btn btn-outline-secondary rounded-pill">&larr; Newer Posts</a>
+            {% endif %}
+            <span class="page-number">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
+            {% if paginator.next_page %}
+            <a href="{{ paginator.next_page_path | relative_url }}" class="btn btn-outline-primary rounded-pill">Older
+              Posts &rarr;</a>
+            {% endif %}
+          </div>
+        </nav><!-- .pagination -->
+        {% endif %}
+        <p>
+          <a href="#">Back to top</a>
+        </p>
+
+      </nav>
+      <p>
+        <a href="#">Back to top</a>
+      </p>
+    </footer>
+
 
 
 
