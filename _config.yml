@@ -31,14 +31,14 @@ google_analytics: ""
 navigation:
   - text: Index
     url: /index.html
-  - text: News
-    url: /news.html
+  - text: Notes
+    url: /notes.html
   - text: Projects
     url: /projects.html
   - text: Simulations
     url: /simulations.html
-  - text: Tags
-    url: /tags.html
+  #- text: Tags
+  #  url: /tags.html
   #- text: Home 
   #  url: https://rafaphysics.herokuapp.com/
   - text: Personal
