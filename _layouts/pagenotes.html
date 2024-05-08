@@ -1,25 +1,7 @@
 ---
 layout: default2
 ---
-<!--
-  <main class="main-content fadeInDown delay_075s">
-  <article class="post">
-    <header class="post-header">
-      <h1 class="post-title">{{page.title}}</h1>
-      {% if page.feature_image and page.feature_image != "" %}
-      <figure class="post-thumbnail image-card width-wide">
-        <img src="{{ page.feature_image | relative_url }}" alt="{{ page.title }}">
-      </figure> 
-      {% endif %}
-    </header> 
-    <div class="post-content"> 
-      
-    </div>
-    </article>
-      </main>
--->
 <main class="main-content fadeInDown delay_075s">
-
 
 
   <body>
@@ -91,7 +73,84 @@ layout: default2
       </ul>
     </div>
 
-  
+    <main id="mainentrance" class="container" style="max-width: 100%;">
+
+      <div class="row mb-2">
+        <div class="container rounded p-5 my-5 bg-secondary text-white">
+          <h2>Rafael Cordoba</h2>
+          <div class="alert alert-primary" role="alert">
+            Warning! This page is in english and spanish (and possibly in other langauges in the future)
+          </div>
+
+          <p>
+            My name is Rafael Felipe Cordoba Lopez. I am a <em> physicist</em> and <em> matematician</em> interested in
+            gravitation and the foundations of quantum field theory.
+            Specifically I am interested in foundational aspects of QFTs, CFTs, generalized symmetries and quantum
+            gravity. Right now I have been exploring the following topics:
+          </p>
+          <ul>
+            <li style="color:white;font-size:16px;">Quantum gravity and RG flows</li>
+            <li style="color:white;font-size:16px;">CFTs and defects (<em>Boundaries: Topic of my master thesis (to be
+                uploaded) project with Agnese. Lines: Project with Miguel (to be uploaded)</em>),</li>
+            <li style="color:white;font-size:16px;">Topological quantum field theory (<em>Knots and CS as a quantum
+                gravity theory</em>),</li>
+            <li style="color:white;font-size:16px;">Algebraic quantum field theory (<em> Notes on AQFT, the Unruh effect
+                and measurements in quantum field theory
+                <a href="./PhysicsThesis">here</a></em>) </li>
+          </ul>
+          <a href="\personal">Click here</a> to find some lecture notes and pdfs on topics i have been atracted to.
+          <p>
+            Currently I am student of the École Normale Supérieure (ENS)– PSL in Paris, France. <a
+              href="\personal">Click here</a> to see what I been up to.
+          </p>
+        </div>
+
+      </div>
+
+
+
+      <div class="row mb-2">
+        <div class="col-md-6">
+          <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <strong class="d-inline-block mb-2 text-primary">News!</strong>
+              <h3 class="mb-0">Hi! There is nothing...yet.</h3>
+              <div class="mb-1 text-body-secondary">Apr 12</div>
+              <p class="card-text mb-auto">However, feel free to see my posts below.</p>
+              <a href="\news" class="stretched-link">Continue reading</a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img"
+                aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
+                  dy=".3em">Thumbnail</text>
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <strong class="d-inline-block mb-2 text-success">New Projects</strong>
+              <h3 class="mb-0">Post title</h3>
+              <div class="mb-1 text-body-secondary">Nov 11</div>
+              <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional
+                content.</p>
+              <a href="\projects" class="stretched-link">Continue reading</a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img"
+                aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
+                  dy=".3em">Thumbnail</text>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div class="row g-5">
         <div class="col-md-8">
           <h3 class="pb-4 mb-4 fst-italic border-bottom">
@@ -152,19 +211,19 @@ layout: default2
 
 
           <!--
-         <article class="blog-post">
-          <h2 class="blog-post-title mb-1">Another blog post</h2>
-          <p class="blog-post-meta">December 23, 2020 by <a href="#">Jacob</a></p>
+      <article class="blog-post">
+        <h2 class="blog-post-title mb-1">Another blog post</h2>
+        <p class="blog-post-meta">December 23, 2020 by <a href="#">Jacob</a></p>
 
-          <p>This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing, so be on the lookout for this exact same string of text.</p>
-          <blockquote>
+        <p>This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing, so be on the lookout for this exact same string of text.</p>
+        <blockquote>
           <p>Longer quote goes here, maybe with some <strong>emphasized text</strong> in the middle of it.</p>
-          </blockquote>
-          <p>This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing, so be on the lookout for this exact same string of text.</p>
-          <h3>Example table</h3>
-          <p>And don't forget about tables in these posts:</p>
-          <table class="table">
-           <thead>
+        </blockquote>
+        <p>This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing, so be on the lookout for this exact same string of text.</p>
+        <h3>Example table</h3>
+        <p>And don't forget about tables in these posts:</p>
+        <table class="table">
+          <thead>
             <tr>
               <th>Name</th>
               <th>Upvotes</th>
@@ -195,24 +254,24 @@ layout: default2
               <td>23</td>
             </tr>
           </tfoot>
-          </table>
+        </table>
 
-          <p>This is some additional paragraph placeholder content. It's a slightly shorter version of the other highly repetitive body text used throughout.</p>
-           </article>
+        <p>This is some additional paragraph placeholder content. It's a slightly shorter version of the other highly repetitive body text used throughout.</p>
+      </article>
 
-         <article class="blog-post">
-           <h2 class="blog-post-title mb-1">New feature</h2>
-          <p class="blog-post-meta">December 14, 2020 by <a href="#">Chris</a></p>
+      <article class="blog-post">
+        <h2 class="blog-post-title mb-1">New feature</h2>
+        <p class="blog-post-meta">December 14, 2020 by <a href="#">Chris</a></p>
 
-           <p>This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing, so be on the lookout for this exact same string of text.</p>
-           <ul>
-             <li>First list item</li>
-              <li>Second list item with a longer description</li>
-              <li>Third list item to close it out</li>
-            </ul>
-          <p>This is some additional paragraph placeholder content. It's a slightly shorter version of the other highly repetitive body text used throughout.</p>
-             </article>
-              -->
+        <p>This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing, so be on the lookout for this exact same string of text.</p>
+        <ul>
+          <li>First list item</li>
+          <li>Second list item with a longer description</li>
+          <li>Third list item to close it out</li>
+        </ul>
+        <p>This is some additional paragraph placeholder content. It's a slightly shorter version of the other highly repetitive body text used throughout.</p>
+      </article>
+-->
 
         </div>
 
@@ -252,7 +311,8 @@ layout: default2
         </div>
       </div>
 
-{{content}}
+    </main>
+
     <footer class="blog-footer">
       <nav class="blog-pagination" aria-label="Pagination">
         {% if paginator.total_pages > 1 %}
@@ -281,9 +341,9 @@ layout: default2
       </p>
     </footer>
 
-</body>
-</main>
 
 
 
 
+
+</main><!-- .site-main -->
