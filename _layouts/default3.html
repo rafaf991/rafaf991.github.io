@@ -176,7 +176,12 @@
 
               {% for tag in sortedTags %}
                 {% for post in site.tags[tag] %}
-                <h2>{{ post.date | date:"%m-%d" }}</h2>
+                numbers = [1, 2, 3, 4, 5];
+                {%for ind in numbers%}
+               <!-- <h2>{{ post.date | date:"%m-%Y" }}</h2>-->
+              <h2>{{ ind}}</h2>
+                {% endfor %}
+                
                 <li><a href="#"> <span class="archive-meta"> <time
                       class="archive-date" datetime="{{ post.date | date: '%m-%d' }}">{{ post.date | date: "%-B, %Y"
                       }}</time></span></a></li>
