@@ -174,20 +174,44 @@
             <h4 class="fst-italic">Archives</h4>
             <ol class="list-unstyled mb-0">
 
-              {% for tag in sortedTags %}
+              
+                {% capture site_dates %}{% for tag in sortedTags %}
                 {% for post in site.tags[tag] %}
-                numbers = [1, 2, 3, 4, 5];
-                {%for ind in numbers%}
-               <!-- <h2>{{ post.date | date:"%m-%Y" }}</h2>-->
-              <h2>{{ ind}}</h2>
+                {{ post.date | date:"%m-%Y" }}
+                {% unless forloop.last %},{% endunless %}
+                {%endfor %}
+                {% unless forloop.last %},{% endunless %}
+                {%endfor %}
+                {% endcapture %}
+
+
+                {% assign sortedDates = site_dates | sort %}
+                {% for dates in sortedDates %}
+                <li><a href="#"> <span class="archive-meta">
+                   <time class="archive-date" datetime="{{ sortedDates }}">
+                    {{dates}}
+                  </time></span></a></li>
+                  {% unless forloop.last %} {% endunless %}
                 {% endfor %}
+
+
+
+
+
+<!--
+                {% for tag in sortedTags %}
+                {% for post in site.tags[tag] %}
+
+            
+                <h2>{{ post.date | date:"%m-%Y" }}</h2>
+             
                 
                 <li><a href="#"> <span class="archive-meta"> <time
                       class="archive-date" datetime="{{ post.date | date: '%m-%d' }}">{{ post.date | date: "%-B, %Y"
                       }}</time></span></a></li>
                 {% endfor %}
                {% endfor %}
-
+-->
 
             </ol>
           </div>
