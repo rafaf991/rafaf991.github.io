@@ -5,6 +5,15 @@ permalink: /projects.html
 description: Research projects
 ---
 ### Current Research
+<div class="center-figure">
+ <img src="/img/RG Flows.png" >
+
+  </div>
+  <div class="center-figure">
+ <img src="/img/Pentagon.png" >
+</div>
+
+
 # Ideas
 - Integrability and Galois theory (look at notes )
 - KMS state and [periodic functions with sum as identity function](https://susam.github.io/blob/lab/math/puzzles/periodic-functions-sum-identity.pdf)

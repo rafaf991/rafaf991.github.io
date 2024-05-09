@@ -7,6 +7,8 @@
   </div>
 </div>
 
+
+
 <head>
   <script src="/assets/js/color-modes.js"></script>
   <meta charset="utf-8">
@@ -20,7 +22,18 @@
   {% if site.favicon and site.favicon != "" %}
   <link rel="shortcut icon" href="{{ site.favicon | relative_url }}" type="image/png" />
   {% endif %}
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <!-- Styles -->
+  <style>
+    .list-unstyled  {
+      max-height: 300px;
+      /* Set the maximum height for the list container */
+      padding-left: 0%;
+      overflow: auto;
+      /* Enable scrolling for overflow content */
+    }
+  </style>
   <link
     href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i%7CNoto+Serif:400,400i,700,700i&display=swap"
     rel="stylesheet">
@@ -39,81 +52,6 @@
     });
   </script>
 
-  <style>
-    .bd-placeholder-img {
-      font-size: 1.125rem;
-      text-anchor: middle;
-      -webkit-user-select: none;
-      -moz-user-select: none;
-      user-select: none;
-    }
-
-    @media (min-width: 768px) {
-      .bd-placeholder-img-lg {
-        font-size: 3.5rem;
-      }
-    }
-
-    .b-example-divider {
-      width: 100%;
-      height: 3rem;
-      background-color: rgba(0, 0, 0, .1);
-      border: solid rgba(0, 0, 0, .15);
-      border-width: 1px 0;
-      box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
-    }
-
-    .b-example-vr {
-      flex-shrink: 0;
-      width: 1.5rem;
-      height: 100vh;
-    }
-
-    .bi {
-      vertical-align: -.125em;
-      fill: currentColor;
-    }
-
-    .nav-scroller {
-      position: relative;
-      z-index: 2;
-      height: 2.75rem;
-      overflow-y: hidden;
-    }
-
-    .nav-scroller .nav {
-      display: flex;
-      flex-wrap: nowrap;
-      padding-bottom: 1rem;
-      margin-top: -1px;
-      overflow-x: auto;
-      text-align: center;
-      white-space: nowrap;
-      -webkit-overflow-scrolling: touch;
-    }
-
-    .btn-bd-primary {
-      --bd-violet-bg: #712cf9;
-      --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
-
-      --bs-btn-font-weight: 600;
-      --bs-btn-color: var(--bs-white);
-      --bs-btn-bg: var(--bd-violet-bg);
-      --bs-btn-border-color: var(--bd-violet-bg);
-      --bs-btn-hover-color: var(--bs-white);
-      --bs-btn-hover-bg: #6528e0;
-      --bs-btn-hover-border-color: #6528e0;
-      --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
-      --bs-btn-active-color: var(--bs-btn-hover-color);
-      --bs-btn-active-bg: #5a23c8;
-      --bs-btn-active-border-color: #5a23c8;
-    }
-
-    .bd-mode-toggle {
-      z-index: 1500;
-    }
-  </style>
-
   <!-- Custom styles for this template -->
   <link href="{{ '/assets/css/blog.css' | relative_url }}" rel="stylesheet">
   <link
@@ -124,42 +62,65 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <body>
 
   {% include header.html %}
 
-  <div id="page" class="site">
+
+<div id="page" class="site">
     <div class="row g-5">
       <div class="col-md-8">
-{{content}}
-<main class="site-main fadeInDown delay_075s">
-  <article class="post">
-    <header class="post-header">
-      <h1 class="post-title">{{page.title}}</h1>
-    </header><!-- .post-header -->
-    <div class="post-content">
-      <div class="archive-tags">
-        {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{%
-        endfor %}{% endcapture %}
-        {% assign sortedTags = site_tags | split:',' | sort %}
-        {% for tag in sortedTags %}
-        <a href="#{{ tag | cgi_escape }}">{{ tag }}</a>{% unless forloop.last %} {% endunless %}
-        {% endfor %}
-      </div><!-- .archive-tag-list -->
-      {% for tag in sortedTags %}
-      <h2 id="{{ tag | cgi_escape }}">{{ tag }}</h2>
-      <ul class="archive-post-list">
-        {% for post in site.tags[tag] %}
-        <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> <span class="archive-meta"> — <time
-              class="archive-date" datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%B %-d, %Y"
-              }}</time></span></li>
-        {% endfor %}
-      </ul><!-- .archive-post-list -->
-      <p><a href="#top" class="archive-top-link">Return to top &#8593;</a></p>
-      {% endfor %}
-    </div><!-- .post-content -->
-  </article><!-- .post -->
-</main><!-- .site-main -->
+        <main class="site-main fadeInDown delay_075s">
+          <article class="post">
+            <header class="post-header">
+              <h1 class="post-title">{{page.title}}</h1>
+            </header><!-- .post-header -->
+            <div class="post-content">
+              <div class="archive-tags">
+                {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless
+                %}{%
+                endfor %}{% endcapture %}
+                {% assign sortedTags = site_tags | split:',' | sort %}
+                {% for tag in sortedTags %}
+                <a href="#{{ tag | cgi_escape }}">{{ tag }}</a>{% unless forloop.last %} {% endunless %}
+                {% endfor %}
+              </div><!-- .archive-tag-list -->
+              {% for tag in sortedTags %}
+              <h2 id="{{ tag | cgi_escape }}">{{ tag }}</h2>
+              <ul class="archive-post-list">
+                {% for post in site.tags[tag] %}
+                <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> <span class="archive-meta"> — <time
+                      class="archive-date" datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%B %-d,
+                      %Y"
+                      }}</time></span></li>
+                {% endfor %}
+              </ul><!-- .archive-post-list -->
+              <p><a href="#top" class="archive-top-link">Return to top &#8593;</a></p>
+              {% endfor %}
+            </div><!-- .post-content -->
+          </article><!-- .post -->
+        </main><!-- .site-main -->
       </div>
 
       <div class="col-md-4">
@@ -172,45 +133,97 @@
 
           <div class="p-4">
             <h4 class="fst-italic">Archives</h4>
-            <ol class="list-unstyled mb-0">
-
-              <!--
-                {% capture site_dates %}{% for tag in sortedTags %}
-                {% for post in site.tags[tag] %}
-                {{ post.date | date:"%m-%Y" }}
-                {% unless forloop.last %},{% endunless %}
-                {%endfor %}
-                {% unless forloop.last %},{% endunless %}
-                {%endfor %}
-                {% endcapture %}
-
-
-                {% assign sortedDates = site_dates | sort %}
-                {% for dates in sortedDates %}
-                <li><a href="#"> <span class="archive-meta">
-                   <time class="archive-date" datetime="{{ sortedDates }}">
-                    {{dates}}
-                  </time></span></a></li>
-                  {% unless forloop.last %} {% endunless %}
-                {% endfor %}
--->
-
-<!--
-                {% for tag in sortedTags %}
-                {% for post in site.tags[tag] %}
-
+            <ol class="list-unstyled mb-0" id="myList">
             
-                <h2>{{ post.date | date:"%m-%Y" }}</h2>
-             
-                
-                <li><a href="#"> <span class="archive-meta"> <time
-                      class="archive-date" datetime="{{ post.date | date: '%m-%d' }}">{{ post.date | date: "%-B, %Y"
-                      }}</time></span></a></li>
-                {% endfor %}
-               {% endfor %}
--->
+              {% capture site_foos %}
+              {% for tag in sortedTags %}
+              {% for post in site.tags[tag] %}
+              {{ post.date | date: "%Y %m %B"}}
+              {% unless forloop.last %},{% endunless %}
+              {% endfor %}
+              {% unless forloop.last %},{% endunless %}
+              {% endfor %}
+              {% endcapture %}
+
+              {% assign sortedFoos = site_foos | split:',' |sort |reverse%}
+
+              {% capture siteDates %}
+              {%for days in sortedFoos %}
+              {{ days | split:' ' |slice: 2 | join: "" }}-{{ days | split:' ' |slice: 0 | join: "" }}
+              {% unless forloop.last %},{% endunless %}
+              {% endfor %}
+              {% endcapture %}
+
+
+              {% assign siteDates2=siteDates | split:',' %}
+
+              {% assign unique_items = '' | split: ',' %}
+              {% for item in siteDates2 %}
+              {% unless unique_items contains item %}
+              {% assign unique_items = unique_items | push: item %}
+              {% endunless %}
+              {% endfor %}
+{% assign unique_items2 = '' | split: ',' %}
+
+<div class="accordion accordion-flush mt-4" id="accordionExample">
+{% assign counter = 0 %}
+{%for year in unique_items%}
+{%assign year2=year |split:"-"|slice:1%}
+{% unless unique_items2 contains year2 %}
+  <div class="accordion-item">
+    <h2 class="accordion-header" id='heading{{counter}}'>
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#{{counter}}"
+        aria-expanded="false" aria-controls="{{counter}}">
+          {% assign unique_items2 = unique_items2 | push: year2 %}
+          
+          {{year2}}
+      </button>
+    </h2>
+
+    <div id='{{counter}}' class="accordion-collapse collapse" aria-labelledby='{{counter}}'
+      data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        
+        {%for days in unique_items%}
+        {%assign years3=days |split:"-"|slice:1%}
+        {%assign days2=days |split:"-"|slice:0%}
+        {% unless years3!= year2 %}
+        <li><a href="index.html#postdate{{days| replace: ' ', ''}}">{{days}}
+         </a> </li>
+        {% endunless %}
+        {% endfor %}
+      </div>
+    </div>
+
+{% assign counter = counter | plus: 1 %}
+{% endunless %}
+
+{% endfor %}
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
             </ol>
+       
           </div>
 
           <div class="p-4">
@@ -222,44 +235,10 @@
         </div>
       </div>
     </div>
-    
+
     {% include footer.html %}
 
   </div>
-
-
-  <script>
-    $("#share").hover(function () {
-      $("#content").toggle('slide');
-      $("#share a").animate({ opacity: '1' }, 1);
-    });
-    $("#share").mouseleave(function () {
-      $("#share a").animate({ opacity: '0.4' }, 1);
-
-    });
-    $("#mainentrance p").hover(function () {
-      $("#mainentrance p").animate({ opacity: '0.6' }, "fast");
-    });
-    $("#mainentrance p").mouseout(function () {
-      $("#mainentrance p").animate({ opacity: '1' }, 100);
-
-    });
-    $(function () {
-      var element = $("#cl");
-      (function () {
-        element
-
-          .animate({ opacity: '0.4' }, "slow")
-          .animate({ opacity: '0.8' }, "slow", arguments.callee)
-
-      }());
-    });
-
-  </script>
-
-
-
-
 
 
 
@@ -268,9 +247,27 @@
   {% if site.google_analytics %}
   {% include google_analytics.html %}
   {% endif %}
+
+
   <script src="{{ '/assets/js/plugins.js' | relative_url }}"></script>
   <script src="{{ '/assets/js/custom.js' | relative_url }}"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"></script>
 
 </body>
 
 </html>
+
+
+
+
+
+
+

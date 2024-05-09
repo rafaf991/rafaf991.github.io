@@ -14,6 +14,21 @@
   <link rel="shortcut icon" href="{{ site.favicon | relative_url }}" type="image/png" />
   {% endif %}
   <!-- Styles -->
+    <style>
+      .center-figure {
+        display: flex;
+        justify-content: center;
+        width: 100%; /* Set container width to 100% of its parent */
+            max-width: 500px; /* Set maximum width to avoid image being too large */
+            margin: 0 auto; 
+            border: 1px solid #ccc;
+      }
+      .scaled-image {
+            width: 100%; /* Set image width to fill its container */
+            height: auto; /* Allow height to adjust proportionally */
+            display: block; /* Make the image a block element */
+        }
+    </style>
   <link
     href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i%7CNoto+Serif:400,400i,700,700i&display=swap"
     rel="stylesheet">

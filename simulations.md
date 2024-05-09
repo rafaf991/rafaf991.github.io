@@ -15,8 +15,20 @@ description: Simulations
 - Bootstrapping Extended Operators
 
 # Deep Symbolic Amplitudes
+<div class="center-figure">
+ <img src="/img/ML1.png" class="scaled-image">
+  
+  </div>
+<div class="center-figure">
+ <img src="/images/ML2.png" class="scaled-image">
+
+  </div>
 ***
 # Bootstrapping Gauge Theories
+<div class="center-figure">
+ <img src="/img/Compare Bootstrap(ACU)M=25, Mreg=1000.jpg" >
+
+  </div>
 ***
 # Bootstrapping Extended Operators
 ***
