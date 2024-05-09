@@ -176,7 +176,7 @@
 
               {% for tag in sortedTags %}
                 {% for post in site.tags[tag] %}
-                 <span class="archive-meta"> <time
+                <li> <span class="archive-meta"> <time
                       class="archive-date" datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%B %-d, %Y"
                       }}</time></span></li>
                 {% endfor %}
