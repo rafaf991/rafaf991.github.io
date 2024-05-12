@@ -41,6 +41,7 @@ Hi there! If you want to know more about me here is my CV as well as other inter
 
 [My Colombian national record on 3x3](https://youtu.be/Hi7ibjkAkxI) 
 <iframe  src="https://www.youtube.com/embed/SG9ohzL1qfo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 [Bread making, the beginnings...](https://www.youtube.com/embed/SG9ohzL1qfo) 
 
 ## Links
