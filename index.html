@@ -161,14 +161,130 @@ layout: default2
 
           
 
-<div class="container">
+<div class="container" style="max-width: 100%;">
   <h3 class="pb-4 mb-4 fst-italic border-bottom">
     Posts and Notes
   </h3>
 
-
   <div class="row justify-content-left">
-    <div class="col-md-8">
+    <div class="col-md-2">
+      <div class="position-sticky" style="top: 2rem; width: 100%;">
+        <div class="p-4 mb-3 bg-body-tertiary rounded">
+          <h4 class="fst-italic">About</h4>
+          <p class="mb-0">Hey there! In this page you will find some of my electronic notes in topics related to
+            physics or maths.. </p>
+        </div>
+    
+        <div class="p-4">
+          <h4 class="fst-italic">Archives</h4>
+          <ol class="list-unstyled mb-0" id="myList">
+            {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless
+            %}{%
+            endfor %}{% endcapture %}
+            {% assign sortedTags = site_tags | split:',' | sort %}
+            
+            {% capture site_foos %}
+            {% for tag in sortedTags %}
+            {% for post in site.tags[tag] %}
+            {{ post.date | date: "%Y %m %B"}}
+            {% unless forloop.last %},{% endunless %}
+            {% endfor %}
+            {% unless forloop.last %},{% endunless %}
+            {% endfor %}
+            {% endcapture %}
+    
+            {% assign sortedFoos = site_foos | split:',' |sort |reverse%}
+    
+            {% capture siteDates %}
+            {%for days in sortedFoos %}
+            {{ days | split:' ' |slice: 2 | join: "" }}-{{ days | split:' ' |slice: 0 | join: "" }}
+            {% unless forloop.last %},{% endunless %}
+            {% endfor %}
+            {% endcapture %}
+    
+    
+            {% assign siteDates2=siteDates | split:',' %}
+    
+            {% assign unique_items = '' | split: ',' %}
+            {% for item in siteDates2 %}
+            {% unless unique_items contains item %}
+            {% assign unique_items = unique_items | push: item %}
+            {% endunless %}
+            {% endfor %}
+            {% assign unique_items2 = '' | split: ',' %}
+    
+            <div class="accordion accordion-flush mt-4" id="accordionExampleindex">
+              {% assign counter = 0 %}
+              {%for year in unique_items%}
+              {%assign year2=year |split:"-"|slice:1%}
+              {% unless unique_items2 contains year2 %}
+              <div class="accordion-item">
+                <h2 class="accordion-header" id='indexheading{{counter}}'>
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#index{{counter}}" aria-expanded="false" aria-controls="index{{counter}}">
+                    {% assign unique_items2 = unique_items2 | push: year2 %}
+    
+                    {{year2}}
+                  </button>
+                </h2>
+    
+                <div id='index{{counter}}' class="accordion-collapse collapse" aria-labelledby='index{{counter}}'
+                  data-bs-parent="#accordionExampleindex">
+                  <div class="accordion-body">
+    
+                    {%for days in unique_items%}
+                    {%assign years3=days |split:"-"|slice:1%}
+                    {%assign days2=days |split:"-"|slice:0%}
+                    {% unless years3!= year2 %}
+                    <li><a href="#postdate{{days| replace: ' ', ''}}">{{days}}
+                      </a> </li>
+                    {% endunless %}
+                    {% endfor %}
+                  </div>
+                </div>
+    
+                {% assign counter = counter | plus: 1 %}
+                {% endunless %}
+    
+                {% endfor %}
+    
+              </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+          </ol>
+    
+        </div>
+    
+        <div class="p-4">
+          <img src="/img/topo.png" alt="Your Image" class="img-wrap">
+          <h4 class="fst-italic">Elsewhere</h4>
+          <ol class="list-unstyled">
+            <li><a href="https://scholar.google.com/citations?user=k8blx4cAAAAJ&hl=it&oi=ao">Scholar</a></li>
+          </ol>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-8" >
       {% for post in paginator.posts %}
       <article>
         {% if post.feature_image %}
@@ -179,8 +295,8 @@ layout: default2
         </figure>
         {% endif %}
 
-        <h2 class="blog-post-title mb-1"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-        <time class="blog-post-meta" datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%B %d, %Y"
+        <h2 class="blog-post-title mb-1" id='postdate{{post.date| date: "%B-%Y"}}'><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+        <time class="blog-post-meta" datetime="{{ post.date | date: '%Y-%m-%d' }}" >{{ post.date | date: "%B %d, %Y"
           }}</time>
 
         <div class="post-content">
@@ -191,13 +307,14 @@ layout: default2
           {% else %}
           {{ post.content }}
           {% endif %}
-
           <p><a href="#top" class="archive-top-link">Return to top &uarr;</a></p>
         </div>
 
       </article>
       {% endfor %}
     </div>
+    
+
   </div>
 </div>
 
