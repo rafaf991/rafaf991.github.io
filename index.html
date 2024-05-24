@@ -73,7 +73,7 @@ layout: default2
       </ul>
     </div>
 
-    <main id="mainentrance" class="container" style="max-width: 100%;">
+    <main id="mainentrance" class="container" style="max-width: 1900px;">
 
     
 <div class="container " style="max-width: 100%;">
@@ -167,22 +167,25 @@ layout: default2
   </h3>
 
   <div class="row justify-content-left">
-    <div class="col-md-2">
-      <div class="position-sticky" style="top: 2rem; width: 100%;">
-        <div class="p-4 mb-3 bg-body-tertiary rounded">
-          <h4 class="fst-italic">About</h4>
+    <div class="col-md-2 hide-on-small-screens" style="min-width: 200px;">
+      <div class="position-sticky " style="top: 2rem; width: 100%; min-width: 200px;">
+        <div class="p-4 mb-3 bg-body-tertiary  rounded ">
+          <h4 class="fst-italic ">About</h4>
           <p class="mb-0">Hey there! In this page you will find some of my electronic notes in topics related to
             physics or maths.. </p>
         </div>
     
-        <div class="p-4">
+        <div class="p-4 ">
           <h4 class="fst-italic">Archives</h4>
           <ol class="list-unstyled mb-0" id="myList">
+
+
             {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless
             %}{%
             endfor %}{% endcapture %}
             {% assign sortedTags = site_tags | split:',' | sort %}
-            
+           
+
             {% capture site_foos %}
             {% for tag in sortedTags %}
             {% for post in site.tags[tag] %}
@@ -192,19 +195,19 @@ layout: default2
             {% unless forloop.last %},{% endunless %}
             {% endfor %}
             {% endcapture %}
-    
+            
             {% assign sortedFoos = site_foos | split:',' |sort |reverse%}
-    
+            
             {% capture siteDates %}
             {%for days in sortedFoos %}
             {{ days | split:' ' |slice: 2 | join: "" }}-{{ days | split:' ' |slice: 0 | join: "" }}
             {% unless forloop.last %},{% endunless %}
             {% endfor %}
             {% endcapture %}
-    
-    
+            
+            
             {% assign siteDates2=siteDates | split:',' %}
-    
+            
             {% assign unique_items = '' | split: ',' %}
             {% for item in siteDates2 %}
             {% unless unique_items contains item %}
@@ -212,42 +215,42 @@ layout: default2
             {% endunless %}
             {% endfor %}
             {% assign unique_items2 = '' | split: ',' %}
-    
-            <div class="accordion accordion-flush mt-4" id="accordionExampleindex">
+
+            <div class="accordion accordion-flush mt-4" id="accordionExample">
               {% assign counter = 0 %}
               {%for year in unique_items%}
               {%assign year2=year |split:"-"|slice:1%}
               {% unless unique_items2 contains year2 %}
               <div class="accordion-item">
-                <h2 class="accordion-header" id='indexheading{{counter}}'>
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#index{{counter}}" aria-expanded="false" aria-controls="index{{counter}}">
+                <h2 class="accordion-header" id='heading{{counter}}'>
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#{{counter}}"
+                    aria-expanded="false" aria-controls="{{counter}}">
                     {% assign unique_items2 = unique_items2 | push: year2 %}
-    
+            
                     {{year2}}
                   </button>
                 </h2>
-    
-                <div id='index{{counter}}' class="accordion-collapse collapse" aria-labelledby='index{{counter}}'
-                  data-bs-parent="#accordionExampleindex">
+            
+                <div id='{{counter}}' class="accordion-collapse collapse" aria-labelledby='{{counter}}'
+                  data-bs-parent="#accordionExample">
                   <div class="accordion-body">
-    
+            
                     {%for days in unique_items%}
                     {%assign years3=days |split:"-"|slice:1%}
                     {%assign days2=days |split:"-"|slice:0%}
                     {% unless years3!= year2 %}
-                    <li><a href="#postdate{{days| replace: ' ', ''}}">{{days}}
+                  <li><a href="index.html#postdate{{days| replace: ' ', ''}}">{{days |split: "-"| slice: 0}}
                       </a> </li>
                     {% endunless %}
                     {% endfor %}
                   </div>
                 </div>
-    
+            
                 {% assign counter = counter | plus: 1 %}
                 {% endunless %}
-    
+            
                 {% endfor %}
-    
+            
               </div>
     
     
@@ -284,6 +287,8 @@ layout: default2
       </div>
     </div>
 
+
+    
     <div class="col-md-8" >
       {% for post in paginator.posts %}
       <article>

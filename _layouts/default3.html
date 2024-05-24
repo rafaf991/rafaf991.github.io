@@ -33,6 +33,11 @@
       overflow: auto;
       /* Enable scrolling for overflow content */
     }
+    @media only screen and (max-width: 900px) {
+  .hide-on-small-screens {
+    display: none;
+  }
+}
   </style>
   <link
     href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i%7CNoto+Serif:400,400i,700,700i&display=swap"
@@ -89,153 +94,161 @@
 
 
 <div id="page" class="site">
-    <div class="row g-5">
-      <div class="col-md-8">
-        <main class="site-main fadeInDown delay_075s">
-          <article class="post">
-            <header class="post-header">
-              <h1 class="post-title">{{page.title}}</h1>
-            </header><!-- .post-header -->
-            <div class="post-content">
-              <div class="archive-tags">
-                {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless
-                %}{%
-                endfor %}{% endcapture %}
-                {% assign sortedTags = site_tags | split:',' | sort %}
-                {% for tag in sortedTags %}
-                <a href="#{{ tag | cgi_escape }}">{{ tag }}</a>{% unless forloop.last %} {% endunless %}
-                {% endfor %}
-              </div><!-- .archive-tag-list -->
-              {% for tag in sortedTags %}
-              <h2 id="{{ tag | cgi_escape }}">{{ tag }}</h2>
-              <ul class="archive-post-list">
-                {% for post in site.tags[tag] %}
-                <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> <span class="archive-meta"> — <time
-                      class="archive-date" datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%B %-d,
-                      %Y"
-                      }}</time></span></li>
-                {% endfor %}
-              </ul><!-- .archive-post-list -->
-              <p><a href="#top" class="archive-top-link">Return to top &#8593;</a></p>
-              {% endfor %}
-            </div><!-- .post-content -->
-          </article><!-- .post -->
-        </main><!-- .site-main -->
+
+
+<main id="mainentrance" class="container fadeInDown delay_05s" style="max-width: 1700px;" >
+
+<div class="row g-5">
+  <div class="col-md-8 order-md-2">
+      <article class="post">
+        <header class="post-header">
+          <h1 class="post-title">{{page.title}}</h1>
+        </header><!-- .post-header -->
+        <div class="post-content">
+          <div class="archive-tags">
+            {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless
+            %}{%
+            endfor %}{% endcapture %}
+            {% assign sortedTags = site_tags | split:',' | sort %}
+            {% for tag in sortedTags %}
+            <a href="#{{ tag | cgi_escape }}">{{ tag }}</a>{% unless forloop.last %} {% endunless %}
+            {% endfor %}
+          </div><!-- .archive-tag-list -->
+          {% for tag in sortedTags %}
+          <h2 id="{{ tag | cgi_escape }}">{{ tag }}</h2>
+          <ul class="archive-post-list">
+            {% for post in site.tags[tag] %}
+            <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> <span class="archive-meta"> — <time
+                  class="archive-date" datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%B %-d,
+                  %Y"
+                  }}</time></span></li>
+            {% endfor %}
+          </ul><!-- .archive-post-list -->
+          <p><a href="#top" class="archive-top-link">Return to top &#8593;</a></p>
+          {% endfor %}
+        </div><!-- .post-content -->
+      </article><!-- .post -->
+   
+  </div>
+
+  <div class="col-md-4 order-md-1 hide-on-small-screens" style="min-width: 300px;">
+    <div class="position-sticky" style="top: 2rem;">
+      <div class="p-4 mb-3 bg-body-tertiary rounded">
+        <h4 class="fst-italic">About</h4>
+        <p class="mb-0">Hey there! In this page you will find some of my electronic notes in topics related to
+          physics or maths.. </p>
       </div>
 
-      <div class="col-md-4">
-        <div class="position-sticky" style="top: 2rem;">
-          <div class="p-4 mb-3 bg-body-tertiary rounded">
-            <h4 class="fst-italic">About</h4>
-            <p class="mb-0">Hey there! In this page you will find some of my electronic notes in topics related to
-              physics or maths.. </p>
-          </div>
+      <div class="p-4">
+        <h4 class="fst-italic">Archives</h4>
+        <ol class="list-unstyled mb-0" id="myList">
 
-          <div class="p-4">
-            <h4 class="fst-italic">Archives</h4>
-            <ol class="list-unstyled mb-0" id="myList">
-            
-              {% capture site_foos %}
-              {% for tag in sortedTags %}
-              {% for post in site.tags[tag] %}
-              {{ post.date | date: "%Y %m %B"}}
-              {% unless forloop.last %},{% endunless %}
-              {% endfor %}
-              {% unless forloop.last %},{% endunless %}
-              {% endfor %}
-              {% endcapture %}
+          {% capture site_foos %}
+          {% for tag in sortedTags %}
+          {% for post in site.tags[tag] %}
+          {{ post.date | date: "%Y %m %B"}}
+          {% unless forloop.last %},{% endunless %}
+          {% endfor %}
+          {% unless forloop.last %},{% endunless %}
+          {% endfor %}
+          {% endcapture %}
 
-              {% assign sortedFoos = site_foos | split:',' |sort |reverse%}
+          {% assign sortedFoos = site_foos | split:',' |sort |reverse%}
 
-              {% capture siteDates %}
-              {%for days in sortedFoos %}
-              {{ days | split:' ' |slice: 2 | join: "" }}-{{ days | split:' ' |slice: 0 | join: "" }}
-              {% unless forloop.last %},{% endunless %}
-              {% endfor %}
-              {% endcapture %}
+          {% capture siteDates %}
+          {%for days in sortedFoos %}
+          {{ days | split:' ' |slice: 2 | join: "" }}-{{ days | split:' ' |slice: 0 | join: "" }}
+          {% unless forloop.last %},{% endunless %}
+          {% endfor %}
+          {% endcapture %}
 
 
-              {% assign siteDates2=siteDates | split:',' %}
+          {% assign siteDates2=siteDates | split:',' %}
 
-              {% assign unique_items = '' | split: ',' %}
-              {% for item in siteDates2 %}
-              {% unless unique_items contains item %}
-              {% assign unique_items = unique_items | push: item %}
+          {% assign unique_items = '' | split: ',' %}
+          {% for item in siteDates2 %}
+          {% unless unique_items contains item %}
+          {% assign unique_items = unique_items | push: item %}
+          {% endunless %}
+          {% endfor %}
+          {% assign unique_items2 = '' | split: ',' %}
+
+          <div class="accordion accordion-flush mt-4" id="accordionExample">
+            {% assign counter = 0 %}
+            {%for year in unique_items%}
+            {%assign year2=year |split:"-"|slice:1%}
+            {% unless unique_items2 contains year2 %}
+            <div class="accordion-item">
+              <h2 class="accordion-header" id='heading{{counter}}'>
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#{{counter}}" aria-expanded="false" aria-controls="{{counter}}">
+                  {% assign unique_items2 = unique_items2 | push: year2 %}
+
+                  {{year2}}
+                </button>
+              </h2>
+
+              <div id='{{counter}}' class="accordion-collapse collapse" aria-labelledby='{{counter}}'
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+
+                  {%for days in unique_items%}
+                  {%assign years3=days |split:"-"|slice:1%}
+                  {%assign days2=days |split:"-"|slice:0%}
+                  {% unless years3!= year2 %}
+                  <li><a href="index.html#postdate{{days| replace: ' ', ''}}">{{days |split: "-"| slice: 0}}
+                    </a> </li>
+                  {% endunless %}
+                  {% endfor %}
+                </div>
+              </div>
+
+              {% assign counter = counter | plus: 1 %}
               {% endunless %}
+
               {% endfor %}
-{% assign unique_items2 = '' | split: ',' %}
 
-<div class="accordion accordion-flush mt-4" id="accordionExample">
-{% assign counter = 0 %}
-{%for year in unique_items%}
-{%assign year2=year |split:"-"|slice:1%}
-{% unless unique_items2 contains year2 %}
-  <div class="accordion-item">
-    <h2 class="accordion-header" id='heading{{counter}}'>
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#{{counter}}"
-        aria-expanded="false" aria-controls="{{counter}}">
-          {% assign unique_items2 = unique_items2 | push: year2 %}
-          
-          {{year2}}
-      </button>
-    </h2>
+            </div>
 
-    <div id='{{counter}}' class="accordion-collapse collapse" aria-labelledby='{{counter}}'
-      data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        
-        {%for days in unique_items%}
-        {%assign years3=days |split:"-"|slice:1%}
-        {%assign days2=days |split:"-"|slice:0%}
-        {% unless years3!= year2 %}
-        <li><a href="index.html#postdate{{days| replace: ' ', ''}}">{{days}}
-         </a> </li>
-        {% endunless %}
-        {% endfor %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </ol>
+
+      </div>
+
+      <div class="p-4">
+        <h4 class="fst-italic">Elsewhere</h4>
+        <ol class="list-unstyled">
+          <li><a href="https://scholar.google.com/citations?user=k8blx4cAAAAJ&hl=it&oi=ao">Scholar</a></li>
+        </ol>
       </div>
     </div>
-
-{% assign counter = counter | plus: 1 %}
-{% endunless %}
-
-{% endfor %}
-
+  </div>
 </div>
 
 
 
+</main>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            </ol>
-       
-          </div>
-
-          <div class="p-4">
-            <h4 class="fst-italic">Elsewhere</h4>
-            <ol class="list-unstyled">
-              <li><a href="https://scholar.google.com/citations?user=k8blx4cAAAAJ&hl=it&oi=ao">Scholar</a></li>
-            </ol>
-          </div>
-        </div>
-      </div>
-    </div>
-
+   
     {% include footer.html %}
 
   </div>
