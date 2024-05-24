@@ -27,16 +27,30 @@
   <!-- Styles -->
   <style>
     .list-unstyled  {
-      max-height: 300px;
+      max-height: 175px;
       /* Set the maximum height for the list container */
       padding-left: 0%;
       overflow: auto;
+      
       /* Enable scrolling for overflow content */
     }
+    .list-unstyled2  {
+      
+      background: linear-gradient(to bottom, transparent, rgb(144, 59, 59));
+      /* Enable scrolling for overflow content */
+    }
+    
     @media only screen and (max-width: 900px) {
   .hide-on-small-screens {
     display: none;
   }
+  
+}
+ @media only screen and (max-height: 500px) {
+  .hide-on-small-screens2 {
+    display: none;
+  }
+  
 }
   </style>
   <link
@@ -131,9 +145,9 @@
    
   </div>
 
-  <div class="col-md-4 order-md-1 hide-on-small-screens" style="min-width: 300px;">
-    <div class="position-sticky" style="top: 2rem;">
-      <div class="p-4 mb-3 bg-body-tertiary rounded">
+  <div class="col-md-4 order-md-1 hide-on-small-screens " >
+    <div class="position-sticky" style="top: 2rem; ">
+      <div class="p-4 mb-3 bg-body-tertiary hide-on-small-screens2 rounded" >
         <h4 class="fst-italic">About</h4>
         <p class="mb-0">Hey there! In this page you will find some of my electronic notes in topics related to
           physics or maths.. </p>
@@ -141,7 +155,7 @@
 
       <div class="p-4">
         <h4 class="fst-italic">Archives</h4>
-        <ol class="list-unstyled mb-0" id="myList">
+        <ol class="list-unstyled  mb-0"  id="myList">
 
           {% capture site_foos %}
           {% for tag in sortedTags %}
@@ -173,7 +187,7 @@
           {% endfor %}
           {% assign unique_items2 = '' | split: ',' %}
 
-          <div class="accordion accordion-flush mt-4" id="accordionExample">
+          <div class="accordion accordion-flush   mt-4" id="accordionExample">
             {% assign counter = 0 %}
             {%for year in unique_items%}
             {%assign year2=year |split:"-"|slice:1%}

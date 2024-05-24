@@ -50,20 +50,24 @@
   width: 200px;
   background-color: #f9f9f9; /* Optional box background color */
 }
-@media only screen and (max-width: 1500px) {
+@media only screen and (max-width: 900px) {
   .hide-on-small-screens {
-    display: flex;
+    display: none;
   }
 }
-
+ @media only screen and (max-height: 600px) {
+  .hide-on-small-screens2 {
+    display: none;
+  }}
 
     .list-unstyled  {
-      max-height: 300px;
+      max-height: 175px;
       /* Set the maximum height for the list container */
       padding-left: 0%;
       overflow: auto;
       /* Enable scrolling for overflow content */
     }
+    
 
         /* Style for the image */
         .img-wrap {
