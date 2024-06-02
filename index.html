@@ -76,7 +76,7 @@ layout: default2
     <main id="mainentrance" class="container" style="max-width: 1900px;">
 
     
-<div class="container " style="max-width: 100%;">
+<div class="container " style="max-width: 100%; padding: 10px;">
   <div class="row ">
     <div >
       <div class="custom-container " style="width:100%">
@@ -300,7 +300,7 @@ layout: default2
         </figure>
         {% endif %}
 
-        <h2 class="blog-post-title mb-1" id='postdate{{post.date| date: "%B-%Y"}}'><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+        <h6 class="blog-post-title mb-1" id='postdate{{post.date| date: "%B-%Y"}}' style="font-size: 2em;"  ><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h6>
         <time class="blog-post-meta" datetime="{{ post.date | date: '%Y-%m-%d' }}" >{{ post.date | date: "%B %d, %Y"
           }}</time>
 
