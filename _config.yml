@@ -22,7 +22,7 @@ relativeurl: ""
 url: "https://scriptor-jekyll.netlify.com"
 
 # Favicon
-favicon: images/favicon.png
+#favicon:""
 
 # Google Analytics id, e.g. "UA-NNNNNNNN-N"
 google_analytics: ""

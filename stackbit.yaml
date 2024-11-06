@@ -41,10 +41,10 @@ models:
         name: permalink
         label: Permalink
         description: The permalink pattern.
-      - type: image
-        name: favicon
-        label: Favicon
-        description: The icon image associated with your website.
+      #- type: image
+       # name: favicon
+        #label: Favicon
+        #description: The icon image associated with your website.
       - type: string
         name: google_analytics
         label: Google analytics
