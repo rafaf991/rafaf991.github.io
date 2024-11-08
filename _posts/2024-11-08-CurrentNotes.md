@@ -6,7 +6,8 @@ date: 2024-11-08
 tags: [Phys, Math]
 disqus: true
 comments: true
---- <!--more-->
+--- 
+<!--more-->
 <div style="margin:0 auto;text-align:center">
 
 <object data="pdfs/current test1 copy.pdf" type="application/pdf" width="80%" height="500px">
