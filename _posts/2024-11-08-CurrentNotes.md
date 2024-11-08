@@ -10,6 +10,4 @@ comments: true
 <!--more-->
 + [Lecture notes on Algebraic topology]("pdfs/Lecture notes on Algebraic topologycurrent.pdf")
 + [Lecture notes on Schemes I ]("pdfs/Lecture notes on Schemes I current.pdf")
-+ [test1 copy]("pdfs/test1 copycurrent.pdf")
-+ [test1]("pdfs/test1current.pdf")
 
