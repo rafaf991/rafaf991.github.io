@@ -8,6 +8,6 @@ disqus: true
 comments: true
 --- 
 <!--more-->
-+ [ test1 copy.pdf]("pdfs/current test1 copy.pdf")
-+ [ test1.pdf]("pdfs/current test1.pdf")
++ [test1 copy]("pdfs/test1 copycurrent.pdf")
++ [test1]("pdfs/test1current.pdf")
 
