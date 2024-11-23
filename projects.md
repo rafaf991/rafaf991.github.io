@@ -13,8 +13,6 @@ description: Research projects
  <img src="/img/Pentagon.png" >
 </div>
 
-
-
 # Ideas
 - Integrability and Galois theory (look at notes )
 - KMS state and [periodic functions with sum as identity function](https://susam.github.io/blob/lab/math/puzzles/periodic-functions-sum-identity.pdf)
@@ -23,6 +21,16 @@ description: Research projects
 - Defects, bootstrap and ising model simulations (Ronald)
 
 ## Images retrived from:
+
 - Simon, S. H. (2023). Topological Quantum. Oxford University Press,
 - [David Skinner: Quantum Field Theory II lecture notes](https://www.damtp.cam.ac.uk/user/dbs26/AQFT.html)
 - [ICTP Lectures on (Non-)Invertible Generalized Symmetries](https://arxiv.org/abs/2305.18296)
+## Live:
+In this folder sdfsddsthere will be some projects and readings I am working.
+
+
+
+### Related PDFs:
+- [SCGP-Minicosdfsddurse.pdf](pdfs/SCGP-Minicourse.pdf)
+
+
