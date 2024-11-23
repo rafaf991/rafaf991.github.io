@@ -1,0 +1,104 @@
+<!-- Dropdown for theme selection -->
+<div class="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle">
+    <button class="btn btn-bd-primary py-2 dropdown-toggle d-flex align-items-center" id="bd-theme" type="button"
+        aria-expanded="false" data-bs-toggle="dropdown" aria-label="Toggle theme (auto)">
+        <svg class="bi my-1 theme-icon-active" width="1em" height="1em">
+            <use href="#circle-half"></use> <!-- Auto icon -->
+        </svg>
+        <span class="visually-hidden" id="bd-theme-text">Toggle theme</span>
+    </button>
+    <ul class="dropdown-menu dropdown-menu-end shadow" aria-labelledby="bd-theme-text">
+        <li>
+            <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light"
+                aria-pressed="false">
+                <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em">
+                    <use href="#sun-fill"></use> <!-- Light theme icon -->
+                </svg>
+                Light
+                <svg class="bi ms-auto d-none" width="1em" height="1em">
+                    <use href="#check2"></use> <!-- Check icon for selected state -->
+                </svg>
+            </button>
+        </li>
+        <li>
+            <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark"
+                aria-pressed="false">
+                <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em">
+                    <use href="#moon-stars-fill"></use> <!-- Dark theme icon -->
+                </svg>
+                Dark
+                <svg class="bi ms-auto d-none" width="1em" height="1em">
+                    <use href="#check2"></use> <!-- Check icon for selected state -->
+                </svg>
+            </button>
+        </li>
+        <li>
+            <button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="auto"
+                aria-pressed="true">
+                <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em">
+                    <use href="#circle-half"></use> <!-- Auto theme icon -->
+                </svg>
+                Auto
+                <svg class="bi ms-auto d-none" width="1em" height="1em">
+                    <use href="#check2"></use> <!-- Check icon for selected state -->
+                </svg>
+            </button>
+        </li>
+    </ul>
+</div>
+
+<!-- SVG Icons (define these somewhere in your HTML, possibly in <defs> for a sprite) -->
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+    <symbol id="circle-half" viewBox="0 0 16 16">
+        <!-- Insert your circle-half icon SVG here -->
+    </symbol>
+    <symbol id="sun-fill" viewBox="0 0 16 16">
+        <!-- Insert your sun icon SVG here -->
+    </symbol>
+    <symbol id="moon-stars-fill" viewBox="0 0 16 16">
+        <!-- Insert your moon icon SVG here -->
+    </symbol>
+    <symbol id="check2" viewBox="0 0 16 16">
+        <!-- Insert your check icon SVG here -->
+    </symbol>
+</svg>
+
+<!-- Add JavaScript to toggle the theme -->
+<script>
+    // Get all the theme toggle buttons
+    const themeButtons = document.querySelectorAll('[data-bs-theme-value]');
+
+    themeButtons.forEach(button => {
+        button.addEventListener('click', function () {
+            const selectedTheme = this.getAttribute('data-bs-theme-value');
+
+            // Set the theme based on the selected option
+            if (selectedTheme === 'light') {
+                document.body.setAttribute('data-bs-theme', 'light');
+            } else if (selectedTheme === 'dark') {
+                document.body.setAttribute('data-bs-theme', 'dark');
+            } else {
+                document.body.removeAttribute('data-bs-theme'); // For auto
+            }
+
+            // Update the active state on buttons
+            themeButtons.forEach(btn => {
+                btn.classList.remove('active');
+                const icon = btn.querySelector('svg');
+                icon.classList.remove('theme-icon-active');
+            });
+
+            this.classList.add('active');
+            const icon = this.querySelector('svg');
+            icon.classList.add('theme-icon-active');
+        });
+    });
+
+    // Optional: Set initial theme based on system preference or local storage
+    window.addEventListener('DOMContentLoaded', () => {
+        const savedTheme = localStorage.getItem('theme') || 'auto';
+        document.body.setAttribute('data-bs-theme', savedTheme);
+        const activeButton = document.querySelector(`[data-bs-theme-value="${savedTheme}"]`);
+        if (activeButton) activeButton.classList.add('active');
+    });
+</script>
