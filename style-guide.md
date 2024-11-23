@@ -14,12 +14,8 @@ Hi there! If you want to know more about me here is my CV as well as other inter
 
  I am Rafael Córdoba. I am scientist in physics, mathematics and a professional bread baker! I am highly curious, passionate learner and carefully observer. I am highly interested in academic research on the boundary between high energy physics, mathematics and condensed matter. 
 
-- Good at explaining physics intuitively. 
-- Amateur observer of galaxies and planets.
-- Amateur chess player
 - I love almost any kind of puzzle and to find patterns. If you know a challenging one let me know!
-- My favourite topic in math is Geometry (all kinds).
-- Member of the QFT and mathematical physics group in Los Andes University
+- My favourite topic in math is Geometry (all kinds) and thus symmetries in physics!
 - Professional bread baker.
 
 

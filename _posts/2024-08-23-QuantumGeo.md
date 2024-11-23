@@ -56,8 +56,6 @@ Courses on Mathematical Methods for Gravity, Gauge Theories and Non-Perturbative
 
 ---
 
-![divider](assets/divider2.png)
-
 Lecture notes to be uploaded.
             
 

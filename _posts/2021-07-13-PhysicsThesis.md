@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Physics dissertation thesis"
+title: "The Unruh Eﬀect and Measurements in
+Relativistic Quantum Field Theory a.k.a undergrad thesis"
 description: ""
 date: 2021-07-13
 tags: [QMT, Phys,AQFT,QFT,QFT in CST]
@@ -8,11 +9,6 @@ disqus: true
 comments: true
 ---
 
-<object data="pdfs/Tesis_Fisica(1).pdf" type="application/pdf" width="1400px" height="400px">
-    <embed src="pdfs/Tesis_Fisica(1).pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="pdfs/Tesis_Fisica(1).pdf">Download PDF</a>.</p>
-    </embed>
-</object>
 Lately intense discussion regarding measurements in relativistic quantum mechanics has been developed. We present the Fewster-Verch measuring scheme that allows to address problems of locality
 and causality; an explicit example is given and is used to model an Unruh-deWitt type of detector.
 The results are compared with the traditional approach of the UdW detector,
@@ -24,3 +20,12 @@ of the Unruh effect is given. The topics treated in this thesis may attract peop
 fields such as QMT, QFT and AQFT. We hope the reader find this work as an useful introduction
 for those topics and foremost, an interesting review of the Unruh effect and the Fewster and Verch
 measurement scheme in relativistic quantum mechanics.
+
+
+<div style="margin:0 auto;text-align:center">
+
+<object data="pdfs/Tesis_Fisica(1).pdf" type="application/pdf" width="80%" height="500px">
+    <embed src="pdfs/Tesis_Fisica(1).pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="pdfs/Tesis_Fisica(1).pdf">Download PDF</a>.</p>
+    </embed>
+</object></div>

@@ -8,9 +8,11 @@ disqus: true
 comments: true
 ---
 Slides for an introductory talk about representation theory, Wigner's particle classification and symmetries in physics.
-<object data="pdfs/IrrepsPoincare.pdf" type="application/pdf" width="1400px" height="400px">
+<!--more-->
+<div style="margin:0 auto;text-align:center">
+<object data="pdfs/IrrepsPoincare.pdf" type="application/pdf" width="80%" height="500px">
     <embed src="pdfs/IrrepsPoincare.pdf">
         <p>This browser does not support PDFs. Please download the PDF to view it: <a href="pdfs/IrrepsPoincare.pdf">Download PDF</a>.</p>
     </embed>
-</object>
-<!--more-->
+</object></div>
+

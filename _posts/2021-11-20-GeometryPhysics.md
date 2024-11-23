@@ -8,7 +8,7 @@ disqus: true
 comments: true
 ---
 
-This is a compilaton of geoemtry and physics notes that I followed in the past years.
+This is a compilaton of geometry and physics notes that I followed in the past years.
 ####  References:
 - Nakahara **Geometry, topology and physics** (Classic)
 - Hirosi Ooguri **Mathematics for Theoretical Physicists** [Video](http://ocw.u-tokyo.ac.jp/lecture?id=11330) <a href="pdfs/ooguri.pdf"> Lecture notes </a>

@@ -9,15 +9,16 @@ comments: true
 ---
 A little (quantum)game with a quantum artificial inteligence (QAI) via quantum variational methods using qiskit
 
-Rafael Felipe Córdoba, Luis Carlos Mantilla, Juan Pablo Acuña, Ana María Torres, Daniel Sabogal.
+Rafael Felipe Córdoba, Luis Carlos Mantilla, Juan Pablo Acuña, Ana María Torres, Daniel Sabogal.<!--more-->
+<div style="margin:0 auto;text-align:center">
 
-<object data="pdfs/frog.pdf" type="application/pdf" width="1400px" height="400px">
+<object data="pdfs/frog.pdf" type="application/pdf" width="80%" height="500px">
     <embed src="pdfs/frog.pdf">
         <p>This browser does not support PDFs. Please download the PDF to view it: <a href="pdfs/frog.pdf">Download PDF</a>.</p>
     </embed>
 </object>
+</div>
 
-<!--more-->
 
 Link to the project: https://github.com/iQuHACK/2021_QuAndes.git
 
