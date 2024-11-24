@@ -28,7 +28,7 @@ description: Research projects
 ## Live:
 In this folder there will be some projects and readings I am working.
 
-
+- Generalized Abelian Gauge Theory
 
 ### Related PDFs:
 - [SCGP-Minicourse.pdf](pdfs/SCGP-Minicourse.pdf)
