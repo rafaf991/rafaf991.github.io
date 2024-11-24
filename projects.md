@@ -25,12 +25,22 @@ description: Research projects
 - Simon, S. H. (2023). Topological Quantum. Oxford University Press,
 - [David Skinner: Quantum Field Theory II lecture notes](https://www.damtp.cam.ac.uk/user/dbs26/AQFT.html)
 - [ICTP Lectures on (Non-)Invertible Generalized Symmetries](https://arxiv.org/abs/2305.18296)
+
+---
 ## Live:
 In this folder there will be some projects and readings I am working.
 
 - Generalized Abelian Gauge Theory
 
 ### Related PDFs:
+- [(Non-)Invertible Generalized Symmetries (2305.18296v2).pdf](pdfs/(Non-)Invertible Generalized Symmetries (2305.18296v2).pdf)
+- [Generalized Symmetries and Gauging in d = 2 CFTs.pdf](pdfs/Generalized Symmetries and Gauging in d = 2 CFTs.pdf)
+- [Intro to TQFTs.pdf](pdfs/Intro to TQFTs.pdf)
+- [Lectures on Generalized Symmetries(2307.07547v2).pdf](pdfs/Lectures on Generalized Symmetries(2307.07547v2).pdf)
+- [Physics of the Analytic S-Matrix.pdf](pdfs/Physics of the Analytic S-Matrix.pdf)
 - [SCGP-Minicourse.pdf](pdfs/SCGP-Minicourse.pdf)
+- [TQFT (boundaries and defects).pdf](pdfs/TQFT (boundaries and defects).pdf)
+- [Topological defects(2311.02449v2).pdf](pdfs/Topological defects(2311.02449v2).pdf)
+- [algebraic_topology_iii.pdf](pdfs/algebraic_topology_iii.pdf)
 
 
