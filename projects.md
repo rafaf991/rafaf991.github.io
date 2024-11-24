@@ -26,11 +26,11 @@ description: Research projects
 - [David Skinner: Quantum Field Theory II lecture notes](https://www.damtp.cam.ac.uk/user/dbs26/AQFT.html)
 - [ICTP Lectures on (Non-)Invertible Generalized Symmetries](https://arxiv.org/abs/2305.18296)
 ## Live:
-In this folder asdasthere will be some projects and readings I am asdworking.
+In this folder there will be some projects and readings I am working.
 
 
 
 ### Related PDFs:
-- [SCGP-Minicasdasdourse.pdf](pdfs/SCGP-Minicourse.pdf)
+- [SCGP-Minicourse.pdf](pdfs/SCGP-Minicourse.pdf)
 
 
