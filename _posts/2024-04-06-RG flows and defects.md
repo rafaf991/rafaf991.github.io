@@ -22,10 +22,5 @@ study these theories and provide a proof of the c−and g−theorems.
 
 <div style="margin:0 auto;text-align:center">
 
-
-<object data="pdfs/Renormalization Group Flows, Line Defects and, the g−theorem.pdf" type="application/pdf" width="80%" height="500px">
-    <embed src="pdfs/Renormalization Group Flows, Line Defects and, the g−theorem.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="pdfs/Renormalization Group Flows, Line Defects and, the g−theorem.pdf">Download PDF</a>.</p>
-    </embed>
-</object>
+<iframe src="https://drive.google.com/file/d/1rT7QmvK8thI3WqH-w4S3xKg4Wpy4VjtY/preview" width="640" height="480" allow="autoplay"></iframe>
 </div>

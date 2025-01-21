@@ -10,9 +10,5 @@ comments: true
 
 A glance of parametrix methods.<!--more-->
 <div style="margin:0 auto;text-align:center">
-<object data="pdfs/parametrix.pdf" type="application/pdf" width="80%" height="500px">
-    <embed src="pdfs/parametrix.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="pdfs/parametrix.pdf">Download PDF</a>.</p>
-    </embed>
-</object>
+<iframe src="https://drive.google.com/file/d/1MLMF1Ic8dzGNww-fXgHqeZX4gvQ-Kaq7/preview" width="640" height="480" allow="autoplay"></iframe>
 </div>

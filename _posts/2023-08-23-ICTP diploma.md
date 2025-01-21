@@ -21,9 +21,5 @@ defect crossing equation.
 
 <div style="margin:0 auto;text-align:center">
 
-<object data="pdfs/ICTP -A holographic approach to BCFT.pdf" type="application/pdf" width="80%" height="500px">
-    <embed src="pdfs/ICTP -A holographic approach to BCFT.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="pdfs/ICTP -A holographic approach to BCFT.pdf">Download PDF</a>.</p>
-    </embed>
-</object>
+<iframe src="https://drive.google.com/file/d/1c6-ktCguSAO98jA_5WxwPJ8CrMnxDhNZ/preview" width="640" height="480" allow="autoplay"></iframe>
 </div>

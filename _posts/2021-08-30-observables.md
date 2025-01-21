@@ -21,9 +21,5 @@ La charla se basa en gran parte en el artículo de N. Drago y V. Moretti,
 
 <div style="margin:0 auto;text-align:center">
 
-<object data="pdfs/notionofobservable.pdf" type="application/pdf" width="80%" height="500px">
-    <embed src="pdfs/notionofobservable.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="pdfs/notionofobservable.pdf">Download PDF</a>.</p>
-    </embed>
-</object>
+<iframe src="https://drive.google.com/file/d/1DI4ZzPWcolOr3Rdbg-s5JRuuFU4Mv3Tb/preview" width="640" height="480" allow="autoplay"></iframe>
 </div>

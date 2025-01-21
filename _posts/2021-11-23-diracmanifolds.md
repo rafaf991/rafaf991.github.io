@@ -9,7 +9,7 @@ comments: true
 ---
 
 
-En esta charla se introduce la mecanica clasíca desde el punto de vista symplectico, de Poisson y mediante el haz generalizado (dirac structures). Notes can be downloaded <a href="pdfs/notesclassicalmechanics.pdf">here</a>.
+En esta charla se introduce la mecanica clasíca desde el punto de vista symplectico, de Poisson y mediante el haz generalizado (dirac structures). Notes can be downloaded <a href="https://drive.google.com/file/d/1Ad2XpNjHUjsDSV_PT_6s6ney5I6M-kLh/view?usp=share_link">here</a>.
 <!--more-->
 ####  References:
 - T. Courant **Dirac Manifolds**
@@ -22,8 +22,7 @@ En esta charla se introduce la mecanica clasíca desde el punto de vista symplec
 - Ana Cannas da Silva **Lectures on Symplectic Geometry**
 
 Presentation sketch:
-<object data="pdfs/Dirac_Structures__Classical_Mechanics_and__possibly__Quantum_Gravity (2).pdf" type="application/pdf" width="1400px" height="400px">
-    <embed src="pdfs/Dirac_Structures__Classical_Mechanics_and__possibly__Quantum_Gravity (2).pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="pdfs/Dirac_Structures__Classical_Mechanics_and__possibly__Quantum_Gravity (2).pdf">Download PDF</a>.</p>
-    </embed>
-</object>
+
+<div style="margin:0 auto;text-align:center">
+<iframe src="https://drive.google.com/file/d/1ah2vWTFWfE4muODybKfIX4gV-IHQaX-o/preview" width="640" height="480" allow="autoplay"></iframe>
+</div>

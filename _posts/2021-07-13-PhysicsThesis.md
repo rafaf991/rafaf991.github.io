@@ -24,8 +24,4 @@ measurement scheme in relativistic quantum mechanics.
 
 <div style="margin:0 auto;text-align:center">
 
-<object data="pdfs/Tesis_Fisica(1).pdf" type="application/pdf" width="80%" height="500px">
-    <embed src="pdfs/Tesis_Fisica(1).pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="pdfs/Tesis_Fisica(1).pdf">Download PDF</a>.</p>
-    </embed>
-</object></div>
+<iframe src="https://drive.google.com/file/d/1AJhTPhJAlvuJREHD7suxxN1rDgvqiW6u/preview" width="640" height="480" allow="autoplay"></iframe></div>

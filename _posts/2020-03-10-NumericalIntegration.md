@@ -9,9 +9,5 @@ comments: true
 ---
 Numerical integration is performed.<!--more-->
 <div style="margin:0 auto;text-align:center">
-<object data="pdfs/Integrationandsistemofequations.pdf" type="application/pdf" width="80%" height="500px">
-    <embed src="pdfs/Integrationandsistemofequations.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="pdfs/Integrationandsistemofequations.pdf">Download PDF</a>.</p>
-    </embed>
-</object></div>
+<iframe src="https://drive.google.com/file/d/1iMu-CMIAV8ExoRWulT6CPHTIz81tMx_G/preview" width="640" height="480" allow="autoplay"></iframe></div>
 
