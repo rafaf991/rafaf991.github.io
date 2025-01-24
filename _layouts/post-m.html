@@ -1,0 +1,33 @@
+---
+layout: default
+pagination:
+enabled: true
+---
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+
+<main class="main-content fadeInDown delay_075s">
+  <article class="post">
+    <header class="post-header">
+      <time class="post-date" datetime="{{ page.date | date: '%Y-%m-%d' }}">{{page.date | date: "%B %-d, %Y" }}</time>
+      <h1 class="post-title">{{page.title}}</h1>
+      <div class="post-meta">
+        By <span class="post-author">{{ site.data.author.name }}</span>{% if page.tags.size > 0 %}<span class="post-tags"> in {% for tag in page.tags %}<a href="{{ site.baseurl }}/tags/#{{ tag | cgi_escape }}" rel="tag">{{ tag }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}</span>{% endif %}
+      </div><!-- .post-meta -->
+      {% if page.feature_image and page.feature_image != "" %}
+      <figure class="post-thumbnail image-card width-wide">
+        <img src="{{ page.feature_image | relative_url }}" alt="{{ page.title }}">
+      </figure><!-- .post-thumbnail -->
+      {% endif %}
+    </header><!-- .post-header -->
+    <div class="post-content">
+      {{content}}
+    </div><!-- .post-content -->
+    
+    
+
+  </article><!-- .post -->
+
+  
+
+
+</main>
