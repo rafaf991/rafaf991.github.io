@@ -2,7 +2,7 @@
 layout: post
 title: "Current Lecture Notes"
 description: ""
-date: 2024-12-10
+date: 2025-01-28
 tags: [Phys, Math]
 disqus: true
 comments: true
@@ -10,8 +10,6 @@ comments: true
 <!--more-->
 This page contains my collection of lecture notes from courses I'm currently taking/studying.
 Some notes are NOT of my autorship. Here they are organized for easy reference. 
-
----
 - String Theory
 - AdS/CFT
 - 2d CFTs
@@ -24,10 +22,5 @@ Old lecture notes
 <iframe src="https://drive.google.com/embeddedfolderview?id=1fuM0y2sOIf4V_Pw_VRbnwYi_KdiWC6KG#list" style="width: 100%; height: 600px; border: 0;"></iframe>
 </div>
 
-
-
-
-
-
-
 ---
+
