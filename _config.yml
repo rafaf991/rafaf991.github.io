@@ -35,8 +35,8 @@ navigation:
     url: /notes.html
   - text: Projects
     url: /projects.html
-  - text: Simulations
-    url: /simulations.html
+  - text: Numerics
+    url: /numerics.html
   #- text: Tags
   #  url: /tags.html
   #- text: Home 
@@ -58,16 +58,41 @@ footer:
 # Plugins
 plugins:
   - jekyll-paginate
+  - jekyll-latex-pdf
+
+pdf:
+  pdf_engine: pdflatex
+  author: Rafael C.
+  template: jekyll-latex-pdf.latex 
+  preamble:
+    - \usepackage{amsthm}
+
+jekyll_compose:
+  auto_open: true
+  default_front_matter:
+    drafts:
+      layout: post
+      description: 
+      tags: 
+      pdf: true
+
+    posts:
+      layout: post
+      description: 
+      tags: 
+      pdf: true
 
 # http://jekyllrb.com/docs/pagination/
 paginate: 10
 paginate_path: '/page:num/'
 
 
+
 # Permalinks
 permalink: /:title
 
 # Conversion
+# Use kramdown as the Markdown processor
 markdown: kramdown
 
 # Sass

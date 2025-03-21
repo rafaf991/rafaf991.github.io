@@ -1,0 +1,67 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "name": "Notes",
+      "query": "QFT",
+      "color": {
+        "rgb": [
+          255,
+          87,
+          34
+        ]
+      }
+    },
+    {
+      "name": "Projects",
+      "query": "QFT",
+      "color": {
+        "rgb": [
+          33,
+          150,
+          243
+        ]
+      }
+    },
+    {
+      "name": "Tasks",
+      "query": "QFT",
+      "color": {
+        "rgb": [
+          76,
+          175,
+          80
+        ]
+      }
+    },
+    {
+      "name": "QFT",
+      "query": "QFT",
+      "color": {
+        "rgb": [
+          156,
+          39,
+          176
+        ]
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": false,
+  "centerStrength": 0.518713248970312,
+  "repelStrength": 10,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "scale": 0.8306895841982992,
+  "close": true
+}

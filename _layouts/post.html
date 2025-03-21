@@ -1,8 +1,8 @@
 ---
 layout: default
 ---
-<main class="main-content fadeInDown delay_075s">
-  <article class="post">
+<main class="main-content fadeInDown delay_075s" >
+  <article class="post" style="width:auto; margin-left:10%; margin-right: 10%;" >
     <header class="post-header">
       <time class="post-date" datetime="{{ page.date | date: '%Y-%m-%d' }}">{{page.date | date: "%B %-d, %Y" }}</time>
       <h1 class="post-title">{{page.title}}</h1>
@@ -14,9 +14,48 @@ layout: default
         <img src="{{ page.feature_image | relative_url }}" alt="{{ page.title }}">
       </figure><!-- .post-thumbnail -->
       {% endif %}
+
+
+
+
+      <script>
+        MathJax = {
+          loader: {
+            load: ['[tex]/physics']
+          },
+          tex: {
+            tags: 'ams',  // Enable AMS math symbols (optional),
+            packages: { '[+]': ['physics'] },
+            inlineMath: [['$', '$'], ['\\(', '\\)']],
+            displayMath: [['$$', '$$'], ['\\[', '\\]']],  // Supports $$...$$ and \[ ... \]
+            macros: { '\\Proof': '**A**' },
+            processEscapes: true
+          },
+          svg: {
+            fontCache: 'global'
+          }
+
+        };
+      </script>
+      <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+      </script>
+
+
+
     </header><!-- .post-header -->
-    <div class="post-content">
-      {{content}}
+    <div class="post-content" >
+  <!--   <a href="{{ page.pdf_url }}" target="_blank">PDF</a>
+ <a href="{{ page.pdf_url | prepend:site.baseurl }}" target="_blank">PDF</a> -->
+  {{content}}
+{% if page.pdf %}
+<div style="margin:0 auto;text-align:center">
+  <iframe src="{{ page.pdf_url | prepend:site.baseurl }}" width="90%" height="900" allow="autoplay"></iframe>
+</div>
+{% endif %}
+
+
+
+    
     </div><!-- .post-content -->
     
     

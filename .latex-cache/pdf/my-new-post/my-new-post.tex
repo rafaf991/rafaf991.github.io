@@ -1,0 +1,115 @@
+
+
+
+\documentclass{article}
+
+\usepackage[utf8x]{inputenc}
+
+\usepackage[T1]{fontenc}
+\usepackage{listings}
+\usepackage{physics}
+\usepackage{amsthm}
+\usepackage{amssymb}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{example}[theorem]{Example}
+\newtheorem{remark}[theorem]{Remark}
+
+
+
+\newtheorem{proposition}{Proposition}
+\newtheorem{corollary}{Corollary}[theorem]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{definition}{Definition}
+
+
+\newcommand{\CC}{\mathbb{C}}
+
+
+
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amsfonts}
+
+\usepackage{tikz}
+
+\usepackage{hyperref}
+
+
+\usepackage[english]{babel}
+\usepackage[english]{isodate}
+
+
+
+
+
+
+
+
+
+\setcounter{footnote}{0}
+
+\hypersetup{colorlinks=true,urlcolor=blue}
+
+
+\title{Test PDF}
+
+
+\author{Rafael C.}
+
+
+
+\date{2025-03-21}
+
+
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+
+Fixing the gauge breaks gauge invariance on the total Lagrangian, but a new symmetry has emerged: the \textbf{BRST symmetry}. The gauge fixing term is:
+
+\begin{displaymath}
+\mathcal{L}_{g.f.} = e^{-\frac{i}{2\xi}\int f_\alpha^2(x)} = \int \mathcal{D}N e^{\frac{i \xi}{2} N \circ N - i f \circ N }
+\end{displaymath}
+
+where $f_\alpha$ is the gauge fixing term (e.g. for Lorentz gauge, $f_\alpha = \partial_\mu A^\mu_\alpha$), and $f \circ g = \int d^4x \, f(x) g(x)$.
+
+The total Lagrangian becomes:
+$\mathcal{L}_{tot} = \mathcal{L} + \mathcal{L}_{Ghosts} + \underbrace{\frac{\xi}{2} N^2(x) - f_\alpha N^\alpha}_{\mathcal{L}_{in}}$
+
+This density is invariant under the transformation:
+$\delta A = \theta D c = \theta (dc - i[A, c]), \quad \theta \text{ is a Grassmann variable.}$
+
+And the transformation for $(\phi)$: $\delta \phi = \theta i \pi (c) \phi$
+
+where $\pi(c)$ puts $( c )$ in the appropriate representation for $( \phi )$.
+
+\subsection{Test s}\hypertarget{test-s}{}\label{test-s}
+
+\begin{displaymath}
+\qty(\frac{2}{3}) \CC
+\end{displaymath}
+
+dsasdas
+
+\textbackslash{}begin\{enumerate\}
+\textbackslash{}item 1
+\textbackslash{}item 2
+\textbackslash{}end\{enumerate\}
+
+\begin{itemize}
+\item{} 2
+\item{} 2
+\item{} 3
+\item{} 2
+\end{itemize}
+
+This should be written in latex, and will not be put in the html version.
+\{:/nomarkdown\}
+
+
+\end{document}

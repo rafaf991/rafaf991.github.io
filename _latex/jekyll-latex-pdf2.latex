@@ -1,0 +1,121 @@
+<% data = @converter.options[:data] %>
+<%
+encmap = {
+  'UTF-8' => 'utf8x',
+  'US-ASCII' => 'ascii',
+  'ISO-8859-1' => 'latin1',
+  'ISO-8859-2' => 'latin2',
+  'ISO-8859-3' => 'latin3',
+  'ISO-8859-4' => 'latin4',
+  'ISO-8859-5' => 'latin5',
+  'ISO-8859-9' => 'latin9',
+  'ISO-8859-10' => 'latin10',
+  'CP850' => 'cp850',
+  'CP852' => 'cp852',
+  'CP858' => 'cp858',
+  'CP437' => 'cp437',
+  'CP865' => 'cp865',
+  'CP1250' => 'cp120',
+  'CP1252' => 'cp1252',
+  'CP1257' => 'cp1257'
+}
+%>
+<%
+enclang = {
+'en' => 'english',
+'de' => 'ngerman',
+'sv' => 'swedish'
+}
+%>
+\documentclass[10pt,
+ article,
+ amsmath,amssymb]{revtex4-2}
+
+
+\usepackage{amsthm}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{example}[theorem]{Example}
+\newtheorem{remark}[theorem]{Remark}
+
+
+\newtheorem{proposition}{Proposition}
+\newtheorem{corollary}{Corollary}[theorem]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{definition}{Definition}
+
+
+
+<% if RUBY_VERSION >= '1.9' %>
+\usepackage[<%= encmap[@body.encoding.name] %>]{inputenc}
+<% else %>
+\usepackage[mathletters]{ucs}
+\usepackage[utf8x]{inputenc}
+<% end %>
+\usepackage[T1]{fontenc}
+\usepackage{listings}
+<% @converter.data[:packages].each {|pkg| %>\usepackage{<%= pkg %>}
+<% } %>
+\usepackage{tikz}
+<%= data[:tikzlibraries] %>
+\usepackage{hyperref}
+
+<% if data[:lang] %>
+\usepackage[<%= enclang[data[:lang]] %>]{babel}
+\usepackage[<%= enclang[data[:lang]] %>]{isodate}
+<% else %>
+\usepackage[english]{babel}
+\usepackage[english]{isodate}
+<% end %>
+
+<% if data[:bibtex_files] %>
+\usepackage{biblatex}
+<% data[:bibtex_files].each { |bibfile| %>\addbibresource{<%= bibfile %>}
+<% } %>
+<% end %>
+
+
+<% if @converter.data[:packages].include?('fancyvrb') %>
+\VerbatimFootnotes
+<% end %>
+
+<% if @converter.data[:packages].include?('acronym') %>
+<%   @converter.root.options[:abbrev_defs].each_pair do |k,v| %>\acrodef{<%= @converter.normalize_abbreviation_key(k) %>}[<%= k %>]{<%= @converter.escape(v) %>}
+<%   end %>
+<% end %>
+
+\setcounter{footnote}{<%= @converter.options[:footnote_nr] - 1 %>}
+
+\hypersetup{colorlinks=true,urlcolor=blue}
+
+<% if data[:title] %>
+\title{<%= data[:title] %>}
+<% end %>
+<% if data[:author] %>
+\author{<%= data[:author] %>}
+<% end %>
+<% if data[:date_str] %>
+<%   if data[:lang] %>
+\date{\printdate{<%= data[:date_str] %>}}
+<%   else %>
+\date{<%= data[:date_str] %>}
+<%   end %>
+<% end %>
+
+\begin{document}
+<% if data[:title] %>
+<% if data[:title] %>
+\begin{abstract} 
+<%= data[:title] %>
+\end{abstract}
+<% end %>
+
+
+\maketitle
+
+\tableofcontents
+<% end %>
+
+<%= @body %>
+
+
+\end{document}

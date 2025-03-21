@@ -3,7 +3,7 @@ layout: post
 title: "Instantons on QM and QFT"
 description: ""
 date: 2023-06-03
-tags: [Phys, QFT]
+tags: [QM,QFT,Non-perturbative QFT]
 disqus: true
 comments: true
 ---
