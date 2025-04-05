@@ -24,4 +24,3 @@ Old lecture notes
 </div>
 
 ---
-+ [Instantons CurrentNotes.pdf](pdfs/Instantons CurrentNotes.pdf)+ [Instantons ](pdfs/Instantons current.pdf)+ [Instantons notes](pdfs/Instantons notescurrent.pdf)
