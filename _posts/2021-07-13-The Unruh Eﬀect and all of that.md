@@ -4,7 +4,7 @@ title: "The Unruh Eﬀect and Measurements in
 Relativistic Quantum Field Theory a.k.a undergrad thesis"
 description: ""
 date: 2021-07-13
-tags: [QMT, QFT,QFT in CST,AQFT]
+tags: [QMT,QFT in CST]
 disqus: true
 comments: true
 ---

@@ -3,7 +3,7 @@ layout: post
 title: "Standard Model Lecture notes"
 description: ""
 date: 2023-06-03
-tags: [QFT, SM]
+tags: [SM]
 disqus: true
 comments: true
 ---

@@ -3,7 +3,7 @@ layout: post
 title: "Current Lecture Notes"
 description: ""
 date: 2025-01-28
-tags: [Phys, Math]
+tags: []
 disqus: true
 comments: true
 --- 

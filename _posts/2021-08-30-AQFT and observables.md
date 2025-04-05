@@ -3,7 +3,7 @@ layout: post
 title: "AQFT in a nutshell and the notion of observable"
 description: ""
 date: 2021-08-30
-tags: [QMT, AQFT]
+tags: [QMT]
 disqus: true
 comments: true
 ---

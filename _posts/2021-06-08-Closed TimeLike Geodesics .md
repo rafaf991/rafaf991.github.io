@@ -3,7 +3,7 @@ layout: post
 title: "Mathematics dissertation thesis"
 description: ""
 date: 2021-06-08
-tags: [Riemannian Geometry, PDE,Geometric Analysis]
+tags: [Riemannian Geometry]
 disqus: true
 comments: true
 ---

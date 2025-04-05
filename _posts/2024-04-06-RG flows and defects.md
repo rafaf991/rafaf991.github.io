@@ -3,7 +3,7 @@ layout: post
 title: "Renormalization Group Flows, Line Defects and, the g−theorem"
 description: ""
 date: 2024-04-06
-tags: [QFT, CFT,RG,Defects]
+tags: [CFT]
 disqus: true
 comments: true
 ---

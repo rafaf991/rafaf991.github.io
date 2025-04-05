@@ -1,0 +1,111 @@
+---
+layout: post
+title: BH guide to Quantum Gravity
+date: 2025-03-22 12:40 +0100
+description:
+tags:
+pdf: true
+---
+
+<!--more-->
+
+
+
+{::nomarkdown type="latex"}
+
+
+
+
+
+This is a continuation/complement of the "Topics in gravity" notes.
+\section{Spin $2-$fields}
+We start from a spin $2$ field $g=\eta + h$. We saw the $E-H$ action gives $\sqrt{-g} R \sim \LL^{(2)}+ \LL^{(3)}+\dots$
+the first term is the kinetic term of $h$ and the third is of the form $h \partial h \partial h$, further terms can be found by taking the $h$ stress tensor and coupling to it self. 
+This will generate a theory with a new stress tensor which can be couple to itself again. Repeat $\to S_{E-H}$.
+
+Here, derivatives means they couple to energy. This interactions introduce in general divergences 
+and we need counter terms at each order as the theory is non renormalizable. At one loop $$\LL_{1lp}=\frac{1}{\epsilon}( \alpha \bar{R}^2 + \beta \bar{R}_{\mu \nu} \bar{R}^{\mu \nu} )$$
+where we take $R^2$ terms so they cannot be reabsorved in the definition of $R$ and, $\varepsilon=4-D$. This gives an EFT of $QGR$
+
+\begin{equation}
+    S=\int \sqrt{-g}\qty(\Lambda + \frac{2}{\kappa} R+ c_1 R^2 +c_2 R_{\mu \nu }R^{\mu \nu }+ \dots)
+\end{equation}
+renormalization then gives $c_1 \to c_1+ \frac{1}{\epsilon} \alpha R^2$ and so on.
+\subsection{Scattering}
+Vector interactions. Graviton interactions. 
+
+EFTs interactions get resolved by new d.o.f. (improve unitarity)
+
+
+What are black holes? Thermodynamic quantities! $T\sim \frac{1}{M} \sim E^{-1} \sim \omega$ "very soft scattering" soft quanta.
+
+Picture of Peskin book cover. At high energy some theories (asymptotically free) are good to "zoom in". GRavvitosn they become more and more complicated. Non renormalizability.
+
+
+\section{CFTs vs Quantum Gravity}
+Consider box of radius $R$, entropy $S= c R^{d-1} T^{D-1}$ of a conformal theory with $c$ it's d.o.f. . Also, $E_{CFT} \sim T^{D} V$ so $S_{CFT}=c (ER)^{\frac{D-1}{D}}$
+but Bekenstein-Hawking entropy is $S_{BH}= \frac{A_{H}}{L_{pl}^{D-2}} \sim (E L)^{\frac{D-2}{D-3}}$
+ so $S_{CFT}$ is not the same as $S_{BH}$. Quantum gravity is not a CFT.
+
+ \subsection{Gravity in AdS}
+ \begin{equation}
+    ds^2=-\qty(1+ \frac{r^2}{L^2} - \frac{\mu}{r^{D-3}}) dt^2 + \frac{dr^2}{\qty(1+ \frac{r^2}{L^2} - \frac{\mu}{r^{D-3}})} +r^2 d\Omega_{D-2}^2
+ \end{equation}
+ if $\mu^{\frac{1}{D-3}} >> L$ then $$S\sim \frac{L_{AdS}}{L_{Planck}}^{\frac{D-2}{D-1}} (EL_{AdS})^{\frac{D-2}{D-1}}$$. Ads is like a box, then $S_{BH} \sim S_{CFT}$ in one less dimension of $AdS$.
+
+\subsection{Thermal QFTs}
+Thermal state at temperature $T=\frac{1}{\beta}$ corresponds to correlation functions in imaginary time (Wick rotated) 
+$t=-it_E$ that are periodic $t_E\sim t_E+\beta$ then $$G_F^\beta(t_E,x)= G^\beta (t_E+\beta,x)$$
+\begin{example}
+    Finite temperature correlation functions. Consider a SHO. $S_{SHO}=\int dt \frac{1}{2}\dot{x}^2 -\frac{1}{2} \omega^2 x^2$
+    $X(t)=\frac{a e^{-i\omega t}+a^\dagger e^{i\omega t}}{\sqrt{2\omega}}$ for a finite temperature the ocupation number $N= a^\dagger a$ is given by 
+    $$\langle N \rangle_\beta =\frac{1}{e^{\beta \omega}-1}, \quad \beta=\frac{1}{T}$$
+    whith $$\langle ... \rangle_\beta= \frac{\sum_E e^{-\beta E} \bra{E}\dots \ket{E}}{\sum_E e^{-\beta E}}$$ then harmonic oscilattor is 
+    $$=\frac{\sum_{n\in \mathbb{N}} e^{-\beta \omega(n+\frac{1}{2})\bra{n} ... \ket{n}}}{\sum e^{-\beta \omega(n+\frac{1}{2}) }}$$
+
+ The correlation function is then 
+ \begin{equation}
+    \langle X(t) X(0) \rangle_\beta= \frac{1}{2\omega} (\langle a a^\dagger\rangle e^{-i\omega t}+ \langle a^\dagger a \rangle e^{i\omega t})= \frac{1}{2\omega} \qty(\frac{e^{\beta \omega -i\omega t}}{e^{\beta \omega}-1} +\frac{e^{i\omega t}}{e^{\beta \omega}-1})
+ \end{equation}
+ setting $t\to t-i\beta$ 
+ \begin{equation}
+    \langle X(t-i\beta) X(0) \rangle_\beta= \langle X(-t) X(0) \rangle_\beta = \langle X(0) X(t) \rangle_\beta
+ \end{equation}
+
+ In genaral, $$\langle \mathcal{O}(t)\mathcal{O}(0)\rangle_\beta = \frac{1}{Z} \sum_E \bra{E} e^{-\beta H} \mathcal{O}(t) \mathcal{O}(0) \ket{E}= \frac{1}{2} \tr(e^{-\beta H} e^{iHt} \mathcal{O}(t) e^{-iHt}\mathcal{O}(0))  $$
+ taking $t\to t-i \beta$ 
+ $$\langle \mathcal{O}(t-i\beta) \mathcal{O}(0)\rangle =\frac{1}{Z} \tr(e^{iHt} \mathcal{O}(0) e^{-iHt} e^{-\beta H}\mathcal{O}(0))=\frac{1}{Z} \tr( \mathcal{O}(t) e^{-\beta H}\mathcal{O}(0)) = \langle \mathcal{O}(0) \mathcal{O}(t) \rangle_\beta$$
+ 
+ This is known as the KMS condition.
+ 
+ On Rindler space:
+ 
+ $$\langle \phi(x_1) \phi(x_2)\rangle=\frac{1}{4\pi} \frac{1}{|x_1-x_2|^2}$$ but in rindler,
+ $|x_1-x_2|^2=-(T_1-T_2)^2+(X_1-X_2)^2+(x_1^\perp -x_2^\perp)^2$ and, since $$T=x_R \sinh \frac{t_R}{2r_g}, \quad X=x_R \sinh \frac{t_R}{2r_g}$$, then $|x_1-x_2|^2=-(x_{R1}^2 \sinh^2 \frac{t_{R1}}{2r_g}+(x_{R1}\cosh \frac{ t_{R1}}{2r_g}-x_{R2})^2 +|x_1^\perp-x_2^\perp|^2)$
+ 
+ then 
+ \begin{equation}
+     \langle \phi(t_{R1},x_{R1},x_1^\perp) \phi(t_{R2},x_{R2},x_2^\perp)\rangle=\frac{1}{4\pi |x_{12}|^2}\
+ \end{equation}
+ let's try $t_{R1}\to t_{R1}-i4\pi r_g$ as the RHS remains invariant, the KMS condition is satisfied:
+ \begin{equation}
+     \langle \phi(t_{R1},...) \phi(0,...)\rangle=   \langle \phi(t_{R1}-i 4\pi r_g,...) \phi(0,...)\rangle=
+ \end{equation}
+ 
+ More on thermal states on QFT in the Unruh effect notes. 
+ 
+\end{example}
+
+
+\section{BH thermodynamics}
+
+
+{:/nomarkdown}
+
+{::nomarkdown type="html"}
+Notes on gravity, AdS/CFT and related topics.
+{:/nomarkdown}
+
+
+
+

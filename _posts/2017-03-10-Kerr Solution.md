@@ -3,7 +3,7 @@ layout: post
 title: "The Kerr solution of EFQ: A rotating BH"
 description: ""
 date: 2020-03-10
-tags: [GR,BH]
+tags: [BH]
 disqus: true
 comments: true
 ---

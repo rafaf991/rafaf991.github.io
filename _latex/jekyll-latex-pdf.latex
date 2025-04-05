@@ -27,7 +27,13 @@ enclang = {
 'sv' => 'swedish'
 }
 %>
-\documentclass{article}
+
+\documentclass[10pt,
+ article,
+ amsmath,amssymb
+]{revtex4-2}
+
+
 <% if RUBY_VERSION >= '1.9' %>
 \usepackage[<%= encmap[@body.encoding.name] %>]{inputenc}
 <% else %>
@@ -39,6 +45,19 @@ enclang = {
 \usepackage{physics}
 \usepackage{amsthm}
 \usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[a4paper,
+            bindingoffset=0.2in,
+            left=1in,
+            right=1in,
+            top=1in,
+            bottom=1in,
+            footskip=.25in]{geometry}
+
+\graphicspath{{../../../images/}}
+
+
+
 
 \newtheorem{theorem}{Theorem}[section]
 \newtheorem{example}[theorem]{Example}
@@ -53,7 +72,8 @@ enclang = {
 
 
 \newcommand{\CC}{\mathbb{C}}
-
+\newcommand{\RR}{\mathbb{R}}
+\newcommand{\LL}{\mathcal{L}}
 
 
 <% @converter.data[:packages].each {|pkg| %>\usepackage{<%= pkg %>}
@@ -90,25 +110,40 @@ enclang = {
 
 \hypersetup{colorlinks=true,urlcolor=blue}
 
+
+
+
+
+
+
+
+
+\begin{document}
+
 <% if data[:title] %>
 \title{<%= data[:title] %>}
 <% end %>
+
 <% if data[:author] %>
 \author{<%= data[:author] %>}
 <% end %>
+
 <% if data[:date_str] %>
 <%   if data[:lang] %>
 \date{\printdate{<%= data[:date_str] %>}}
 <%   else %>
 \date{<%= data[:date_str] %>}
 <%   end %>
+
 <% end %>
 
-\begin{document}
+
+
 <% if data[:title] %>
 \maketitle
 
 \tableofcontents
 <% end %>
+
 <%= @body %>
 \end{document}

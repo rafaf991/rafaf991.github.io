@@ -1,0 +1,19 @@
+\babel@toc {english}{}\relax 
+\babel@toc {english}{}\relax 
+\contentsline {title}{2d CFTs}{1}{section*.1}%
+\tocdepth@munge 
+\contentsline {section}{\numberline {}Contents}{1}{section*.2}%
+\tocdepth@restore 
+\contentsline {subsection}{\numberline {A}CFTs in general dimension}{1}{section*.3}%
+\contentsline {section}{\numberline {I}2d CFTs}{1}{section*.4}%
+\contentsline {subsection}{\numberline {A}Weyl anomaly}{1}{section*.5}%
+\contentsline {section}{\numberline {II}Bootstrap}{1}{section*.6}%
+\contentsline {section}{\numberline {III}Representations}{2}{section*.7}%
+\contentsline {section}{\numberline {IV}String theory (Gaiotto)}{2}{section*.8}%
+\contentsline {section}{\numberline {V}Remarks on Gauge fixing the String action}{11}{section*.9}%
+\contentsline {subsection}{\numberline {A}Cohmological QFT}{11}{section*.10}%
+\contentsline {subsubsection}{\numberline {1}Menaing of gohsts}{12}{section*.11}%
+\contentsline {subsection}{\numberline {B}String theory?}{14}{section*.12}%
+\contentsline {section}{\numberline {VI}Complex structures}{15}{section*.13}%
+\contentsline {section}{\numberline {VII}The Moore-Seiberg Construction on RCFTs}{15}{section*.14}%
+\contentsline {section}{\numberline {VIII}Modular bootstrap and line defects}{15}{section*.15}%

@@ -3,7 +3,7 @@ layout: post
 title: "Geometry and Physics."
 description: ""
 date: 2022-12-31
-tags: [Geometry and Physics]
+tags: [Math,Phys]
 disqus: true
 comments: true
 ---

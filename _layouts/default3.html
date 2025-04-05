@@ -52,6 +52,10 @@
   }
   
 }
+
+
+
+
   </style>
   <link
     href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i%7CNoto+Serif:400,400i,700,700i&display=swap"
@@ -77,29 +81,52 @@
     href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i%7CNoto+Serif:400,400i,700,700i&display=swap"
     rel="stylesheet">
   <link href="{{ '/assets/css/style.css' | relative_url }}" rel="stylesheet">
+
+
+  <script>
+   let lastClosestTagId = null; // Store the last closest tag ID
+
+    function updateTagOnScroll() {
+      const tags = document.querySelectorAll('h2'); // Get all tags (h2 elements)
+      let closestTag = null;
+      let minDistance = Infinity;
+
+      // Find the closest h2 element
+      tags.forEach(tag => {
+        const rect = tag.getBoundingClientRect();
+        const distance = Math.abs(rect.top); // Distance from top of viewport
+
+        if (distance < minDistance) {
+          minDistance = distance;
+          closestTag = tag;
+        }
+      });
+
+      if (closestTag && closestTag.id !== lastClosestTagId) {
+      
+        // Select the embed element by its ID
+        const embedElement = document.getElementById('tag-embed');
+
+        // If embed element exists, update the src attribute
+        if (embedElement) {
+          const normalizedTagId = closestTag.id.replace(/ /g, '-');
+          // Update the src URL with the closest tag's ID and append a timestamp to force reload
+          embedElement.src = `/vault_graph#${normalizedTagId}`;
+        }
+
+        // Store the current closest tag's ID as the last closest tag
+        lastClosestTagId = closestTag.id;
+      }
+    }
+
+    // Listen for scroll events to trigger the update
+    window.addEventListener('scroll', updateTagOnScroll);
+
+    // Call once on page load to set the initial closest tag
+    document.addEventListener('DOMContentLoaded', updateTagOnScroll);
+
+  </script>
 </head>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <body>
@@ -120,23 +147,12 @@
         </header><!-- .post-header -->
         <div class="post-content">
           <div class="archive-tags">
-            
-
-  <iframe id="myEmbed1" src="/vault_graph.html" width="1000" height="250" 
-    style="border: none;"></iframe>
-
-
-
-
-
-
-              <p>(Experimental nodes of projects <a href="/vault_graph.html">Full graph of projects</a>)</p>
-            {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless
-            %}{%
-            endfor %}{% endcapture %}
+            <p>(Experimental nodes of projects <a href="/vault_graph.html">Full graph of projects</a>)</p>
+            {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor
+            %}{% endcapture %}
             {% assign sortedTags = site_tags | split:',' | sort %}
             {% for tag in sortedTags %}
-            <a href="#{{ tag | cgi_escape }}">{{ tag }}</a>{% unless forloop.last %} {% endunless %}
+            <a href="#{{ tag | cgi_escape }}" class="tag-link">{{ tag }}</a>{% unless forloop.last %} {% endunless %}
             {% endfor %}
           </div><!-- .archive-tag-list -->
           {% for tag in sortedTags %}
@@ -144,8 +160,7 @@
           <ul class="archive-post-list">
             {% for post in site.tags[tag] %}
             <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> <span class="archive-meta"> — <time
-                  class="archive-date" datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%B %-d,
-                  %Y"
+                  class="archive-date" datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%B %-d, %Y"
                   }}</time></span></li>
             {% endfor %}
           </ul><!-- .archive-post-list -->
@@ -163,6 +178,7 @@
         <p class="mb-0">Hey there! In this page you will find some of my electronic notes in topics related to
           physics or maths.. </p>
       </div>
+<embed id="tag-embed" type="text/html" src="/vault_graph" width="500" height="200">
 
       <div class="p-4">
         <h4 class="fst-italic">Archives</h4>
@@ -204,14 +220,14 @@
             {%assign year2=year |split:"-"|slice:1%}
             {% unless unique_items2 contains year2 %}
             <div class="accordion-item">
-              <h2 class="accordion-header" id='heading{{counter}}'>
+              <h3 class="accordion-header" id='heading{{counter}}'>
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                   data-bs-target="#{{counter}}" aria-expanded="false" aria-controls="{{counter}}">
                   {% assign unique_items2 = unique_items2 | push: year2 %}
 
                   {{year2}}
                 </button>
-              </h2>
+              </h3>
 
               <div id='{{counter}}' class="accordion-collapse collapse" aria-labelledby='{{counter}}'
                 data-bs-parent="#accordionExample">
@@ -285,6 +301,7 @@
   {% if site.google_analytics %}
   {% include google_analytics.html %}
   {% endif %}
+  
 
 
   <script src="{{ '/assets/js/plugins.js' | relative_url }}"></script>
@@ -302,9 +319,6 @@
 </body>
 
 </html>
-
-
-
 
 
 

@@ -3,7 +3,7 @@ layout: post
 title: "Quantum measurement theory on AQFT"
 description: ""
 date: 2021-03-01
-tags: [QMT, QFT,AQFT]
+tags: [QMT]
 disqus: true
 comments: true
 ---

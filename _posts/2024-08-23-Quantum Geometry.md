@@ -3,7 +3,7 @@ layout: post
 title: "2024 Les Houches Summer School: Quantum Geometry"
 description: ""
 date: 2024-09-24
-tags: [QFT, QG, Gauge Theory,Non-perturbative QFT]
+tags: [Non-perturbative QFT]
 disqus: true
 comments: true
 ---

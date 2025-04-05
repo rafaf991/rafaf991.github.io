@@ -1,0 +1,12 @@
+\babel@toc {english}{}\relax 
+\babel@toc {english}{}\relax 
+\contentsline {title}{BH guide to Quantum Gravity}{1}{section*.1}%
+\tocdepth@munge 
+\contentsline {section}{\numberline {}Contents}{1}{section*.2}%
+\tocdepth@restore 
+\contentsline {section}{\numberline {I}Spin $2-$fields}{1}{section*.3}%
+\contentsline {subsection}{\numberline {A}Scattering}{1}{section*.4}%
+\contentsline {section}{\numberline {II}CFTs vs Quantum Gravity}{1}{section*.5}%
+\contentsline {subsection}{\numberline {A}Gravity in AdS}{2}{section*.6}%
+\contentsline {subsection}{\numberline {B}Thermal QFTs}{2}{section*.7}%
+\contentsline {section}{\numberline {III}BH thermodynamics}{3}{section*.8}%

@@ -3,7 +3,7 @@ layout: post
 title: "A holographic approach to BCFT (a.k.a ICTP Diploma thesis) "
 description: ""
 date: 2023-08-23
-tags: [QFT, CFT, AdS/CFT,Defects]
+tags: [CFT, AdS/CFT]
 disqus: true
 comments: true
 ---

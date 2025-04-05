@@ -3,7 +3,7 @@ layout: post
 title: "Irreducible representations of the Poincare Group"
 description: ""
 date: 2020-03-10
-tags: [Groups,Rep. Theory]
+tags: [Rep. Theory]
 disqus: true
 comments: true
 ---

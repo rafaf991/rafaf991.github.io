@@ -3,7 +3,7 @@ layout: post
 title: "Bootstraping Gauge Theories"
 description: ""
 date: 2024-09-05
-tags: [QFT, CFT, Bootstrap,Gauge theory,Non-pertrurbative QFT]
+tags: [Bootstrap]
 ---
 
 

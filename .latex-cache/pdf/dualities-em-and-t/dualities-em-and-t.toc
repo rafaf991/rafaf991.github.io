@@ -1,0 +1,9 @@
+\babel@toc {english}{}\relax 
+\babel@toc {english}{}\relax 
+\contentsline {title}{Electromagnetic and T-dualities}{1}{section*.1}%
+\tocdepth@munge 
+\contentsline {section}{\numberline {}Contents}{1}{section*.2}%
+\tocdepth@restore 
+\contentsline {section}{\numberline {I}Electromagnetic Duality}{1}{section*.3}%
+\contentsline {section}{\numberline {II}T duality}{1}{section*.4}%
+\contentsline {subsection}{\numberline {A}Example}{1}{section*.5}%

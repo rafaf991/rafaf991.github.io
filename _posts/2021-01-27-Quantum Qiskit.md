@@ -3,7 +3,7 @@ layout: post
 title: "Schrodinger's frog"
 description: ""
 date: 2021-01-27
-tags: [Quantum Computing,Qiskit]
+tags: [Quantum Computing]
 disqus: true
 comments: true
 ---

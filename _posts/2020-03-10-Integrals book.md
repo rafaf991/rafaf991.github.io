@@ -3,7 +3,7 @@ layout: post
 title: "(BOOK) A brief course on integrals "
 description: ""
 date: 2020-03-10
-tags: [Book,Calculus]
+tags: [Calculus]
 disqus: true
 comments: true
 ---

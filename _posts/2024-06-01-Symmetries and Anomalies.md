@@ -3,7 +3,7 @@ layout: post
 title: "2024 IHES Summer School: Symmetries and Anomalies: a Modern Take"
 description: ""
 date: 2024-06-01
-tags: [QFT,CFT,Defects]
+tags: [Defects]
 disqus: true
 comments: true
 ---

@@ -3,7 +3,7 @@ layout: post
 title: "Blackholes and BH thermodynamics"
 description: ""
 date: 2022-06-03
-tags: [GR,QFT,BH]
+tags: [BH]
 disqus: true
 comments: true
 ---
