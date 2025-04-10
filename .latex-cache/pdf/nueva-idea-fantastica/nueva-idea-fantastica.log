@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.5)  5 APR 2025 23:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.5)  6 APR 2025 00:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**test.tex
-(./test.tex
+**nueva-idea-fantastica.tex
+(./nueva-idea-fantastica.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
 (/usr/local/texlive/2024/texmf-dist/tex/latex/revtex/revtex4-2.cls
@@ -1173,8 +1173,8 @@ Class revtex4-2 Info: multicol was not loaded (OK!) on input line 79.
 LaTeX Warning: Unused global option(s):
     [article].
 
-(./test.aux)
-\openout1 = `test.aux'.
+(./nueva-idea-fantastica.aux)
+\openout1 = `nueva-idea-fantastica.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 79.
 LaTeX Font Info:    ... okay on input line 79.
@@ -1259,54 +1259,66 @@ e
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring ON on input line 79.
-(./test.out) (./test.out)
+(./nueva-idea-fantastica.out) (./nueva-idea-fantastica.out)
 \@outlinefile=\write5
-\openout5 = `test.out'.
+\openout5 = `nueva-idea-fantastica.out'.
 
 isodate: babel.sty has been loaded
 Class revtex4-2 Info: Taking \maketitle back from hyperref on input line 79.
-\openout3 = `testNotes.bib'.
+\openout3 = `nueva-idea-fantasticaNotes.bib'.
 
 
 Class revtex4-2 Warning: Assuming \noaffiliation for authors.
 
-(./test.toc)
+(./nueva-idea-fantastica.toc)
 \tf@toc=\write6
-\openout6 = `test.toc'.
+\openout6 = `nueva-idea-fantastica.toc'.
 
-No file test.bbl.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 106
+.
+(/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 106
+.
+(/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+No file nueva-idea-fantastica.bbl.
 [1{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/l
-ocal/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}] (./test
-.aux)
+ocal/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}] (./nuev
+a-idea-fantastica.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 
-Package rerunfilecheck Warning: File `test.out' has changed.
+Package rerunfilecheck Warning: File `nueva-idea-fantastica.out' has changed.
 (rerunfilecheck)                Rerun to get outlines right
 (rerunfilecheck)                or use package `bookmark'.
 
-Package rerunfilecheck Info: Checksums for `test.out':
-(rerunfilecheck)             Before: 30A94343BCD78FBADE68E2A40F3ACCB6;158
-(rerunfilecheck)             After:  ADFB6CC8EF0BF6E71981321C3EFCC6B3;237.
+Package rerunfilecheck Info: Checksums for `nueva-idea-fantastica.out':
+(rerunfilecheck)             Before: ED219C697F926504BFEC0FF3FC8E00C6;243
+(rerunfilecheck)             After:  B461CF1D0A8509DCD4A7F0CEA15E5554;375.
  ) 
 Here is how much of TeX's memory you used:
- 26108 strings out of 474116
- 460091 string characters out of 5743682
- 1928187 words of memory out of 5000000
- 48060 multiletter control sequences out of 15000+600000
- 562599 words of font info for 42 fonts, out of 8000000 for 9000
+ 26141 strings out of 474116
+ 461151 string characters out of 5743682
+ 1929187 words of memory out of 5000000
+ 48080 multiletter control sequences out of 15000+600000
+ 564298 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,5n,93p,541b,518s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx0900.pfb>
-</usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></
-usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></us
-r/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on test.pdf (1 page, 47616 bytes).
+ 84i,5n,93p,558b,518s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
+></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><
+/usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx0900.pfb></u
+sr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr
+/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/l
+ocal/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on nueva-idea-fantastica.pdf (1 page, 68839 bytes).
 PDF statistics:
- 47 PDF objects out of 1000 (max. 8388607)
- 35 compressed objects within 1 object stream
+ 57 PDF objects out of 1000 (max. 8388607)
+ 41 compressed objects within 1 object stream
  5 named destinations out of 1000 (max. 500000)
  29 words of extra memory for PDF output out of 10000 (max. 10000000)
 
