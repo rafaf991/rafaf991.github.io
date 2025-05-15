@@ -46,6 +46,9 @@ enclang = {
 \usepackage{amsthm}
 \usepackage{amssymb}
 \usepackage{graphicx}
+\usepackage{breqn}
+% Macro for Euler's number
+\newcommand*\ee{\mathrm{e}}
 \usepackage[a4paper,
             bindingoffset=0.2in,
             left=1in,
