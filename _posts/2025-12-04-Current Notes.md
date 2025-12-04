@@ -2,7 +2,7 @@
 layout: post
 title: "Current Lecture Notes"
 description: ""
-date: 2025-05-15
+date: 2025-12-04
 tags: []
 disqus: true
 comments: true
